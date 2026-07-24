@@ -10694,3 +10694,23 @@ msgstr "Válassz…"
 #: frontend/src/components/Controls/Select.vue
 msgid "No results"
 msgstr "Nincs találat"
+
+#: frontend/src/pages/Statistics.vue:41 frontend/src/pages/Statistics.vue:130
+msgid "Completions"
+msgstr "Teljesítések"
+
+#: frontend/src/pages/Statistics.vue:63
+msgid "Signups per day"
+msgstr "Regisztrációk naponta"
+
+#: frontend/src/pages/Statistics.vue:83
+msgid "Enrollments per day"
+msgstr "Beiratkozások naponta"
+
+#: frontend/src/pages/Statistics.vue:105
+msgid "Certifications per day"
+msgstr "Tanúsítások naponta"
+
+#: frontend/src/pages/Statistics.vue:131
+msgid "Course Completion"
+msgstr "Kurzusteljesítés"
