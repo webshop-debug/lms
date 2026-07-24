@@ -43,7 +43,11 @@ const props = withDefaults(
 		variant?: SelectVariant
 		emptyText?: string
 	}>(),
-	{ size: 'sm' }
+	{
+		size: 'sm',
+		placeholder: () => __('Select option'),
+		emptyText: () => __('No results'),
+	}
 )
 
 const emit = defineEmits<{

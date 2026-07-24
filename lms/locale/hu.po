@@ -10684,3 +10684,13 @@ msgstr "Megkövetelés"
 #: frontend/src/components/Settings/Settings.vue
 msgid "Payment Reminders"
 msgstr "Fizetési emlékeztetők"
+
+#: frontend/src/components/Controls/Select.vue
+#: frontend/src/components/Settings/SettingFields.vue
+#: frontend/src/components/Modals/PageModal.vue
+msgid "Select option"
+msgstr "Válassz…"
+
+#: frontend/src/components/Controls/Select.vue
+msgid "No results"
+msgstr "Nincs találat"

@@ -5,7 +5,7 @@
 		size="lg"
 		:actions="[
 			{
-				label: 'Add',
+				label: __('Add'),
 				variant: 'solid',
 				onClick: ({ close }) => {
 					addWebPage(close)
@@ -19,6 +19,7 @@
 					v-model="page.webpage"
 					doctype="Web Page"
 					:label="__('Web Page')"
+					:placeholder="__('Select option')"
 					:filters="{
 						published: 1,
 					}"
