@@ -1,3 +1,4 @@
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: frappe\n"
@@ -6,29 +7,39 @@ msgstr ""
 "PO-Revision-Date: 2026-07-06 08:41\n"
 "Last-Translator: jannat@frappe.io\n"
 "Language-Team: Hungarian\n"
+"Language: hu_HU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.16.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: frappe\n"
-"X-Crowdin-Project-ID: 639578\n"
-"X-Crowdin-Language: hu\n"
+"Generated-By: Babel 2.16.0\n"
 "X-Crowdin-File: /[frappe.lms] develop/lms/locale/main.pot\n"
 "X-Crowdin-File-ID: 90\n"
-"Language: hu_HU\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
 
 #: lms/templates/emails/assignment_submission.html:5
 msgid " Please evaluate and grade it."
 msgstr " Kérjük, értékeld és pontozd."
 
 #: frontend/src/pages/Programs/ProgramEnrollment.vue:27
-msgid " designed as a learning path to guide your progress. You may take the courses in any order that suits you. "
-msgstr " tanulási útként összeállítva, hogy segítse a haladásodat. A kurzusokat tetszőleges sorrendben elvégezheted. "
+msgid ""
+" designed as a learning path to guide your progress. You may take the "
+"courses in any order that suits you. "
+msgstr ""
+" tanulási útként összeállítva, hogy segítse a haladásodat. A kurzusokat "
+"tetszőleges sorrendben elvégezheted. "
 
 #: frontend/src/pages/Programs/ProgramEnrollment.vue:20
-msgid " designed as a structured learning path to guide your progress. Courses in this program must be taken in order, and each course will unlock as you complete the previous one. "
-msgstr " strukturált tanulási útként összeállítva, hogy segítse a haladásodat. A program kurzusait sorrendben kell elvégezni, és minden kurzus az előző teljesítésekor válik elérhetővé. "
+msgid ""
+" designed as a structured learning path to guide your progress. Courses in "
+"this program must be taken in order, and each course will unlock as you "
+"complete the previous one. "
+msgstr ""
+" strukturált tanulási útként összeállítva, hogy segítse a haladásodat. A "
+"program kurzusait sorrendben kell elvégezni, és minden kurzus az előző "
+"teljesítésekor válik elérhetővé. "
 
 #: lms/templates/emails/published_batch_notification.html:19
 msgid " to "
@@ -66,8 +77,14 @@ msgstr "<a href=\"https://docs.frappe.io/learning\">Dokumentáció</a>"
 #: frontend/src/components/Modals/EmailTemplateModal.vue:48
 #: frontend/src/components/Settings/EmailTemplate/EmailTemplateAdd.vue:106
 #: frontend/src/components/Settings/EmailTemplate/EmailTemplateEdit.vue:105
-msgid "<p>Dear {{ member_name }},</p>\\n\\n<p>You have been enrolled in our upcoming batch {{ batch_name }}.</p>\\n\\n<p>Thanks,</p>\\n<p>Frappe Learning</p>"
-msgstr "<p>Kedves {{ member_name }}!</p>\\n\\n<p>Beiratkoztattunk a következő évfolyamunkba: {{ batch_name }}.</p>\\n\\n<p>Köszönjük,</p>\\n<p>Frappe Learning</p>"
+msgid ""
+"<p>Dear {{ member_name }},</p>\\n\\n<p>You have been enrolled in our "
+"upcoming batch {{ batch_name }}.</p>\\n\\n<p>Thanks,</p>\\n<p>Frappe "
+"Learning</p>"
+msgstr ""
+"<p>Kedves {{ member_name }}!</p>\\n\\n<p>Beiratkoztattunk a következő "
+"évfolyamunkba: {{ batch_name }}.</p>\\n\\n<p>Köszönjük,</p>\\n<p>Frappe "
+"Learning</p>"
 
 #. Header text in the Learning Workspace
 #: lms/lms/workspace/learning/learning.json
@@ -85,11 +102,15 @@ msgid "<span style=\"font-size: 18px;\"><b>Statistics</b></span>"
 msgstr "<span style=\"font-size: 18px;\"><b>Statisztika</b></span>"
 
 #: lms/lms/doctype/lms_course/lms_course.py:78
-msgid "A course cannot have both paid certificate and certificate of completion."
-msgstr "Egy kurzushoz nem tartozhat egyszerre fizetős tanúsítvány és teljesítési tanúsítvány."
+msgid ""
+"A course cannot have both paid certificate and certificate of completion."
+msgstr ""
+"Egy kurzushoz nem tartozhat egyszerre fizetős tanúsítvány és teljesítési "
+"tanúsítvány."
 
 #: lms/lms/doctype/lms_batch/lms_batch.py:218
-msgid "A new batch '{0}' has been published that might interest you. Check it out!"
+msgid ""
+"A new batch '{0}' has been published that might interest you. Check it out!"
 msgstr "Megjelent egy új évfolyam: „{0}”, amely érdekelhet. Nézd meg!"
 
 #: lms/templates/emails/published_batch_notification.html:7
@@ -97,7 +118,8 @@ msgid "A new batch has been published on "
 msgstr "Új évfolyam jelent meg itt: "
 
 #: lms/lms/doctype/lms_course/lms_course.py:212
-msgid "A new course '{0}' has been published that might interest you. Check it out!"
+msgid ""
+"A new course '{0}' has been published that might interest you. Check it out!"
 msgstr "Megjelent egy új kurzus: „{0}”, amely érdekelhet. Nézd meg!"
 
 #: lms/templates/emails/published_course_notification.html:7
@@ -128,7 +150,8 @@ msgstr "A feltételek és/vagy szabályzatok elfogadása"
 
 #: frontend/src/pages/ProfileRoles.vue:20
 msgid "Access courses, join batches, and track learning progress"
-msgstr "Kurzusok elérése, évfolyamokhoz csatlakozás és a tanulási haladás követése"
+msgstr ""
+"Kurzusok elérése, évfolyamokhoz csatlakozás és a tanulási haladás követése"
 
 #: frontend/src/components/Settings/EmailAccount/EmailAccountList.vue:170
 msgid "Account"
@@ -142,7 +165,8 @@ msgstr "Fiók"
 msgid "Account ID"
 msgstr "Fiókazonosító"
 
-#. Label of the account_name (Data) field in DocType 'LMS Google Meet Settings'
+#. Label of the account_name (Data) field in DocType 'LMS Google Meet
+#. Settings'
 #. Label of the account_name (Data) field in DocType 'LMS Zoom Settings'
 #: frontend/src/components/Settings/GoogleMeetAccountForm.vue:26
 #: frontend/src/components/Settings/GoogleMeetSettings.vue:191
@@ -219,7 +243,7 @@ msgstr "Kvíz hozzáadása a videóhoz"
 #: frontend/src/components/Controls/ChildTable.vue:75
 #: frontend/src/components/Settings/Coupons/CouponItems.vue:64
 msgid "Add Row"
-msgstr "Sor Hozzáadása"
+msgstr "Sor hozzáadása"
 
 #: frontend/src/pages/ProfileEvaluator.vue:96
 msgid "Add Slot"
@@ -376,7 +400,9 @@ msgstr "Minden program"
 
 #: lms/lms/doctype/lms_quiz/lms_quiz.py:58
 msgid "All questions should have the same marks if the limit is set."
-msgstr "Ha a korlát be van állítva, minden kérdésnek azonos pontszámúnak kell lennie."
+msgstr ""
+"Ha a korlát be van állítva, minden kérdésnek azonos pontszámúnak kell "
+"lennie."
 
 #. Label of the allow_guest_access (Check) field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
@@ -409,11 +435,14 @@ msgstr "Engedélyezd, hogy ez a kupon kedvezményekhez felhasználható legyen."
 
 #: frontend/src/pages/Batches/BatchForm.vue:91
 msgid "Allow users to enroll in this batch on their own."
-msgstr "Engedélyezd, hogy a felhasználók önállóan beiratkozzanak erre az évfolyamra."
+msgstr ""
+"Engedélyezd, hogy a felhasználók önállóan beiratkozzanak erre az évfolyamra."
 
 #: frontend/src/pages/QuizForm.vue:214
 msgid "Allow users to view their past quiz attempts."
-msgstr "Engedélyezd, hogy a felhasználók megtekinthessék korábbi kvízpróbálkozásaikat."
+msgstr ""
+"Engedélyezd, hogy a felhasználók megtekinthessék korábbi "
+"kvízpróbálkozásaikat."
 
 #: lms/lms/user.py:34
 msgid "Already Registered"
@@ -492,19 +521,28 @@ msgstr "Válasz"
 
 #: frontend/src/pages/PersonaForm.vue:18
 msgid "Answer a few quick questions so we can set Frappe Learning up for you"
-msgstr "Válaszolj néhány gyors kérdésre, hogy a Frappe Learninget személyre szabhassuk"
+msgstr ""
+"Válaszolj néhány gyors kérdésre, hogy a Frappe Learninget személyre "
+"szabhassuk"
 
 #: frontend/src/components/Settings/BrandSettings.vue:63
-msgid "Appears in the left sidebar. Recommended size is 32x32 px in PNG or SVG"
-msgstr "A bal oldalsávban jelenik meg. Az ajánlott méret 32x32 px PNG vagy SVG formátumban"
+msgid ""
+"Appears in the left sidebar. Recommended size is 32x32 px in PNG or SVG"
+msgstr ""
+"A bal oldalsávban jelenik meg. Az ajánlott méret 32x32 px PNG vagy SVG "
+"formátumban"
 
 #: frontend/src/components/Settings/BrandSettings.vue:97
-msgid "Appears next to the title in your browser tab. Recommended size is 32x32 px in PNG or ICO"
-msgstr "A cím mellett jelenik meg a böngésző lapján. Az ajánlott méret 32x32 px PNG vagy ICO formátumban"
+msgid ""
+"Appears next to the title in your browser tab. Recommended size is 32x32 px "
+"in PNG or ICO"
+msgstr ""
+"A cím mellett jelenik meg a böngésző lapján. Az ajánlott méret 32x32 px PNG "
+"vagy ICO formátumban"
 
 #: frontend/src/components/Settings/Coupons/CouponDetails.vue:79
 msgid "Applicable For"
-msgstr "Alkalmazható Ehhez"
+msgstr "Alkalmazható ehhez"
 
 #. Label of the applicable_items (Table) field in DocType 'LMS Coupon'
 #: lms/lms/doctype/lms_coupon/lms_coupon.json
@@ -557,15 +595,23 @@ msgid "Archived"
 msgstr "Archivált"
 
 #: frontend/src/components/UpcomingEvaluations.vue:197
-msgid "Are you sure you want to cancel this evaluation? This action cannot be undone."
+msgid ""
+"Are you sure you want to cancel this evaluation? This action cannot be "
+"undone."
 msgstr "Biztosan lemondod ezt az értékelést? A művelet nem vonható vissza."
 
 #: frontend/src/components/Sidebar/UserDropdown.vue:237
-msgid "Are you sure you want to clear the demo data? This would delete the course \"A guide  to Frappe Learning\" along with all its associated data. This action cannot be undone."
-msgstr "Biztosan törlöd a demóadatokat? Ezzel törlődik az „A guide  to Frappe Learning” kurzus és minden hozzá tartozó adat. A művelet nem vonható vissza."
+msgid ""
+"Are you sure you want to clear the demo data? This would delete the course "
+"\"A guide  to Frappe Learning\" along with all its associated data. This "
+"action cannot be undone."
+msgstr ""
+"Biztosan törlöd a demóadatokat? Ezzel törlődik az „A guide  to Frappe "
+"Learning” kurzus és minden hozzá tartozó adat. A művelet nem vonható vissza."
 
 #: frontend/src/pages/Programs/ProgramForm.vue:556
-msgid "Are you sure you want to delete this program? This action cannot be undone."
+msgid ""
+"Are you sure you want to delete this program? This action cannot be undone."
 msgstr "Biztosan törlöd ezt a programot? A művelet nem vonható vissza."
 
 #: frontend/src/pages/Programs/ProgramEnrollment.vue:33
@@ -581,8 +627,12 @@ msgid "Are you sure you want to submit the quiz?"
 msgstr "Biztosan beadod a kvízt?"
 
 #: frontend/src/pages/Batches/components/BatchDashboard.vue:11
-msgid "As a part of this batch's curriculum you will have to complete the following courses and assessments."
-msgstr "Az évfolyam tantervének részeként a következő kurzusokat és számonkéréseket kell teljesítened."
+msgid ""
+"As a part of this batch's curriculum you will have to complete the following"
+" courses and assessments."
+msgstr ""
+"Az évfolyam tantervének részeként a következő kurzusokat és számonkéréseket "
+"kell teljesítened."
 
 #: frontend/src/pages/Lesson.vue:283
 msgid "Ask a question to get help from the community."
@@ -657,7 +707,8 @@ msgstr "Hozzárendelve ehhez"
 msgid "Assignment"
 msgstr "Beadandó"
 
-#. Label of the assignment_attachment (Attach) field in DocType 'LMS Assignment
+#. Label of the assignment_attachment (Attach) field in DocType 'LMS
+#. Assignment
 #. Submission'
 #: lms/lms/doctype/lms_assignment_submission/lms_assignment_submission.json
 msgid "Assignment Attachment"
@@ -720,7 +771,8 @@ msgstr "Legalább egy alkalmazható tétel megadása kötelező"
 
 #: lms/lms/doctype/lms_question/lms_question.py:49
 msgid "At least one option must be correct for this question."
-msgstr "Ehhez a kérdéshez legalább egy válaszlehetőségnek helyesnek kell lennie."
+msgstr ""
+"Ehhez a kérdéshez legalább egy válaszlehetőségnek helyesnek kell lennie."
 
 #: lms/lms/doctype/lms_programming_exercise/lms_programming_exercise.py:15
 msgid "At least one test case is required for the programming exercise."
@@ -750,7 +802,7 @@ msgstr "Öltözködési preferencia"
 
 #: frontend/src/pages/ProfileEvaluator.vue:146
 msgid "Authorize Google Calendar Access"
-msgstr "Google Naptár Hozzáférés Engedélyezése"
+msgstr "Google Naptár-hozzáférés engedélyezése"
 
 #. Label of the auto_recording (Select) field in DocType 'LMS Live Class'
 #: frontend/src/components/Modals/LiveClassModal.vue:72
@@ -893,7 +945,7 @@ msgstr "Évfolyam kurzusa"
 #: lms/lms/doctype/lms_batch/lms_batch.json
 #: lms/templates/emails/batch_confirmation.html:26
 msgid "Batch Details"
-msgstr "A tétel részletei"
+msgstr "Évfolyam részletei"
 
 #. Label of the batch_details_raw (HTML Editor) field in DocType 'LMS Batch'
 #: lms/lms/doctype/lms_batch/lms_batch.json
@@ -949,7 +1001,8 @@ msgstr "Évfolyam mentora"
 msgid "Batch Feedback"
 msgstr "Évfolyam visszajelzése"
 
-#. Label of the batch_name (Link) field in DocType 'LMS Certificate Evaluation'
+#. Label of the batch_name (Link) field in DocType 'LMS Certificate
+#. Evaluation'
 #: lms/lms/doctype/lms_certificate_evaluation/lms_certificate_evaluation.json
 msgid "Batch Name"
 msgstr "Évfolyam neve"
@@ -1009,7 +1062,8 @@ msgstr "Évfolyam közzétéve"
 
 #: lms/lms/doctype/lms_batch/lms_batch.py:57
 msgid "Batch start time cannot be greater than or equal to end time."
-msgstr "Az évfolyam kezdési ideje nem lehet nagyobb vagy egyenlő a záró időpontnál."
+msgstr ""
+"Az évfolyam kezdési ideje nem lehet nagyobb vagy egyenlő a záró időpontnál."
 
 #: frontend/src/pages/Batches/BatchDetail.vue:266
 msgid "Batch unpublished"
@@ -1022,7 +1076,7 @@ msgstr "Az évfolyam sikeresen frissítve"
 #: lms/templates/emails/batch_start_reminder.html:10
 #: lms/templates/emails/batch_start_reminder_recorded.html:19
 msgid "Batch:"
-msgstr "Köteg:"
+msgstr "Évfolyam:"
 
 #. Label of the batches (Check) field in DocType 'LMS Settings'
 #. Label of a Workspace Sidebar Item
@@ -1167,7 +1221,8 @@ msgstr "Hétköznapi viselet"
 #: frontend/src/pages/Courses/NewCourseModal.vue:15
 #: lms/lms/doctype/lms_batch/lms_batch.json
 #: lms/lms/doctype/lms_category/lms_category.json
-#: lms/lms/doctype/lms_course/lms_course.json lms/templates/signup-form.html:22
+#: lms/lms/doctype/lms_course/lms_course.json
+#: lms/templates/signup-form.html:22
 msgid "Category"
 msgstr "Kategória"
 
@@ -1231,13 +1286,18 @@ msgid "Certificates generated successfully"
 msgstr "A tanúsítványok sikeresen létrehozva"
 
 #: frontend/src/pages/Courses/CoursePublishSettings.vue:140
-msgid "Certificates render from a Print Format. Build or customize templates from the desk."
-msgstr "A tanúsítványok nyomtatási formátumból készülnek. A sablonokat a Desk felületén hozhatod létre vagy szabhatod testre."
+msgid ""
+"Certificates render from a Print Format. Build or customize templates from "
+"the desk."
+msgstr ""
+"A tanúsítványok nyomtatási formátumból készülnek. A sablonokat a Desk "
+"felületén hozhatod létre vagy szabhatod testre."
 
 #. Label of the certification (Table) field in DocType 'User'
 #. Name of a DocType
 #. Label of the certification (Check) field in DocType 'LMS Batch'
-#. Label of the section_break_cssv (Section Break) field in DocType 'LMS Batch'
+#. Label of the section_break_cssv (Section Break) field in DocType 'LMS
+#. Batch'
 #. Label of the certification_section (Section Break) field in DocType 'LMS
 #. Enrollment'
 #. Label of a chart in the Learning Workspace
@@ -1268,16 +1328,24 @@ msgid "Certification Name"
 msgstr "Tanúsítás neve"
 
 #: lms/lms/doctype/lms_certificate/lms_certificate.py:94
-msgid "Certification cannot be issued as the member has not completed the course."
-msgstr "A tanúsítás nem állítható ki, mert a résztvevő nem teljesítette a kurzust."
+msgid ""
+"Certification cannot be issued as the member has not completed the course."
+msgstr ""
+"A tanúsítás nem állítható ki, mert a résztvevő nem teljesítette a kurzust."
 
 #: lms/lms/doctype/lms_certificate/lms_certificate.py:77
-msgid "Certification cannot be issued as the member is not enrolled in this batch."
-msgstr "A tanúsítás nem állítható ki, mert a résztvevő nem iratkozott be erre az évfolyamra."
+msgid ""
+"Certification cannot be issued as the member is not enrolled in this batch."
+msgstr ""
+"A tanúsítás nem állítható ki, mert a résztvevő nem iratkozott be erre az "
+"évfolyamra."
 
 #: lms/lms/doctype/lms_certificate/lms_certificate.py:84
-msgid "Certification cannot be issued as the member is not enrolled in this course."
-msgstr "A tanúsítás nem állítható ki, mert a résztvevő nem iratkozott be erre a kurzusra."
+msgid ""
+"Certification cannot be issued as the member is not enrolled in this course."
+msgstr ""
+"A tanúsítás nem állítható ki, mert a résztvevő nem iratkozott be erre a "
+"kurzusra."
 
 #: lms/lms/doctype/lms_certificate/lms_certificate.py:214
 msgid "Certification is not enabled for this course."
@@ -1367,7 +1435,7 @@ msgstr "Díj felszámítása a résztvevőknek a kurzusra iratkozásért."
 
 #: frontend/src/components/Quiz.vue:309
 msgid "Check"
-msgstr "Jelölje be"
+msgstr "Ellenőrzés"
 
 #: frontend/src/pages/ProgrammingExercises/ProgrammingExercises.vue:18
 msgid "Check All Submissions"
@@ -1451,7 +1519,7 @@ msgstr "Foglalkozás:"
 #: frontend/src/components/Controls/MultiLink.vue:64
 #: frontend/src/components/Controls/MultiLink.vue:67
 msgid "Clear"
-msgstr "Egyértelmű"
+msgstr "Törlés"
 
 #. Option for the 'Role Preference' (Select) field in DocType 'User'
 #: lms/fixtures/custom_field.json
@@ -1523,7 +1591,7 @@ msgstr "Együttműködési preferencia"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:213
 msgid "Collapse"
-msgstr "Összeomlás"
+msgstr "Elrejt"
 
 #. Label of the college (Data) field in DocType 'User'
 #: lms/fixtures/custom_field.json
@@ -1587,7 +1655,8 @@ msgstr "Cég"
 msgid "Company Details"
 msgstr "Cégadatok"
 
-#. Label of the company_email_address (Data) field in DocType 'Job Opportunity'
+#. Label of the company_email_address (Data) field in DocType 'Job
+#. Opportunity'
 #: frontend/src/pages/JobForm.vue:102
 #: lms/job/doctype/job_opportunity/job_opportunity.json
 msgid "Company Email Address"
@@ -1607,7 +1676,7 @@ msgstr "Cég logója"
 #: lms/job/doctype/job_opportunity/job_opportunity.json
 #: lms/job/web_form/job_opportunity/job_opportunity.json
 msgid "Company Name"
-msgstr "Válallkozás Neve"
+msgstr "Vállalkozás neve"
 
 #. Label of the company_type (Select) field in DocType 'User'
 #: lms/fixtures/custom_field.json
@@ -1651,8 +1720,12 @@ msgid "Complete Your Enrollment - Don't miss out!"
 msgstr "Fejezd be a beiratkozásodat – ne maradj le róla!"
 
 #: frontend/src/components/VideoBlock.vue:148
-msgid "Complete the upcoming quiz to continue watching the video. The quiz will open in {0} {1}."
-msgstr "A videó folytatásához teljesítsd a következő kvízt. A kvíz {0} {1} múlva nyílik meg."
+msgid ""
+"Complete the upcoming quiz to continue watching the video. The quiz will "
+"open in {0} {1}."
+msgstr ""
+"A videó folytatásához teljesítsd a következő kvízt. A kvíz {0} {1} múlva "
+"nyílik meg."
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:106
 #: frontend/src/components/Sidebar/AppSidebar.vue:132
@@ -1754,7 +1827,8 @@ msgstr "Erősítsd meg a törlési műveletet"
 msgid "Confirmation Email Sent"
 msgstr "Visszaigazoló e-mail elküldve"
 
-#. Label of the confirmation_email_template (Link) field in DocType 'LMS Batch'
+#. Label of the confirmation_email_template (Link) field in DocType 'LMS
+#. Batch'
 #: lms/lms/doctype/lms_batch/lms_batch.json
 msgid "Confirmation Email Template"
 msgstr "Megerősítő e-mail sablon"
@@ -1765,11 +1839,15 @@ msgstr "Gratulálunk a tanúsítvány megszerzéséhez!"
 
 #: frontend/src/components/Settings/GoogleMeetAccountForm.vue:5
 msgid "Connect a Google Meet account to schedule and host live classes."
-msgstr "Kapcsolj össze egy Google Meet-fiókot élő foglalkozások ütemezéséhez és megtartásához."
+msgstr ""
+"Kapcsolj össze egy Google Meet-fiókot élő foglalkozások ütemezéséhez és "
+"megtartásához."
 
 #: frontend/src/components/Settings/ZoomAccountForm.vue:5
 msgid "Connect a Zoom account to schedule and host live classes."
-msgstr "Kapcsolj össze egy Zoom-fiókot élő foglalkozások ütemezéséhez és megtartásához."
+msgstr ""
+"Kapcsolj össze egy Zoom-fiókot élő foglalkozások ütemezéséhez és "
+"megtartásához."
 
 #. Label of the contact_us_tab (Tab Break) field in DocType 'LMS Settings'
 #: frontend/src/components/ContactUsEmail.vue:2
@@ -1841,7 +1919,8 @@ msgid "Correct Answer"
 msgstr "Helyes válasz"
 
 #: lms/lms/course_import_export.py:196
-msgid "Could not create the course ZIP file. Please try again later. Error: {0}"
+msgid ""
+"Could not create the course ZIP file. Please try again later. Error: {0}"
 msgstr "A kurzus ZIP-fájlja nem hozható létre. Próbáld meg később. Hiba: {0}"
 
 #: frontend/src/pages/QuizForm.vue:330
@@ -2177,7 +2256,8 @@ msgstr "A(z) {0} kurzus már hozzá lett adva ehhez a programhoz."
 #: frontend/src/pages/Courses/CourseCertification.vue:127
 #: frontend/src/pages/Courses/CourseDetail.vue:361
 #: frontend/src/pages/Courses/Courses.vue:359
-#: frontend/src/pages/Courses/Courses.vue:366 frontend/src/pages/Lesson.vue:616
+#: frontend/src/pages/Courses/Courses.vue:366
+#: frontend/src/pages/Lesson.vue:616
 #: frontend/src/pages/Programs/ProgramForm.vue:44
 #: frontend/src/pages/Programs/Programs.vue:66
 #: frontend/src/pages/SCORMChapter.vue:234
@@ -2205,8 +2285,12 @@ msgid "Courses in this Program"
 msgstr "A program kurzusai"
 
 #: frontend/src/pages/Programs/ProgramDetail.vue:21
-msgid "Courses must be completed in order. You can only start the next course after completing the previous one."
-msgstr "A kurzusokat sorrendben kell teljesíteni. A következő kurzust csak az előző teljesítése után kezdheted el."
+msgid ""
+"Courses must be completed in order. You can only start the next course after"
+" completing the previous one."
+msgstr ""
+"A kurzusokat sorrendben kell teljesíteni. A következő kurzust csak az előző "
+"teljesítése után kezdheted el."
 
 #. Label of the cover_image (Attach Image) field in DocType 'User'
 #: lms/fixtures/custom_field.json
@@ -2285,7 +2369,9 @@ msgstr "Beadandó létrehozása"
 
 #: frontend/src/components/Settings/EmailTemplate/EmailTemplateList.vue:5
 msgid "Create and manage reusable email templates for your notifications."
-msgstr "Hozz létre és kezelj újrafelhasználható e-mail-sablonokat az értesítéseidhez."
+msgstr ""
+"Hozz létre és kezelj újrafelhasználható e-mail-sablonokat az "
+"értesítéseidhez."
 
 #: frontend/src/components/CourseOutline.vue:34
 msgid "Create chapter"
@@ -2305,7 +2391,7 @@ msgstr "Hozd létre az első kvízedet"
 
 #: frontend/src/pages/Courses/Courses.vue:320
 msgid "Created"
-msgstr "Alkotó"
+msgstr "Létrehozva"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:595
 msgid "Creating a batch"
@@ -2430,8 +2516,12 @@ msgstr "Tisztelt "
 #: frontend/src/components/Modals/EmailTemplateModal.vue:64
 #: frontend/src/components/Settings/EmailTemplate/EmailTemplateAdd.vue:109
 #: frontend/src/components/Settings/EmailTemplate/EmailTemplateEdit.vue:108
-msgid "Dear {{ member_name }},\\n\\nYou have been enrolled in our upcoming batch {{ batch_name }}.\\n\\nThanks,\\nFrappe Learning"
-msgstr "Kedves {{ member_name }},\\n\\nBeiratkoztunk a következő csoportunkba {{ batch_name }}.\\n\\nKöszönjük,\\nFrappé Tanulás"
+msgid ""
+"Dear {{ member_name }},\\n\\nYou have been enrolled in our upcoming batch {{"
+" batch_name }}.\\n\\nThanks,\\nFrappe Learning"
+msgstr ""
+"Kedves {{ member_name }}!\\n\\nBeiratkoztattunk a következő évfolyamunkba: "
+"{{ batch_name }}.\\n\\nKöszönjük,\\nFrappe Learning"
 
 #: frontend/src/pages/QuizForm.vue:234
 msgid "Deduct marks for incorrect answers."
@@ -2452,11 +2542,12 @@ msgstr "Alapértelmezett küldő üzenetek helye"
 
 #: frontend/src/components/Settings/EmailAccount/EmailAccountList.vue:199
 msgid "Default Sending & Inbox"
-msgstr "Alapértelmezett Küldés és Beérkezett Üzenetek Helye"
+msgstr "Alapértelmezett küldés és beérkezett üzenetek helye"
 
 #: frontend/src/components/Settings/Badges/BadgeForm.vue:5
 msgid "Define a badge and the criteria for awarding it to learners."
-msgstr "Határozz meg egy kitűzőt és a résztvevőknek való odaítélés feltételeit."
+msgstr ""
+"Határozz meg egy kitűzőt és a résztvevőknek való odaítélés feltételeit."
 
 #. Label of the degree_type (Data) field in DocType 'Education Detail'
 #: lms/lms/doctype/education_detail/education_detail.json
@@ -2528,28 +2619,57 @@ msgid "Delete {0}?"
 msgstr "Törlöd ezt: {0}?"
 
 #: frontend/src/pages/Courses/CourseForm.vue:262
-msgid "Deleting the course will also delete all its chapters and lessons. Are you sure you want to delete this course?"
-msgstr "A kurzus törlésével annak összes fejezete és leckéje is törlődik. Biztosan törlöd ezt a kurzust?"
+msgid ""
+"Deleting the course will also delete all its chapters and lessons. Are you "
+"sure you want to delete this course?"
+msgstr ""
+"A kurzus törlésével annak összes fejezete és leckéje is törlődik. Biztosan "
+"törlöd ezt a kurzust?"
 
 #: frontend/src/pages/ProgrammingExercises/ProgrammingExercises.vue:257
-msgid "Deleting these exercises will permanently remove them from the system, along with all associated submissions. This action is irreversible. Are you sure you want to proceed?"
-msgstr "Ezeknek a feladatoknak a törlése véglegesen eltávolítja őket a rendszerből az összes hozzájuk tartozó beadással együtt. A művelet visszafordíthatatlan. Biztosan folytatod?"
+msgid ""
+"Deleting these exercises will permanently remove them from the system, along"
+" with all associated submissions. This action is irreversible. Are you sure "
+"you want to proceed?"
+msgstr ""
+"Ezeknek a feladatoknak a törlése véglegesen eltávolítja őket a rendszerből "
+"az összes hozzájuk tartozó beadással együtt. A művelet visszafordíthatatlan."
+" Biztosan folytatod?"
 
 #: frontend/src/pages/Batches/BatchForm.vue:558
-msgid "Deleting this batch will also delete all its data including enrolled students, linked courses, assessments, feedback and discussions. Are you sure you want to continue?"
-msgstr "Az évfolyam törlésével annak összes adata is törlődik, beleértve a beiratkozott résztvevőket, a hozzárendelt kurzusokat, a számonkéréseket, a visszajelzéseket és a fórumokat. Biztosan folytatod?"
+msgid ""
+"Deleting this batch will also delete all its data including enrolled "
+"students, linked courses, assessments, feedback and discussions. Are you "
+"sure you want to continue?"
+msgstr ""
+"Az évfolyam törlésével annak összes adata is törlődik, beleértve a "
+"beiratkozott résztvevőket, a hozzárendelt kurzusokat, a számonkéréseket, a "
+"visszajelzéseket és a fórumokat. Biztosan folytatod?"
 
 #: frontend/src/components/CourseOutline.vue:372
-msgid "Deleting this chapter will also delete all its lessons and permanently remove it from the course. This action cannot be undone. Are you sure you want to continue?"
-msgstr "A fejezet törlésével annak összes leckéje is törlődik, és véglegesen eltávolítjuk a kurzusból. A művelet nem vonható vissza. Biztosan folytatod?"
+msgid ""
+"Deleting this chapter will also delete all its lessons and permanently "
+"remove it from the course. This action cannot be undone. Are you sure you "
+"want to continue?"
+msgstr ""
+"A fejezet törlésével annak összes leckéje is törlődik, és véglegesen "
+"eltávolítjuk a kurzusból. A művelet nem vonható vissza. Biztosan folytatod?"
 
 #: frontend/src/components/CourseOutline.vue:346
-msgid "Deleting this lesson will permanently remove it from the course. This action cannot be undone. Are you sure you want to continue?"
-msgstr "A lecke törlésével véglegesen eltávolítjuk a kurzusból. A művelet nem vonható vissza. Biztosan folytatod?"
+msgid ""
+"Deleting this lesson will permanently remove it from the course. This action"
+" cannot be undone. Are you sure you want to continue?"
+msgstr ""
+"A lecke törlésével véglegesen eltávolítjuk a kurzusból. A művelet nem "
+"vonható vissza. Biztosan folytatod?"
 
 #: frontend/src/pages/QuizForm.vue:314
-msgid "Deleting this quiz permanently removes it and its submissions. This action cannot be undone. Are you sure you want to continue?"
-msgstr "A kvíz törlése véglegesen eltávolítja a kvízt és a beadásait. A művelet nem vonható vissza. Biztosan folytatod?"
+msgid ""
+"Deleting this quiz permanently removes it and its submissions. This action "
+"cannot be undone. Are you sure you want to continue?"
+msgstr ""
+"A kvíz törlése véglegesen eltávolítja a kvízt és a beadásait. A művelet nem "
+"vonható vissza. Biztosan folytatod?"
 
 #: lms/lms/api.py:887
 msgid "Deletion not allowed for {0}"
@@ -2666,8 +2786,12 @@ msgid "Display correct answers after each question is attempted."
 msgstr "A helyes válaszok megjelenítése minden kérdés megválaszolása után."
 
 #: frontend/src/components/Quiz.vue:25
-msgid "Do not refresh the page or close this window. If you do, the quiz will be submitted automatically."
-msgstr "Ne frissítsd az oldalt, és ne zárd be ezt az ablakot. Ha megteszed, a kvíz automatikusan beadásra kerül."
+msgid ""
+"Do not refresh the page or close this window. If you do, the quiz will be "
+"submitted automatically."
+msgstr ""
+"Ne frissítsd az oldalt, és ne zárd be ezt az ablakot. Ha megteszed, a kvíz "
+"automatikusan beadásra kerül."
 
 #. Option for the 'File Type' (Select) field in DocType 'Course Lesson'
 #. Option for the 'Type' (Select) field in DocType 'LMS Assignment'
@@ -2680,15 +2804,19 @@ msgstr "Dokumentum"
 
 #: frontend/src/components/Settings/Coupons/CouponItems.vue:15
 msgid "Document Name"
-msgstr "Dokumentum Neve"
+msgstr "Dokumentum neve"
 
 #: frontend/src/components/Settings/Coupons/CouponItems.vue:12
 msgid "Document Type"
-msgstr "Dokumentum Típus"
+msgstr "Dokumentum típusa"
 
 #: lms/templates/emails/payment_reminder.html:11
-msgid "Don’t miss this opportunity to enhance your skills. Click below to complete your enrollment"
-msgstr "Ne szalaszd el ezt a lehetőséget a készségeid fejlesztésére. Kattints alább a beiratkozásod befejezéséhez"
+msgid ""
+"Don’t miss this opportunity to enhance your skills. Click below to complete "
+"your enrollment"
+msgstr ""
+"Ne szalaszd el ezt a lehetőséget a készségeid fejlesztésére. Kattints alább "
+"a beiratkozásod befejezéséhez"
 
 #: frontend/src/pages/Courses/CourseImportModal.vue:23
 msgid "Drag and drop a ZIP file, or upload from your"
@@ -2862,7 +2990,7 @@ msgstr "Email azonosító"
 #. Label of the email_sent (Check) field in DocType 'LMS Course Interest'
 #: lms/lms/doctype/lms_course_interest/lms_course_interest.json
 msgid "Email Sent"
-msgstr "E-mail Elküldve"
+msgstr "E-mail elküldve"
 
 #: frontend/src/components/Modals/EmailTemplateModal.vue:118
 #: frontend/src/components/Settings/EmailTemplate/EmailTemplateAdd.vue:147
@@ -2878,7 +3006,8 @@ msgstr "Az e-mail-sablon sikeresen törölve"
 msgid "Email Template updated successfully"
 msgstr "Az e-mail-sablon sikeresen frissítve"
 
-#. Label of the email_templates_tab (Tab Break) field in DocType 'LMS Settings'
+#. Label of the email_templates_tab (Tab Break) field in DocType 'LMS
+#. Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Email Templates"
 msgstr "E-mail sablonok"
@@ -2920,8 +3049,12 @@ msgid "Enable"
 msgstr "Engedélyez"
 
 #: lms/lms/doctype/lms_settings/lms_settings.py:27
-msgid "Enable Google API in Google Settings to send calendar invites for evaluations."
-msgstr "Engedélyezd a Google API-t a Google-beállításokban, hogy naptármeghívókat küldhess az értékelésekhez."
+msgid ""
+"Enable Google API in Google Settings to send calendar invites for "
+"evaluations."
+msgstr ""
+"Engedélyezd a Google API-t a Google-beállításokban, hogy naptármeghívókat "
+"küldhess az értékelésekhez."
 
 #. Label of the enable_negative_marking (Check) field in DocType 'LMS Quiz'
 #: frontend/src/pages/QuizForm.vue:233 lms/lms/doctype/lms_quiz/lms_quiz.json
@@ -2934,7 +3067,8 @@ msgstr "Értékelések engedélyezése az évfolyam résztvevőinek."
 
 #: frontend/src/components/Modals/ChapterModal.vue:27
 msgid "Enable this only if you want to upload a SCORM package as a chapter."
-msgstr "Csak akkor engedélyezd, ha SCORM-csomagot szeretnél fejezetként feltölteni."
+msgstr ""
+"Csak akkor engedélyezd, ha SCORM-csomagot szeretnél fejezetként feltölteni."
 
 #. Label of the enabled (Check) field in DocType 'LMS Badge'
 #. Label of the enabled (Check) field in DocType 'LMS Coupon'
@@ -2958,8 +3092,12 @@ msgid "Enabled"
 msgstr "Engedélyezve"
 
 #: frontend/src/pages/Batches/components/BulkCertificates.vue:51
-msgid "Enabling this will publish the certificate on the certified participants page."
-msgstr "Ennek engedélyezésével a tanúsítvány megjelenik a tanúsított résztvevők oldalán."
+msgid ""
+"Enabling this will publish the certificate on the certified participants "
+"page."
+msgstr ""
+"Ennek engedélyezésével a tanúsítvány megjelenik a tanúsított résztvevők "
+"oldalán."
 
 #. Label of the end_date (Date) field in DocType 'LMS Batch'
 #: frontend/src/pages/Batches/components/NewBatchModal.vue:22
@@ -3007,7 +3145,8 @@ msgstr "Beadandó teljesítésének kötelezővé tétele"
 msgid "Enforce Course Order"
 msgstr "Kurzussorrend kötelezővé tétele"
 
-#. Label of the enforce_quiz_completion (Check) field in DocType 'LMS Settings'
+#. Label of the enforce_quiz_completion (Check) field in DocType 'LMS
+#. Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Enforce Quiz Completion"
 msgstr "Kvíz teljesítésének kötelezővé tétele"
@@ -3092,8 +3231,11 @@ msgid "Enrollment from Batch"
 msgstr "Beiratkozás évfolyamból"
 
 #: lms/lms/doctype/lms_batch_enrollment/lms_batch_enrollment.py:57
-msgid "Enrollment in this batch is restricted. Please contact the Administrator."
-msgstr "Az erre az évfolyamra való beiratkozás korlátozott. Vedd fel a kapcsolatot a rendszergazdával."
+msgid ""
+"Enrollment in this batch is restricted. Please contact the Administrator."
+msgstr ""
+"Az erre az évfolyamra való beiratkozás korlátozott. Vedd fel a kapcsolatot a"
+" rendszergazdával."
 
 #. Label of the enrollments (Int) field in DocType 'LMS Course'
 #. Label of a chart in the Learning Workspace
@@ -3101,7 +3243,8 @@ msgstr "Az erre az évfolyamra való beiratkozás korlátozott. Vedd fel a kapcs
 #. Label of a Workspace Sidebar Item
 #: frontend/src/pages/Programs/ProgramProgressSummary.vue:13
 #: lms/lms/doctype/lms_course/lms_course.json
-#: lms/lms/workspace/learning/learning.json lms/workspace_sidebar/learning.json
+#: lms/lms/workspace/learning/learning.json
+#: lms/workspace_sidebar/learning.json
 msgid "Enrollments"
 msgstr "Beiratkozások"
 
@@ -3110,8 +3253,12 @@ msgid "Enter Brand Name"
 msgstr "Márkanév megadása"
 
 #: lms/lms/doctype/lms_settings/lms_settings.py:32
-msgid "Enter Client Id and Client Secret in Google Settings to send calendar invites for evaluations."
-msgstr "Add meg az ügyfél-azonosítót és az ügyféltitkot a Google-beállításokban, hogy naptármeghívókat küldhess az értékelésekhez."
+msgid ""
+"Enter Client Id and Client Secret in Google Settings to send calendar "
+"invites for evaluations."
+msgstr ""
+"Add meg az ügyfél-azonosítót és az ügyféltitkot a Google-beállításokban, "
+"hogy naptármeghívókat küldhess az értékelésekhez."
 
 #: frontend/src/pages/Billing.vue:64
 msgid "Enter a Coupon Code"
@@ -3248,7 +3395,8 @@ msgstr "Az értékelés sikeresen lemondva"
 
 #: lms/lms/doctype/lms_batch/lms_batch.py:92
 msgid "Evaluation end date cannot be less than the batch end date."
-msgstr "Az értékelés záró dátuma nem lehet korábbi az évfolyam záró dátumánál."
+msgstr ""
+"Az értékelés záró dátuma nem lehet korábbi az évfolyam záró dátumánál."
 
 #: frontend/src/components/Modals/Event.vue:279
 msgid "Evaluation saved successfully"
@@ -3330,7 +3478,7 @@ msgstr "A feladat sikeresen törölve"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:213
 msgid "Expand"
-msgstr "Kiterjed"
+msgstr "Felfed"
 
 #. Label of the expected_output (Data) field in DocType 'LMS Test Case'
 #. Label of the expected_output (Data) field in DocType 'LMS Test Case
@@ -3351,7 +3499,7 @@ msgstr "Lejárati dátum"
 #: frontend/src/components/Settings/Coupons/CouponList.vue:170
 #: lms/lms/doctype/lms_coupon/lms_coupon.json
 msgid "Expires On"
-msgstr "Lejárat Dátuma"
+msgstr "Lejárat dátuma"
 
 #. Label of the expiry_date (Date) field in DocType 'LMS Certificate'
 #: frontend/src/components/Modals/Event.vue:148
@@ -3404,7 +3552,8 @@ msgstr "Nem sikerül"
 
 #. Option for the 'Status' (Select) field in DocType 'LMS Programming Exercise
 #. Submission'
-#. Option for the 'Status' (Select) field in DocType 'LMS Test Case Submission'
+#. Option for the 'Status' (Select) field in DocType 'LMS Test Case
+#. Submission'
 #: frontend/src/pages/ProgrammingExercises/ProgrammingExerciseSubmissions.vue:39
 #: lms/lms/doctype/lms_programming_exercise_submission/lms_programming_exercise_submission.json
 #: lms/lms/doctype/lms_test_case_submission/lms_test_case_submission.json
@@ -3481,7 +3630,7 @@ msgstr "Szükség esetén nyugodtan szerkeszd a beadásodat."
 #. Label of the field_to_check (Select) field in DocType 'LMS Badge'
 #: lms/lms/doctype/lms_badge/lms_badge.json
 msgid "Field To Check"
-msgstr "Ellenőrizendő Mező"
+msgstr "Ellenőrizendő mező"
 
 #. Label of the major (Data) field in DocType 'Education Detail'
 #: lms/lms/doctype/education_detail/education_detail.json
@@ -3531,7 +3680,7 @@ msgstr "Szűrés állapot szerint"
 #: frontend/src/components/Modals/EditProfile.vue:143
 #: frontend/src/components/Modals/NewMemberModal.vue:29
 msgid "First Name"
-msgstr "Vezetéknév"
+msgstr "Keresztnév"
 
 #. Option for the 'Time Preference' (Select) field in DocType 'User'
 #: lms/fixtures/custom_field.json
@@ -3685,11 +3834,15 @@ msgstr "Szerezd meg a Payments alkalmazást"
 
 #: frontend/src/components/InstallPrompt.vue:9
 msgid "Get the app on your device for easy access & a better experience!"
-msgstr "Töltsd le az alkalmazást az eszközödre a könnyű elérésért és a jobb élményért!"
+msgstr ""
+"Töltsd le az alkalmazást az eszközödre a könnyű elérésért és a jobb "
+"élményért!"
 
 #: frontend/src/components/InstallPrompt.vue:45
 msgid "Get the app on your iPhone for easy access & a better experience"
-msgstr "Töltsd le az alkalmazást az iPhone-odra a könnyű elérésért és a jobb élményért"
+msgstr ""
+"Töltsd le az alkalmazást az iPhone-odra a könnyű elérésért és a jobb "
+"élményért"
 
 #: frontend/src/components/Modals/EditProfile.vue:48
 msgid "GitHub ID"
@@ -3725,7 +3878,8 @@ msgstr "Google Classroom"
 msgid "Google Drive"
 msgstr "Google Drive"
 
-#. Option for the 'Conferencing Provider' (Select) field in DocType 'LMS Batch'
+#. Option for the 'Conferencing Provider' (Select) field in DocType 'LMS
+#. Batch'
 #. Option for the 'Conferencing Provider' (Select) field in DocType 'LMS Live
 #. Class'
 #: frontend/src/pages/Batches/BatchForm.vue:598
@@ -3804,7 +3958,7 @@ msgstr "Zöld"
 
 #: lms/templates/signup-form.html:56
 msgid "Have an account? Login"
-msgstr "Rrendelkezik fiókkal?  Bejelentkezés"
+msgstr "Rendelkezik fiókkal? Bejelentkezés"
 
 #. Label of the headline (Data) field in DocType 'User'
 #: frontend/src/components/Modals/EditProfile.vue:42
@@ -3919,12 +4073,17 @@ msgid "I am currently working here"
 msgstr "Jelenleg itt dolgozom"
 
 #: lms/templates/emails/certification.html:6
-msgid "I am delighted to inform you that you have successfully earned your certification for the {0} course. Congratulations!"
-msgstr "Örömmel értesítelek, hogy sikeresen megszerezted a tanúsítást a(z) {0} kurzushoz. Gratulálunk!"
+msgid ""
+"I am delighted to inform you that you have successfully earned your "
+"certification for the {0} course. Congratulations!"
+msgstr ""
+"Örömmel értesítelek, hogy sikeresen megszerezted a tanúsítást a(z) {0} "
+"kurzushoz. Gratulálunk!"
 
 #: frontend/src/pages/ProfileAbout.vue:166
 msgid "I am happy to announce that I earned the {0} badge on {1} at {2}"
-msgstr "Örömmel jelentem be, hogy megszereztem a(z) {0} kitűzőt ekkor: {1}, itt: {2}"
+msgstr ""
+"Örömmel jelentem be, hogy megszereztem a(z) {0} kitűzőt ekkor: {1}, itt: {2}"
 
 #: frontend/src/pages/ProfileEvaluator.vue:101
 msgid "I am unavailable"
@@ -3950,38 +4109,60 @@ msgid "Identify User Category"
 msgstr "Felhasználói kategória azonosítása"
 
 #: frontend/src/components/Quiz.vue:67
-msgid "If you answer incorrectly, {0} {1} will be deducted from your score for each incorrect answer."
-msgstr "Ha hibásan válaszolsz, minden hibás válaszért {0} {1} kerül levonásra a pontszámodból."
+msgid ""
+"If you answer incorrectly, {0} {1} will be deducted from your score for each"
+" incorrect answer."
+msgstr ""
+"Ha hibásan válaszolsz, minden hibás válaszért {0} {1} kerül levonásra a "
+"pontszámodból."
 
 #: lms/templates/emails/mentor_request_creation_email.html:5
 msgid "If you are not any more interested to mentor the course"
 msgstr "Ha már nem szeretnéd mentorálni a kurzust"
 
 #: frontend/src/components/Quiz.vue:44
-msgid "If you fail to do so, the quiz will be automatically submitted when the timer ends."
-msgstr "Ha ezt elmulasztod, a kvíz automatikusan beadásra kerül, amint az időzítő lejár."
+msgid ""
+"If you fail to do so, the quiz will be automatically submitted when the "
+"timer ends."
+msgstr ""
+"Ha ezt elmulasztod, a kvíz automatikusan beadásra kerül, amint az időzítő "
+"lejár."
 
 #: lms/templates/emails/payment_reminder.html:19
-msgid "If you have any questions or need assistance, feel free to reach out to our support team."
-msgstr "Ha kérdésed van, vagy segítségre van szükséged, fordulj bizalommal az ügyfélszolgálatunkhoz."
+msgid ""
+"If you have any questions or need assistance, feel free to reach out to our "
+"support team."
+msgstr ""
+"Ha kérdésed van, vagy segítségre van szükséged, fordulj bizalommal az "
+"ügyfélszolgálatunkhoz."
 
 #: lms/templates/emails/batch_confirmation.html:29
 #: lms/templates/emails/batch_start_reminder.html:27
 #: lms/templates/emails/batch_start_reminder_recorded.html:30
 #: lms/templates/emails/live_class_reminder.html:24
-msgid "If you have any questions or require assistance, feel free to contact us."
-msgstr "Ha kérdésed van, vagy segítségre van szükséged, fordulj hozzánk bizalommal."
+msgid ""
+"If you have any questions or require assistance, feel free to contact us."
+msgstr ""
+"Ha kérdésed van, vagy segítségre van szükséged, fordulj hozzánk bizalommal."
 
 #. Description of the 'Amount (USD)' (Currency) field in DocType 'LMS Batch'
 #. Description of the 'Amount (USD)' (Currency) field in DocType 'LMS Course'
 #: lms/lms/doctype/lms_batch/lms_batch.json
 #: lms/lms/doctype/lms_course/lms_course.json
-msgid "If you set an amount here, then the USD equivalent setting will not get applied."
-msgstr "Ha itt megadsz egy összeget, akkor az USD-egyenérték beállítás nem lép érvénybe."
+msgid ""
+"If you set an amount here, then the USD equivalent setting will not get "
+"applied."
+msgstr ""
+"Ha itt megadsz egy összeget, akkor az USD-egyenérték beállítás nem lép "
+"érvénybe."
 
 #: lms/lms/doctype/lms_quiz/lms_quiz.py:80
-msgid "If you want open ended questions then make sure each question in the quiz is of open ended type."
-msgstr "Ha nyílt végű kérdéseket szeretnél, ügyelj arra, hogy a kvíz minden kérdése nyílt végű típusú legyen."
+msgid ""
+"If you want open ended questions then make sure each question in the quiz is"
+" of open ended type."
+msgstr ""
+"Ha nyílt végű kérdéseket szeretnél, ügyelj arra, hogy a kvíz minden kérdése "
+"nyílt végű típusú legyen."
 
 #. Option for the 'File Type' (Select) field in DocType 'Course Lesson'
 #. Option for the 'Type' (Select) field in DocType 'LMS Assignment'
@@ -4209,7 +4390,8 @@ msgstr "Hívd meg a csapatodat és a résztvevőket"
 msgid "Is Correct"
 msgstr "Helyes"
 
-#. Label of the is_scorm_chapter (Check) field in DocType 'LMS Course Progress'
+#. Label of the is_scorm_chapter (Check) field in DocType 'LMS Course
+#. Progress'
 #: lms/lms/doctype/lms_course_progress/lms_course_progress.json
 msgid "Is SCORM Chapter"
 msgstr "SCORM-fejezet"
@@ -4237,7 +4419,8 @@ msgstr "Tanúsítvány kiállítása"
 #: frontend/src/pages/Courses/CoursePublishSettings.vue:64
 #: frontend/src/pages/Courses/CoursePublishSettings.vue:77
 msgid "Issue a free certificate when learners complete the course."
-msgstr "Ingyenes tanúsítvány kiállítása, amikor a résztvevők teljesítik a kurzust."
+msgstr ""
+"Ingyenes tanúsítvány kiállítása, amikor a résztvevők teljesítik a kurzust."
 
 #: frontend/src/pages/Batches/BatchForm.vue:98
 msgid "Issue certificates to batch participants."
@@ -4304,9 +4487,9 @@ msgstr "Beosztás"
 
 #. Label of the jobs (Check) field in DocType 'LMS Settings'
 #. Label of the jobs_tab (Tab Break) field in DocType 'LMS Settings'
-#: frontend/src/pages/JobApplications.vue:8 frontend/src/pages/JobDetail.vue:10
-#: frontend/src/pages/JobForm.vue:309 frontend/src/pages/Jobs.vue:6
-#: frontend/src/pages/Jobs.vue:348
+#: frontend/src/pages/JobApplications.vue:8
+#: frontend/src/pages/JobDetail.vue:10 frontend/src/pages/JobForm.vue:309
+#: frontend/src/pages/Jobs.vue:6 frontend/src/pages/Jobs.vue:348
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Jobs"
 msgstr "Állások"
@@ -4651,7 +4834,7 @@ msgstr "Nyelv"
 #: frontend/src/components/Modals/EditProfile.vue:144
 #: frontend/src/components/Modals/NewMemberModal.vue:36
 msgid "Last Name"
-msgstr "Keresztnév"
+msgstr "Vezetéknév"
 
 #. Label of the launch_file (Code) field in DocType 'Course Chapter'
 #: lms/lms/doctype/course_chapter/course_chapter.json
@@ -4665,7 +4848,8 @@ msgstr "Fizetős kurzus indítása"
 #. Name of a Workspace
 #. Title of a Workspace Sidebar
 #: frontend/src/pages/PersonaForm.vue:13
-#: lms/lms/workspace/learning/learning.json lms/workspace_sidebar/learning.json
+#: lms/lms/workspace/learning/learning.json
+#: lms/workspace_sidebar/learning.json
 msgid "Learning"
 msgstr "Tanulás"
 
@@ -4784,8 +4968,12 @@ msgid "Let users enroll themselves."
 msgstr "Engedélyezd, hogy a felhasználók önállóan beiratkozzanak."
 
 #: lms/templates/onboarding_header.html:11
-msgid "Lets start setting up your content on the LMS so that you can reclaim time and focus on growth."
-msgstr "Kezdjük el a tartalom beállítását az LMS-ben, hogy időt nyerj, és a fejlődésre koncentrálhass."
+msgid ""
+"Lets start setting up your content on the LMS so that you can reclaim time "
+"and focus on growth."
+msgstr ""
+"Kezdjük el a tartalom beállítását az LMS-ben, hogy időt nyerj, és a "
+"fejlődésre koncentrálhass."
 
 #. Option for the 'Grade Type' (Select) field in DocType 'Education Detail'
 #: lms/lms/doctype/education_detail/education_detail.json
@@ -4798,7 +4986,9 @@ msgid "Limit Questions To"
 msgstr "Kérdések korlátozása ennyire"
 
 #: lms/lms/doctype/lms_quiz/lms_quiz.py:53
-msgid "Limit cannot be greater than or equal to the number of questions in the quiz."
+msgid ""
+"Limit cannot be greater than or equal to the number of questions in the "
+"quiz."
 msgstr "A korlát nem lehet nagyobb vagy egyenlő a kvíz kérdéseinek számánál."
 
 #: frontend/src/pages/ProfileAbout.vue:96
@@ -4811,7 +5001,8 @@ msgstr "LinkedIn"
 msgid "LinkedIn ID"
 msgstr "LinkedIn-azonosító"
 
-#. Label of the live_class (Link) field in DocType 'LMS Live Class Participant'
+#. Label of the live_class (Link) field in DocType 'LMS Live Class
+#. Participant'
 #. Label of the show_live_class (Check) field in DocType 'LMS Settings'
 #: frontend/src/pages/Batches/components/LiveClass.vue:19
 #: lms/lms/doctype/lms_live_class_participant/lms_live_class_participant.json
@@ -4857,7 +5048,7 @@ msgstr "Helyi"
 #: lms/lms/doctype/education_detail/education_detail.json
 #: lms/lms/doctype/work_experience/work_experience.json
 msgid "Location"
-msgstr "Tartózkodási Hely"
+msgstr "Tartózkodási hely"
 
 #. Label of the location_preference (Select) field in DocType 'User'
 #: lms/fixtures/custom_field.json
@@ -4900,7 +5091,9 @@ msgstr "Az LMS beállítása alapértelmezett kezdőlapként"
 
 #: frontend/src/components/Notes/Notes.vue:7
 msgid "Make notes for quick revision. Press / for menu."
-msgstr "Készíts jegyzeteket a gyors átismétléshez. A menühöz nyomd meg a / billentyűt."
+msgstr ""
+"Készíts jegyzeteket a gyors átismétléshez. A menühöz nyomd meg a / "
+"billentyűt."
 
 #: frontend/src/components/Modals/Event.vue:125
 msgid "Make this certificate visible to the participant."
@@ -4919,8 +5112,10 @@ msgid "Manage your courses and batches at a glance"
 msgstr "Kezeld a kurzusaidat és évfolyamaidat egy pillantással"
 
 #: frontend/src/components/Settings/EmailAccount/EmailAccountList.vue:5
-msgid "Manage your email accounts and configure incoming and outgoing settings."
-msgstr "Kezeld az e-mail-fiókjaidat, és állítsd be a bejövő és kimenő beállításokat."
+msgid ""
+"Manage your email accounts and configure incoming and outgoing settings."
+msgstr ""
+"Kezeld az e-mail-fiókjaidat, és állítsd be a bejövő és kimenő beállításokat."
 
 #. Option for the 'User Category' (Select) field in DocType 'User'
 #: lms/fixtures/custom_field.json lms/templates/signup-form.html:24
@@ -4970,8 +5165,12 @@ msgid "Marks To Cut"
 msgstr "Levonandó pontszám"
 
 #: lms/lms/doctype/lms_quiz_submission/lms_quiz_submission.py:41
-msgid "Marks for question number {0} cannot be greater than the marks allotted for that question."
-msgstr "A(z) {0}. kérdés pontszáma nem lehet nagyobb az adott kérdéshez rendelt pontszámnál."
+msgid ""
+"Marks for question number {0} cannot be greater than the marks allotted for "
+"that question."
+msgstr ""
+"A(z) {0}. kérdés pontszáma nem lehet nagyobb az adott kérdéshez rendelt "
+"pontszámnál."
 
 #. Label of the marks_out_of (Int) field in DocType 'LMS Quiz Result'
 #: frontend/src/pages/QuizSubmission.vue:70
@@ -5112,7 +5311,8 @@ msgstr "Résztvevők száma"
 msgid "Member Image"
 msgstr "Résztvevő képe"
 
-#. Label of the member_name (Data) field in DocType 'LMS Assignment Submission'
+#. Label of the member_name (Data) field in DocType 'LMS Assignment
+#. Submission'
 #. Label of the member_name (Data) field in DocType 'LMS Badge Assignment'
 #. Label of the member_name (Data) field in DocType 'LMS Batch Enrollment'
 #. Label of the member_name (Data) field in DocType 'LMS Batch Feedback'
@@ -5208,7 +5408,8 @@ msgstr "Tagok"
 msgid "Mentor"
 msgstr "Mentor"
 
-#. Label of the mentor_name (Data) field in DocType 'LMS Course Mentor Mapping'
+#. Label of the mentor_name (Data) field in DocType 'LMS Course Mentor
+#. Mapping'
 #: lms/lms/doctype/lms_course_mentor_mapping/lms_course_mentor_mapping.json
 msgid "Mentor Name"
 msgstr "Mentor neve"
@@ -5249,7 +5450,7 @@ msgstr "Az üzenet megadása kötelező"
 #: frontend/src/pages/Batches/BatchForm.vue:262
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Meta Description"
-msgstr "Meta Leírás"
+msgstr "Meta leírás"
 
 #. Label of the meta_image (Attach Image) field in DocType 'LMS Batch'
 #. Label of the meta_image (Attach Image) field in DocType 'LMS Settings'
@@ -5289,7 +5490,8 @@ msgstr "Mérföldkő"
 
 #: lms/lms/doctype/lms_question/lms_question.py:54
 msgid "Minimum two options are required for multiple choice questions."
-msgstr "A feleletválasztós kérdésekhez legalább két válaszlehetőség szükséges."
+msgstr ""
+"A feleletválasztós kérdésekhez legalább két válaszlehetőség szükséges."
 
 #. Name of a role
 #: frontend/src/components/Modals/NewMemberModal.vue:64
@@ -5385,7 +5587,7 @@ msgstr "Jegyzeteim"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:121
 msgid "My Profile"
-msgstr "Profilom"
+msgstr "Saját profil"
 
 #: frontend/src/pages/ProfileEvaluator.vue:4
 msgid "My availability"
@@ -5538,8 +5740,12 @@ msgid "No assessments added to this batch"
 msgstr "Ehhez az évfolyamhoz nem adtak hozzá számonkérést"
 
 #: lms/lms/doctype/lms_live_class/lms_live_class.py:77
-msgid "No calendar is configured for the conferencing provider. Please set up a calendar to create events."
-msgstr "A videokonferencia-szolgáltatóhoz nincs naptár beállítva. Események létrehozásához állíts be egy naptárat."
+msgid ""
+"No calendar is configured for the conferencing provider. Please set up a "
+"calendar to create events."
+msgstr ""
+"A videokonferencia-szolgáltatóhoz nincs naptár beállítva. Események "
+"létrehozásához állíts be egy naptárat."
 
 #: lms/templates/certificates_section.html:23
 msgid "No certificates"
@@ -5664,7 +5870,7 @@ msgstr "Nem {0}"
 
 #: frontend/src/components/Layouts/EmptyStateLayout.vue:37
 msgid "No {0} Found"
-msgstr "Nem Található {0}"
+msgstr "Nem található {0}"
 
 #: frontend/src/pages/PersonaForm.vue:126
 msgid "Non-profit or Government"
@@ -5672,7 +5878,7 @@ msgstr "Nonprofit vagy kormányzati"
 
 #: lms/lms/user.py:29
 msgid "Not Allowed"
-msgstr "Nem Engedélyezett"
+msgstr "Nem engedélyezett"
 
 #. Option for the 'Status' (Select) field in DocType 'LMS Assignment
 #. Submission'
@@ -5799,7 +6005,8 @@ msgid "Once again, congratulations on this significant accomplishment."
 msgstr "Még egyszer gratulálunk ehhez a jelentős teljesítményhez."
 
 #: frontend/src/components/Assignment.vue:66
-msgid "Once the moderator grades your submission, you'll find the details here."
+msgid ""
+"Once the moderator grades your submission, you'll find the details here."
 msgstr "Amint a moderátor értékeli a beadásodat, itt találod a részleteket."
 
 #. Option for the 'Medium' (Select) field in DocType 'LMS Batch'
@@ -6079,7 +6286,8 @@ msgstr "Sikeres"
 
 #. Option for the 'Status' (Select) field in DocType 'LMS Programming Exercise
 #. Submission'
-#. Option for the 'Status' (Select) field in DocType 'LMS Test Case Submission'
+#. Option for the 'Status' (Select) field in DocType 'LMS Test Case
+#. Submission'
 #: frontend/src/pages/ProgrammingExercises/ProgrammingExerciseSubmissions.vue:38
 #: lms/lms/doctype/lms_programming_exercise_submission/lms_programming_exercise_submission.json
 #: lms/lms/doctype/lms_test_case_submission/lms_test_case_submission.json
@@ -6087,7 +6295,8 @@ msgid "Passed"
 msgstr "Sikeres"
 
 #. Label of the passing_percentage (Int) field in DocType 'LMS Quiz'
-#. Label of the passing_percentage (Int) field in DocType 'LMS Quiz Submission'
+#. Label of the passing_percentage (Int) field in DocType 'LMS Quiz
+#. Submission'
 #: frontend/src/pages/QuizForm.vue:195 frontend/src/pages/Quizzes.vue:275
 #: lms/lms/doctype/lms_quiz/lms_quiz.json
 #: lms/lms/doctype/lms_quiz_submission/lms_quiz_submission.json
@@ -6104,8 +6313,12 @@ msgid "Paste a YouTube link"
 msgstr "Illessz be egy YouTube-hivatkozást"
 
 #: frontend/src/components/Controls/VideoPreviewField.vue:107
-msgid "Paste a YouTube link, or upload a video file (MP4, WebM, or OGG) to show a preview on the course page."
-msgstr "Illessz be egy YouTube-hivatkozást, vagy tölts fel egy videofájlt (MP4, WebM vagy OGG), hogy előnézet jelenjen meg a kurzus oldalán."
+msgid ""
+"Paste a YouTube link, or upload a video file (MP4, WebM, or OGG) to show a "
+"preview on the course page."
+msgstr ""
+"Illessz be egy YouTube-hivatkozást, vagy tölts fel egy videofájlt (MP4, WebM"
+" vagy OGG), hogy előnézet jelenjen meg a kurzus oldalán."
 
 #. Label of the payment (Link) field in DocType 'LMS Batch Enrollment'
 #. Label of the payment (Link) field in DocType 'LMS Enrollment'
@@ -6264,8 +6477,12 @@ msgid "Pink"
 msgstr "Rózsaszín"
 
 #: lms/lms/doctype/lms_settings/lms_settings.py:40
-msgid "Please add <a href='{0}'>{1}</a> for <a href='{2}'>{3}</a> to send calendar invites for evaluations."
-msgstr "Az értékelésekhez szükséges naptármeghívók küldéséhez add hozzá a következőt: <a href='{0}'>{1}</a> ehhez: <a href='{2}'>{3}</a>."
+msgid ""
+"Please add <a href='{0}'>{1}</a> for <a href='{2}'>{3}</a> to send calendar "
+"invites for evaluations."
+msgstr ""
+"Az értékelésekhez szükséges naptármeghívók küldéséhez add hozzá a "
+"következőt: <a href='{0}'>{1}</a> ehhez: <a href='{2}'>{3}</a>."
 
 #: lms/lms/user.py:77
 msgid "Please ask your administrator to verify your sign-up"
@@ -6300,8 +6517,12 @@ msgid "Please enroll for this course to view this lesson"
 msgstr "A lecke megtekintéséhez iratkozz be erre a kurzusra"
 
 #: frontend/src/pages/Billing.vue:99
-msgid "Please ensure that the billing name you enter is correct, as it will be used on your invoice."
-msgstr "Ügyelj arra, hogy a megadott számlázási név helyes legyen, mert ez fog szerepelni a számládon."
+msgid ""
+"Please ensure that the billing name you enter is correct, as it will be used"
+" on your invoice."
+msgstr ""
+"Ügyelj arra, hogy a megadott számlázási név helyes legyen, mert ez fog "
+"szerepelni a számládon."
 
 #: frontend/src/components/Quiz.vue:37
 msgid "Please ensure that you complete all the questions in {0} minutes."
@@ -6340,12 +6561,20 @@ msgid "Please fill the mandatory fields: {0}"
 msgstr "Töltsd ki a kötelező mezőket: {0}"
 
 #: lms/lms/doctype/lms_batch/lms_batch.py:72
-msgid "Please install the Payments App to create a paid batch. Refer to the documentation for more details. {0}"
-msgstr "Fizetős évfolyam létrehozásához telepítsd a Payments alkalmazást. A részletekért nézd meg a dokumentációt. {0}"
+msgid ""
+"Please install the Payments App to create a paid batch. Refer to the "
+"documentation for more details. {0}"
+msgstr ""
+"Fizetős évfolyam létrehozásához telepítsd a Payments alkalmazást. A "
+"részletekért nézd meg a dokumentációt. {0}"
 
 #: lms/lms/doctype/lms_course/lms_course.py:71
-msgid "Please install the Payments App to create a paid course. Refer to the documentation for more details. {0}"
-msgstr "Fizetős kurzus létrehozásához telepítsd a Payments alkalmazást. A részletekért nézd meg a dokumentációt. {0}"
+msgid ""
+"Please install the Payments App to create a paid course. Refer to the "
+"documentation for more details. {0}"
+msgstr ""
+"Fizetős kurzus létrehozásához telepítsd a Payments alkalmazást. A "
+"részletekért nézd meg a dokumentációt. {0}"
 
 #: frontend/src/pages/Billing.vue:350
 msgid "Please let us know where you heard about us from."
@@ -6389,8 +6618,10 @@ msgid "Please provide your consent to proceed with the payment."
 msgstr "A fizetés folytatásához add meg a hozzájárulásodat."
 
 #: frontend/src/components/Quiz.vue:14
-msgid "Please read the following instructions carefully before starting the quiz"
-msgstr "A kvíz megkezdése előtt figyelmesen olvasd el a következő utasításokat"
+msgid ""
+"Please read the following instructions carefully before starting the quiz"
+msgstr ""
+"A kvíz megkezdése előtt figyelmesen olvasd el a következő utasításokat"
 
 #: frontend/src/pages/ProgrammingExercises/ProgrammingExerciseSubmission.vue:142
 msgid "Please run the code to execute the test cases."
@@ -6405,8 +6636,12 @@ msgid "Please select a Zoom account for this batch."
 msgstr "Válassz Zoom-fiókot ehhez az évfolyamhoz."
 
 #: frontend/src/pages/Batches/components/LiveClass.vue:10
-msgid "Please select a conferencing provider and add an account to the batch to create live classes."
-msgstr "Élő foglalkozások létrehozásához válassz videokonferencia-szolgáltatót, és adj hozzá egy fiókot az évfolyamhoz."
+msgid ""
+"Please select a conferencing provider and add an account to the batch to "
+"create live classes."
+msgstr ""
+"Élő foglalkozások létrehozásához válassz videokonferencia-szolgáltatót, és "
+"adj hozzá egy fiókot az évfolyamhoz."
 
 #: frontend/src/pages/Programs/ProgramForm.vue:422
 msgid "Please select a course"
@@ -6469,8 +6704,12 @@ msgid "Please upload a SCORM package"
 msgstr "Tölts fel egy SCORM-csomagot"
 
 #: frontend/src/components/Controls/VideoPreviewField.vue:156
-msgid "Please upload an MP4, WebM, or OGG video — formats like .MOV can't be played in the browser."
-msgstr "Tölts fel MP4-, WebM- vagy OGG-videót – a böngésző nem tudja lejátszani az olyan formátumokat, mint a .MOV."
+msgid ""
+"Please upload an MP4, WebM, or OGG video — formats like .MOV can't be played"
+" in the browser."
+msgstr ""
+"Tölts fel MP4-, WebM- vagy OGG-videót – a böngésző nem tudja lejátszani az "
+"olyan formátumokat, mint a .MOV."
 
 #. Option for the 'Grade Type' (Select) field in DocType 'Education Detail'
 #: lms/lms/doctype/education_detail/education_detail.json
@@ -6553,7 +6792,8 @@ msgstr "Üzemelteti a Frappe Learning"
 msgid "Preferred Function"
 msgstr "Preferált funkció"
 
-#. Label of the preferred_functions (Table MultiSelect) field in DocType 'User'
+#. Label of the preferred_functions (Table MultiSelect) field in DocType
+#. 'User'
 #: lms/fixtures/custom_field.json
 msgid "Preferred Functions"
 msgstr "Preferált funkciók"
@@ -6574,7 +6814,8 @@ msgstr "Preferált iparág"
 msgid "Preferred Location"
 msgstr "Preferált helyszín"
 
-#. Label of the prevent_skipping_videos (Check) field in DocType 'LMS Settings'
+#. Label of the prevent_skipping_videos (Check) field in DocType 'LMS
+#. Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Prevent Skipping Videos"
 msgstr "Videók átugrásának megakadályozása"
@@ -6582,7 +6823,7 @@ msgstr "Videók átugrásának megakadályozása"
 #. Label of the image (Attach Image) field in DocType 'LMS Course'
 #: lms/lms/doctype/lms_course/lms_course.json
 msgid "Preview Image"
-msgstr "Előnézeti Kép"
+msgstr "Előnézeti kép"
 
 #. Label of the video_link (Attach) field in DocType 'LMS Batch'
 #: frontend/src/pages/Batches/BatchForm.vue:193
@@ -6621,8 +6862,11 @@ msgstr "Elsődleges országok"
 #. Description of the 'Hide my Private Information from others' (Check) field
 #. in DocType 'User'
 #: lms/fixtures/custom_field.json
-msgid "Private Information includes your Grade and Work Environment Preferences"
-msgstr "A személyes adatok tartalmazzák az értékelésedet és a munkakörnyezeti preferenciáidat"
+msgid ""
+"Private Information includes your Grade and Work Environment Preferences"
+msgstr ""
+"A személyes adatok tartalmazzák az értékelésedet és a munkakörnyezeti "
+"preferenciáidat"
 
 #. Label of the problem_statement (Text Editor) field in DocType 'LMS
 #. Programming Exercise'
@@ -6792,9 +7036,10 @@ msgstr "Közzétett kurzusok"
 #. Label of the published_on (Date) field in DocType 'LMS Course'
 #: lms/lms/doctype/lms_course/lms_course.json
 msgid "Published On"
-msgstr "Közzétette Ekkor"
+msgstr "Közzétéve"
 
-#. Label of the purchased_certificate (Check) field in DocType 'LMS Enrollment'
+#. Label of the purchased_certificate (Check) field in DocType 'LMS
+#. Enrollment'
 #: frontend/src/pages/Courses/CourseEnrollmentModal.vue:7
 #: lms/lms/doctype/lms_enrollment/lms_enrollment.json
 msgid "Purchased Certificate"
@@ -6822,7 +7067,8 @@ msgstr "Python"
 #. Label of the question (Text) field in DocType 'LMS Quiz Result'
 #: frontend/src/components/Modals/AssignmentForm.vue:33
 #: frontend/src/components/Modals/Question.vue:19
-#: frontend/src/pages/QuizForm.vue:441 frontend/src/pages/QuizSubmission.vue:58
+#: frontend/src/pages/QuizForm.vue:441
+#: frontend/src/pages/QuizSubmission.vue:58
 #: lms/lms/doctype/course_lesson/course_lesson.json
 #: lms/lms/doctype/lms_assignment/lms_assignment.json
 #: lms/lms/doctype/lms_assignment_submission/lms_assignment_submission.json
@@ -6923,7 +7169,8 @@ msgstr "A kvíz sikeresen törölve"
 
 #: lms/plugins.py:97
 msgid "Quiz is not available to Guest users. Please login to continue."
-msgstr "A kvíz nem érhető el vendégfelhasználók számára. A folytatáshoz lépj be."
+msgstr ""
+"A kvíz nem érhető el vendégfelhasználók számára. A folytatáshoz lépj be."
 
 #: frontend/src/components/CourseCardOverlay.vue:129
 msgid "Quiz topic"
@@ -7000,7 +7247,8 @@ msgstr "Beváltások száma"
 msgid "Reference DocName"
 msgstr "Hivatkozás DocNév"
 
-#. Label of the reference_doctype (Link) field in DocType 'LMS Batch Timetable'
+#. Label of the reference_doctype (Link) field in DocType 'LMS Batch
+#. Timetable'
 #. Label of the reference_doctype (Select) field in DocType 'LMS Coupon Item'
 #. Label of the reference_doctype (Link) field in DocType 'LMS Timetable
 #. Legend'
@@ -7158,15 +7406,19 @@ msgstr "A(z) {0}. sor: a dátum nem eshet az évfolyam időtartamán kívülre."
 
 #: lms/lms/doctype/lms_batch/lms_batch.py:125
 msgid "Row #{0} End time cannot be outside the batch duration."
-msgstr "A(z) {0}. sor: a záró időpont nem eshet az évfolyam időtartamán kívülre."
+msgstr ""
+"A(z) {0}. sor: a záró időpont nem eshet az évfolyam időtartamán kívülre."
 
 #: lms/lms/doctype/lms_batch/lms_batch.py:109
 msgid "Row #{0} Start time cannot be greater than or equal to end time."
-msgstr "A(z) {0}. sor: a kezdő időpont nem lehet nagyobb vagy egyenlő a záró időpontnál."
+msgstr ""
+"A(z) {0}. sor: a kezdő időpont nem lehet nagyobb vagy egyenlő a záró "
+"időpontnál."
 
 #: lms/lms/doctype/lms_batch/lms_batch.py:118
 msgid "Row #{0} Start time cannot be outside the batch duration."
-msgstr "A(z) {0}. sor: a kezdő időpont nem eshet az évfolyam időtartamán kívülre."
+msgstr ""
+"A(z) {0}. sor: a kezdő időpont nem eshet az évfolyam időtartamán kívülre."
 
 #: lms/lms/doctype/lms_quiz/lms_quiz.py:46
 msgid "Rows {0} have the duplicate questions."
@@ -7186,7 +7438,8 @@ msgstr "Fut"
 msgid "Rust"
 msgstr "Rust"
 
-#. Label of the scorm_section (Section Break) field in DocType 'Course Chapter'
+#. Label of the scorm_section (Section Break) field in DocType 'Course
+#. Chapter'
 #: lms/lms/doctype/course_chapter/course_chapter.json
 msgid "SCORM"
 msgstr "SCORM"
@@ -7366,7 +7619,7 @@ msgstr "Több megjelenítése"
 
 #: frontend/src/components/Settings/Badges/BadgeAssignmentForm.vue:41
 msgid "Select Date"
-msgstr "Válassz dátumot"
+msgstr "Válassz dátumot…"
 
 #: frontend/src/components/Settings/PaymentGatewayDetails.vue:24
 msgid "Select Payment Gateway"
@@ -7437,11 +7690,18 @@ msgstr "Önálló beiratkozás"
 
 #: frontend/src/pages/Courses/CoursePublishSettings.vue:86
 msgid "Sell an evaluator-graded certificate alongside this free course."
-msgstr "Kínálj a mentor által értékelt tanúsítványt e mellett az ingyenes kurzus mellett."
+msgstr ""
+"Kínálj a mentor által értékelt tanúsítványt e mellett az ingyenes kurzus "
+"mellett."
 
 #: frontend/src/pages/Courses/CoursePublishSettings.vue:180
-msgid "Selling a paid course or certificate needs the Payments app. Install it from the Frappe Marketplace, then turn on pricing here."
-msgstr "Fizetős kurzus vagy tanúsítvány értékesítéséhez a Payments alkalmazás szükséges. Telepítsd a Frappe Marketplace-ről, majd itt kapcsold be az árazást."
+msgid ""
+"Selling a paid course or certificate needs the Payments app. Install it from"
+" the Frappe Marketplace, then turn on pricing here."
+msgstr ""
+"Fizetős kurzus vagy tanúsítvány értékesítéséhez a Payments alkalmazás "
+"szükséges. Telepítsd a Frappe Marketplace-ről, majd itt kapcsold be az "
+"árazást."
 
 #: frontend/src/components/ContactUsEmail.vue:27
 #: frontend/src/pages/JobApplications.vue:126
@@ -7478,7 +7738,8 @@ msgstr "Értesítés küldése közzétett kurzusokról"
 msgid "Send Payment Reminders for Batch"
 msgstr "Fizetési emlékeztetők küldése évfolyamhoz"
 
-#. Label of the send_payment_reminders_for_course (Check) field in DocType 'LMS
+#. Label of the send_payment_reminders_for_course (Check) field in DocType
+#. 'LMS
 #. Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Send Payment Reminders for Course"
@@ -7504,11 +7765,15 @@ msgstr "A munkamenet sikeresen frissítve"
 
 #: frontend/src/components/Controls/ColorSwatches.vue:11
 msgid "Set Color"
-msgstr "Szín Beállítása"
+msgstr "Szín beállítása"
 
 #: frontend/src/components/Settings/Coupons/CouponDetails.vue:5
-msgid "Set the discount, validity, and the courses or batches this coupon applies to."
-msgstr "Állítsd be a kedvezményt, az érvényességet, valamint azokat a kurzusokat vagy évfolyamokat, amelyekre ez a kupon vonatkozik."
+msgid ""
+"Set the discount, validity, and the courses or batches this coupon applies "
+"to."
+msgstr ""
+"Állítsd be a kedvezményt, az érvényességet, valamint azokat a kurzusokat "
+"vagy évfolyamokat, amelyekre ez a kupon vonatkozik."
 
 #: frontend/src/components/Settings/BrandSettings.vue:25
 msgid "Set the name of your brand. Appears in the left sidebar."
@@ -7623,7 +7888,8 @@ msgstr "Regisztráció letiltott"
 msgid "Sign up"
 msgstr "Regisztráljon"
 
-#. Label of the signup_settings_tab (Tab Break) field in DocType 'LMS Settings'
+#. Label of the signup_settings_tab (Tab Break) field in DocType 'LMS
+#. Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Signup Settings"
 msgstr "Regisztrációs beállítások"
@@ -7659,7 +7925,8 @@ msgid "Skip"
 msgstr "Ugrás"
 
 #: frontend/src/components/Questionnaire.vue:147
-#: frontend/src/pages/PersonaForm.vue:39 frontend/src/pages/PersonaForm.vue:102
+#: frontend/src/pages/PersonaForm.vue:39
+#: frontend/src/pages/PersonaForm.vue:102
 msgid "Skip for now"
 msgstr "Kihagyás egyelőre"
 
@@ -7736,7 +8003,8 @@ msgstr "Kezdj el tanulni"
 #. Label of the start_time (Time) field in DocType 'Evaluator Schedule'
 #. Label of the start_time (Time) field in DocType 'LMS Batch'
 #. Label of the start_time (Time) field in DocType 'LMS Batch Timetable'
-#. Label of the start_time (Time) field in DocType 'LMS Certificate Evaluation'
+#. Label of the start_time (Time) field in DocType 'LMS Certificate
+#. Evaluation'
 #. Label of the start_time (Time) field in DocType 'LMS Certificate Request'
 #. Label of the start_time (Time) field in DocType 'Scheduled Flow'
 #: frontend/src/pages/Batches/components/NewBatchModal.vue:31
@@ -7770,7 +8038,7 @@ msgstr "Startupszervezet"
 
 #: frontend/src/pages/Billing.vue:135
 msgid "State/Province"
-msgstr "Állam / Megye"
+msgstr "Állam / megye"
 
 #. Label of the tab_4_tab (Tab Break) field in DocType 'LMS Course'
 #. Label of the statistics (Check) field in DocType 'LMS Settings'
@@ -7856,8 +8124,10 @@ msgstr "Résztvevők"
 
 #. Description of the 'Paid Batch' (Check) field in DocType 'LMS Batch'
 #: lms/lms/doctype/lms_batch/lms_batch.json
-msgid "Students will be enrolled in a paid batch once they complete the payment"
-msgstr "A résztvevők a fizetés teljesítése után iratkoznak be a fizetős évfolyamra"
+msgid ""
+"Students will be enrolled in a paid batch once they complete the payment"
+msgstr ""
+"A résztvevők a fizetés teljesítése után iratkoznak be a fizetős évfolyamra"
 
 #: frontend/src/components/ContactUsEmail.vue:7
 #: frontend/src/components/Modals/EmailTemplateModal.vue:28
@@ -7915,8 +8185,12 @@ msgid "Submit Feedback"
 msgstr "Visszajelzés küldése"
 
 #: frontend/src/components/Modals/JobApplicationModal.vue:21
-msgid "Submit your resume to proceed with your application for this position. Upon submission, it will be shared with the job poster."
-msgstr "Az állásra való jelentkezés folytatásához add be az önéletrajzodat. A beadást követően megosztjuk az álláshirdetővel."
+msgid ""
+"Submit your resume to proceed with your application for this position. Upon "
+"submission, it will be shared with the job poster."
+msgstr ""
+"Az állásra való jelentkezés folytatásához add be az önéletrajzodat. A "
+"beadást követően megosztjuk az álláshirdetővel."
 
 #: frontend/src/pages/Programs/ProgramEnrollment.vue:140
 msgid "Successfully enrolled in program"
@@ -8085,16 +8359,24 @@ msgid "Thanks and Regards"
 msgstr "Köszönettel és üdvözlettel"
 
 #: lms/lms/doctype/lms_batch/lms_batch.py:313
-msgid "The Google Meet account does not have a Google Calendar configured. Please set up a Google Calendar first."
-msgstr "A Google Meet-fiókhoz nincs Google Naptár beállítva. Előbb állíts be egy Google Naptárat."
+msgid ""
+"The Google Meet account does not have a Google Calendar configured. Please "
+"set up a Google Calendar first."
+msgstr ""
+"A Google Meet-fiókhoz nincs Google Naptár beállítva. Előbb állíts be egy "
+"Google Naptárat."
 
 #: lms/lms/utils.py:2548
 msgid "The batch does not exist."
 msgstr "Az évfolyam nem létezik."
 
 #: lms/templates/emails/batch_start_reminder.html:6
-msgid "The batch you have enrolled for is starting tomorrow. Please be prepared and be on time for the session."
-msgstr "Az évfolyam, amelyre beiratkoztál, holnap kezdődik. Készülj fel, és érkezz pontosan a foglalkozásra."
+msgid ""
+"The batch you have enrolled for is starting tomorrow. Please be prepared and"
+" be on time for the session."
+msgstr ""
+"Az évfolyam, amelyre beiratkoztál, holnap kezdődik. Készülj fel, és érkezz "
+"pontosan a foglalkozásra."
 
 #: lms/lms/utils.py:2022
 msgid "The coupon code '{0}' is invalid."
@@ -8105,12 +8387,20 @@ msgid "The course {0} is now available on {1}."
 msgstr "A(z) {0} kurzus mostantól elérhető itt: {1}."
 
 #: frontend/src/components/UpcomingEvaluations.vue:26
-msgid "The deadline to schedule evaluations has passed. Please contact the Instructor for assistance."
-msgstr "Az értékelések ütemezésének határideje lejárt. Segítségért fordulj az oktatóhoz."
+msgid ""
+"The deadline to schedule evaluations has passed. Please contact the "
+"Instructor for assistance."
+msgstr ""
+"Az értékelések ütemezésének határideje lejárt. Segítségért fordulj az "
+"oktatóhoz."
 
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.py:70
-msgid "The evaluator of this course is unavailable from {0} to {1}. Please select a date after {1}"
-msgstr "A kurzus mentora {0} és {1} között nem elérhető. Válassz egy {1} utáni dátumot"
+msgid ""
+"The evaluator of this course is unavailable from {0} to {1}. Please select a"
+" date after {1}"
+msgstr ""
+"A kurzus mentora {0} és {1} között nem elérhető. Válassz egy {1} utáni "
+"dátumot"
 
 #: lms/lms/doctype/lms_assignment_submission/lms_assignment_submission.py:82
 msgid "The instructor has left a comment on your assignment {0}"
@@ -8129,12 +8419,17 @@ msgid "The lesson does not exist."
 msgstr "A lecke nem létezik."
 
 #: lms/lms/doctype/lms_batch/lms_batch.py:149
-msgid "The selected Google Meet account does not have a Google Calendar configured."
+msgid ""
+"The selected Google Meet account does not have a Google Calendar configured."
 msgstr "A kiválasztott Google Meet-fiókhoz nincs Google Naptár beállítva."
 
 #: lms/lms/doctype/lms_batch/lms_batch.py:142
-msgid "The selected Google Meet account is disabled. Please enable it or select another account."
-msgstr "A kiválasztott Google Meet-fiók le van tiltva. Engedélyezd, vagy válassz másik fiókot."
+msgid ""
+"The selected Google Meet account is disabled. Please enable it or select "
+"another account."
+msgstr ""
+"A kiválasztott Google Meet-fiók le van tiltva. Engedélyezd, vagy válassz "
+"másik fiókot."
 
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.py:89
 msgid "The slot is already booked by another participant."
@@ -8149,12 +8444,17 @@ msgid "The status of your application has changed."
 msgstr "A jelentkezésed állapota megváltozott."
 
 #: frontend/src/components/CreateOutline.vue:12
-msgid "There are no chapters in this course. Create and manage chapters from here."
-msgstr "Ebben a kurzusban nincsenek fejezetek. Itt hozhatsz létre és kezelhetsz fejezeteket."
+msgid ""
+"There are no chapters in this course. Create and manage chapters from here."
+msgstr ""
+"Ebben a kurzusban nincsenek fejezetek. Itt hozhatsz létre és kezelhetsz "
+"fejezeteket."
 
 #: frontend/src/pages/Home/AdminHome.vue:178
-msgid "There are no courses currently. Create your first course to get started!"
-msgstr "Jelenleg nincsenek kurzusok. A kezdéshez hozd létre az első kurzusodat!"
+msgid ""
+"There are no courses currently. Create your first course to get started!"
+msgstr ""
+"Jelenleg nincsenek kurzusok. A kezdéshez hozd létre az első kurzusodat!"
 
 #: lms/lms/doctype/lms_batch/lms_batch.py:100
 #: lms/lms/doctype/lms_batch_enrollment/lms_batch_enrollment.py:74
@@ -8166,7 +8466,9 @@ msgid "There are no submissions for this assignment."
 msgstr "Ehhez a beadandóhoz nincsenek beadások."
 
 #: frontend/src/components/Layouts/EmptyStateLayout.vue:43
-msgid "There are no {0} currently. Keep an eye out, fresh learning experiences are on the way!"
+msgid ""
+"There are no {0} currently. Keep an eye out, fresh learning experiences are "
+"on the way!"
 msgstr "Jelenleg nincsenek {0}. Figyelj, friss tanulási élmények érkeznek!"
 
 #: lms/templates/course_list.html:14
@@ -8174,7 +8476,9 @@ msgid "There are no {0} on this site."
 msgstr "Ezen az oldalon nincsenek {0}."
 
 #: lms/lms/doctype/lms_quiz_submission/lms_quiz_submission.py:59
-msgid "There has been an update on your submission. You have got a score of {0} for the quiz {1}"
+msgid ""
+"There has been an update on your submission. You have got a score of {0} for"
+" the quiz {1}"
 msgstr "Frissült a beadásod. {0} pontot értél el a(z) {1} kvízen"
 
 #. Description of the 'section_break_ubxi' (Section Break) field in DocType
@@ -8184,8 +8488,11 @@ msgid "These customisations will work on the main batch page."
 msgstr "Ezek a testreszabások az évfolyam fő oldalán érvényesülnek."
 
 #: frontend/src/pages/Courses/CourseOverviewSection.vue:51
-msgid "These tags help search engines describe and rank your course in results."
-msgstr "Ezek a címkék segítik a keresőmotorokat a kurzusod leírásában és a találatok közötti rangsorolásában."
+msgid ""
+"These tags help search engines describe and rank your course in results."
+msgstr ""
+"Ezek a címkék segítik a keresőmotorokat a kurzusod leírásában és a találatok"
+" közötti rangsorolásában."
 
 #: frontend/src/pages/PersonaForm.vue:159
 msgid "Thinkific"
@@ -8233,26 +8540,37 @@ msgstr "Ez a kurzus ingyenes."
 #. Description of the 'Meta Description' (Small Text) field in DocType 'LMS
 #. Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
-msgid "This description will be shown on lists and pages without meta description"
+msgid ""
+"This description will be shown on lists and pages without meta description"
 msgstr "Ez a leírás jelenik meg a metaleírás nélküli listákon és oldalakon"
 
 #. Description of the 'Meta Image' (Attach Image) field in DocType 'LMS
 #. Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
-msgid "This image will be shown on lists and pages that don't have an image by default"
-msgstr "Ez a kép jelenik meg azokon a listákon és oldalakon, amelyeknek alapértelmezetten nincs képük"
+msgid ""
+"This image will be shown on lists and pages that don't have an image by "
+"default"
+msgstr ""
+"Ez a kép jelenik meg azokon a listákon és oldalakon, amelyeknek "
+"alapértelmezetten nincs képük"
 
 #: frontend/src/pages/Lesson.vue:31
 msgid "This lesson is locked"
 msgstr "Ez a lecke zárolva van"
 
 #: frontend/src/pages/Lesson.vue:36
-msgid "This lesson is not available for preview. Please enroll in the course to access it."
-msgstr "Ez a lecke nem érhető el előnézetben. Az eléréséhez iratkozz be a kurzusra."
+msgid ""
+"This lesson is not available for preview. Please enroll in the course to "
+"access it."
+msgstr ""
+"Ez a lecke nem érhető el előnézetben. Az eléréséhez iratkozz be a kurzusra."
 
 #: lms/lms/widgets/NoPreviewModal.html:16
-msgid "This lesson is not available for preview. Please join the course to access it."
-msgstr "Ez a lecke nem érhető el előnézetben. Az eléréséhez csatlakozz a kurzushoz."
+msgid ""
+"This lesson is not available for preview. Please join the course to access "
+"it."
+msgstr ""
+"Ez a lecke nem érhető el előnézetben. Az eléréséhez csatlakozz a kurzushoz."
 
 #: frontend/src/components/Settings/EmailAccount/EmailAccountList.vue:103
 msgid "This permanently deletes the email account and cannot be undone."
@@ -8280,8 +8598,12 @@ msgstr "Ehhez a kvízhez még nincsenek elérhető kérdések."
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:91
 #: frontend/src/components/Sidebar/AppSidebar.vue:177
-msgid "This site is being updated. You will not be able to make any changes. Full access will be restored shortly."
-msgstr "Az oldal frissítése folyamatban van. Egyelőre nem tudsz módosításokat végezni. A teljes hozzáférés hamarosan helyreáll."
+msgid ""
+"This site is being updated. You will not be able to make any changes. Full "
+"access will be restored shortly."
+msgstr ""
+"Az oldal frissítése folyamatban van. Egyelőre nem tudsz módosításokat "
+"végezni. A teljes hozzáférés hamarosan helyreáll."
 
 #: lms/lms/api.py:1652
 msgid "This user cannot be deleted."
@@ -8292,12 +8614,19 @@ msgid "This video contains {0} {1}:"
 msgstr "Ez a videó {0} {1} tartalmaz:"
 
 #: frontend/src/components/Controls/VideoPreviewField.vue:161
-msgid "This video's codec can't be played in browsers (e.g. HEVC/H.265). Please upload an H.264 MP4 or a WebM."
-msgstr "Ennek a videónak a kodekjét a böngészők nem tudják lejátszani (pl. HEVC/H.265). Tölts fel H.264 MP4- vagy WebM-fájlt."
+msgid ""
+"This video's codec can't be played in browsers (e.g. HEVC/H.265). Please "
+"upload an H.264 MP4 or a WebM."
+msgstr ""
+"Ennek a videónak a kodekjét a böngészők nem tudják lejátszani (pl. "
+"HEVC/H.265). Tölts fel H.264 MP4- vagy WebM-fájlt."
 
 #: frontend/src/components/Settings/Coupons/CouponList.vue:122
-msgid "This will permanently delete the coupon and the code will no longer be valid."
-msgstr "Ez véglegesen törli a kupont, és a kód a továbbiakban nem lesz érvényes."
+msgid ""
+"This will permanently delete the coupon and the code will no longer be "
+"valid."
+msgstr ""
+"Ez véglegesen törli a kupont, és a kód a továbbiakban nem lesz érvényes."
 
 #. Option for the 'Day' (Select) field in DocType 'Evaluator Schedule'
 #. Option for the 'Day' (Select) field in DocType 'LMS Certificate Request'
@@ -8337,7 +8666,9 @@ msgstr "A videóbeli időpont meghaladja a videó teljes hosszát."
 
 #: frontend/src/components/Modals/LiveClassModal.vue:40
 msgid "Time must be in 24 hour format (HH:mm). Example 11:30 or 22:00"
-msgstr "Az időpontnak 24 órás formátumban (ÓÓ:PP) kell lennie. Például 11:30 vagy 22:00"
+msgstr ""
+"Az időpontnak 24 órás formátumban (ÓÓ:PP) kell lennie. Például 11:30 vagy "
+"22:00"
 
 #: lms/templates/emails/published_batch_notification.html:29
 msgid "Time: "
@@ -8446,7 +8777,7 @@ msgstr "A cím megadása kötelező"
 #: frontend/src/pages/ProfileEvaluator.vue:120
 #: lms/lms/doctype/course_evaluator/course_evaluator.json
 msgid "To"
-msgstr "Címzett"
+msgstr "-ig"
 
 #. Label of the to_date (Date) field in DocType 'Work Experience'
 #: lms/lms/doctype/work_experience/work_experience.json
@@ -8455,15 +8786,21 @@ msgstr "Dátumig"
 
 #: lms/lms/utils.py:1996
 msgid "To join this batch, please contact the Administrator."
-msgstr "Az erre az évfolyamra való csatlakozáshoz vedd fel a kapcsolatot a rendszergazdával."
+msgstr ""
+"Az erre az évfolyamra való csatlakozáshoz vedd fel a kapcsolatot a "
+"rendszergazdával."
 
 #: frontend/src/components/CourseReviews.vue:189
 msgid "Today"
 msgstr "Ma"
 
 #: lms/lms/user.py:43
-msgid "Too many users signed up recently, so the registration is disabled. Please try back in an hour"
-msgstr "Túl sok felhasználó regisztrált a közelmúltban, így a regisztrációt letiltotta. Kérjük, próbálja meg újra egy óra múlva"
+msgid ""
+"Too many users signed up recently, so the registration is disabled. Please "
+"try back in an hour"
+msgstr ""
+"Túl sok felhasználó regisztrált a közelmúltban, így a regisztrációt "
+"letiltotta. Kérjük, próbálja meg újra egy óra múlva"
 
 #: frontend/src/pages/Billing.vue:54
 msgid "Total"
@@ -8539,7 +8876,8 @@ msgstr "Twitter-azonosító"
 #. Label of the type (Select) field in DocType 'LMS Quiz Question'
 #: frontend/src/components/Modals/AssessmentModal.vue:20
 #: frontend/src/components/Modals/Question.vue:36
-#: frontend/src/pages/Assignments.vue:45 frontend/src/pages/Assignments.vue:279
+#: frontend/src/pages/Assignments.vue:45
+#: frontend/src/pages/Assignments.vue:279
 #: frontend/src/pages/Batches/components/Assessments.vue:212
 #: frontend/src/pages/JobForm.vue:32 frontend/src/pages/Jobs.vue:82
 #: frontend/src/pages/ProgrammingExercises/ProgrammingExercises.vue:58
@@ -8598,7 +8936,8 @@ msgstr "A résztvevő nem frissíthető"
 msgid "Unattempted Questions"
 msgstr "Meg nem válaszolt kérdések"
 
-#. Label of the unavailability_section (Section Break) field in DocType 'Course
+#. Label of the unavailability_section (Section Break) field in DocType
+#. 'Course
 #. Evaluator'
 #: lms/lms/doctype/course_evaluator/course_evaluator.json
 msgid "Unavailability"
@@ -8690,7 +9029,7 @@ msgstr "Fiók frissítése"
 
 #: lms/templates/emails/community_course_membership.html:11
 msgid "Update Password"
-msgstr "Jelszó Frissítése"
+msgstr "Jelszó frissítése"
 
 #: frontend/src/components/Settings/EmailTemplate/EmailTemplateEdit.vue:10
 msgid "Update Template"
@@ -8716,8 +9055,12 @@ msgid "Upload File"
 msgstr "Fájl feltöltése"
 
 #: frontend/src/pages/Courses/NewCourseModal.vue:189
-msgid "Upload a 750×422 image (.jpg, .jpeg, .gif, or .png) — shown on the catalog card and lesson hero."
-msgstr "Tölts fel egy 750×422-es képet (.jpg, .jpeg, .gif vagy .png) – ez jelenik meg a katalóguskártyán és a lecke fejlécében."
+msgid ""
+"Upload a 750×422 image (.jpg, .jpeg, .gif, or .png) — shown on the catalog "
+"card and lesson hero."
+msgstr ""
+"Tölts fel egy 750×422-es képet (.jpg, .jpeg, .gif vagy .png) – ez jelenik "
+"meg a katalóguskártyán és a lecke fejlécében."
 
 #: frontend/src/pages/Courses/CourseThumbnailField.vue:115
 msgid "Upload an image to replace the color."
@@ -8736,8 +9079,12 @@ msgid "Upload video"
 msgstr "Videó feltöltése"
 
 #: frontend/src/components/Controls/VideoPreviewField.vue:73
-msgid "Uploaded video — students see it on the course page. Remove it to use a YouTube link instead."
-msgstr "Feltöltött videó – a résztvevők a kurzus oldalán látják. Távolítsd el, ha helyette YouTube-hivatkozást szeretnél használni."
+msgid ""
+"Uploaded video — students see it on the course page. Remove it to use a "
+"YouTube link instead."
+msgstr ""
+"Feltöltött videó – a résztvevők a kurzus oldalán látják. Távolítsd el, ha "
+"helyette YouTube-hivatkozást szeretnél használni."
 
 #: frontend/src/components/Controls/Uploader.vue:39
 #: frontend/src/pages/Courses/CourseThumbnailField.vue:60
@@ -8789,7 +9136,7 @@ msgstr "Felhasználói kategória"
 #. Label of the user_field (Select) field in DocType 'LMS Badge'
 #: lms/lms/doctype/lms_badge/lms_badge.json
 msgid "User Field"
-msgstr "Felhasználói Mező"
+msgstr "Felhasználói mező"
 
 #. Label of the user_image (Attach Image) field in DocType 'Course Evaluator'
 #: lms/lms/doctype/course_evaluator/course_evaluator.json
@@ -8814,7 +9161,9 @@ msgstr "A felhasználó törölve"
 
 #: lms/lms/api.py:1974
 msgid "User does not have permission to access this user's profile details."
-msgstr "A felhasználónak nincs jogosultsága a felhasználó profiladatainak eléréséhez."
+msgstr ""
+"A felhasználónak nincs jogosultsága a felhasználó profiladatainak "
+"eléréséhez."
 
 #: lms/lms/api.py:1654
 msgid "User {0} does not exist."
@@ -8851,7 +9200,7 @@ msgstr "Érték"
 #. Option for the 'Event' (Select) field in DocType 'LMS Badge'
 #: lms/lms/doctype/lms_badge/lms_badge.json
 msgid "Value Change"
-msgstr "Érték Változás"
+msgstr "Értékváltozás"
 
 #. Label of the video_link (Data) field in DocType 'LMS Course'
 #: lms/lms/doctype/lms_course/lms_course.json
@@ -8864,8 +9213,12 @@ msgid "Video Statistics"
 msgstr "Videóstatisztika"
 
 #: frontend/src/pages/Lesson.vue:902
-msgid "Video failed to load — this lesson will still be marked complete after you spend some time on it."
-msgstr "A videó betöltése sikertelen – ez a lecke akkor is teljesítettként lesz megjelölve, ha egy kis időt eltöltesz vele."
+msgid ""
+"Video failed to load — this lesson will still be marked complete after you "
+"spend some time on it."
+msgstr ""
+"A videó betöltése sikertelen – ez a lecke akkor is teljesítettként lesz "
+"megjelölve, ha egy kis időt eltöltesz vele."
 
 #: frontend/src/pages/JobDetail.vue:31
 msgid "View Applications"
@@ -8926,11 +9279,16 @@ msgid "Watch Time (mins)"
 msgstr "Megtekintési idő (perc)"
 
 #: lms/templates/emails/batch_confirmation.html:6
-msgid "We are pleased to inform you that you have been enrolled in our upcoming batch. Congratulations!"
-msgstr "Örömmel értesítünk, hogy beiratkoztattunk a következő évfolyamunkba. Gratulálunk!"
+msgid ""
+"We are pleased to inform you that you have been enrolled in our upcoming "
+"batch. Congratulations!"
+msgstr ""
+"Örömmel értesítünk, hogy beiratkoztattunk a következő évfolyamunkba. "
+"Gratulálunk!"
 
 #: lms/templates/emails/payment_reminder.html:7
-msgid "We have a limited number of seats, and they won't be available for long!"
+msgid ""
+"We have a limited number of seats, and they won't be available for long!"
 msgstr "Korlátozott számú helyünk van, és nem sokáig lesznek elérhetők!"
 
 #: lms/templates/emails/payment_reminder.html:4
@@ -8975,12 +9333,18 @@ msgid "When a course gets submitted for review, it will be listed here."
 msgstr "Amikor egy kurzust elbírálásra beadnak, itt jelenik meg."
 
 #: frontend/src/pages/LessonForm.vue:13
-msgid "When on, anyone can preview this lesson without enrolling. Otherwise it is visible only to enrolled students."
-msgstr "Bekapcsolva bárki megtekintheti előnézetben ezt a leckét beiratkozás nélkül. Egyébként csak a beiratkozott résztvevők számára látható."
+msgid ""
+"When on, anyone can preview this lesson without enrolling. Otherwise it is "
+"visible only to enrolled students."
+msgstr ""
+"Bekapcsolva bárki megtekintheti előnézetben ezt a leckét beiratkozás nélkül."
+" Egyébként csak a beiratkozott résztvevők számára látható."
 
 #: lms/templates/emails/batch_start_reminder_recorded.html:11
 msgid "When you feel ready, you can schedule an evaluation to get certified."
-msgstr "Amikor késznek érzed magad, beütemezhetsz egy értékelést a tanúsítvány megszerzéséhez."
+msgstr ""
+"Amikor késznek érzed magad, beütemezhetsz egy értékelést a tanúsítvány "
+"megszerzéséhez."
 
 #: frontend/src/pages/Billing.vue:162
 msgid "Where did you hear about us?"
@@ -8991,8 +9355,16 @@ msgid "Where will you be using Frappe Learning?"
 msgstr "Hol fogod használni a Frappe Learninget?"
 
 #: lms/templates/emails/certification.html:10
-msgid "With this certification, you can now showcase your updated skills and share your achievement with your colleagues and on LinkedIn. To access your certificate, please click on the link provided below. Make sure you are logged in to the portal."
-msgstr "Ezzel a tanúsítással mostantól megmutathatod a frissített készségeidet, és megoszthatod az eredményedet a kollégáiddal és a LinkedInen. A tanúsítványod eléréséhez kattints az alábbi hivatkozásra. Győződj meg róla, hogy be vagy jelentkezve a portálra."
+msgid ""
+"With this certification, you can now showcase your updated skills and share "
+"your achievement with your colleagues and on LinkedIn. To access your "
+"certificate, please click on the link provided below. Make sure you are "
+"logged in to the portal."
+msgstr ""
+"Ezzel a tanúsítással mostantól megmutathatod a frissített készségeidet, és "
+"megoszthatod az eredményedet a kollégáiddal és a LinkedInen. A tanúsítványod"
+" eléréséhez kattints az alábbi hivatkozásra. Győződj meg róla, hogy be vagy "
+"jelentkezve a portálra."
 
 #. Option for the 'Open to' (Select) field in DocType 'User'
 #: lms/fixtures/custom_field.json
@@ -9011,7 +9383,8 @@ msgstr "Munkakörnyezet"
 msgid "Work Experience"
 msgstr "Munkatapasztalat"
 
-#. Label of the work_experience_details (Section Break) field in DocType 'User'
+#. Label of the work_experience_details (Section Break) field in DocType
+#. 'User'
 #: lms/fixtures/custom_field.json
 msgid "Work Experience Details"
 msgstr "Munkatapasztalat részletei"
@@ -9043,8 +9416,12 @@ msgid "You already have an evaluation on {0} at {1} for the course {2}."
 msgstr "Már van értékelésed ekkor: {0}, {1}-kor a(z) {2} kurzushoz."
 
 #: frontend/src/pages/Courses/CourseCertification.vue:14
-msgid "You are already certified for this course. Click on the card below to open your certificate."
-msgstr "Ehhez a kurzushoz már rendelkezel tanúsítvánnyal. Kattints az alábbi kártyára a tanúsítványod megnyitásához."
+msgid ""
+"You are already certified for this course. Click on the card below to open "
+"your certificate."
+msgstr ""
+"Ehhez a kurzushoz már rendelkezel tanúsítvánnyal. Kattints az alábbi "
+"kártyára a tanúsítványod megnyitásához."
 
 #: lms/lms/api.py:187
 msgid "You are already enrolled for this batch."
@@ -9087,7 +9464,8 @@ msgid "You are not enrolled in this course."
 msgstr "Nem iratkoztál be erre a kurzusra."
 
 #: frontend/src/pages/SCORMChapter.vue:25
-msgid "You are not enrolled in this course. Please enroll to access this lesson."
+msgid ""
+"You are not enrolled in this course. Please enroll to access this lesson."
 msgstr "Nem iratkoztál be erre a kurzusra. A lecke eléréséhez iratkozz be."
 
 #: frontend/src/components/NoPermission.vue:23
@@ -9129,7 +9507,8 @@ msgstr "Nem foglalhatsz értékelést másik felhasználó számára."
 
 #: frontend/src/pages/ProfileEvaluator.vue:14
 msgid "You cannot change the availability when the site is being updated."
-msgstr "Nem módosíthatod az elérhetőséget, amíg az oldal frissítése folyamatban van."
+msgstr ""
+"Nem módosíthatod az elérhetőséget, amíg az oldal frissítése folyamatban van."
 
 #: frontend/src/pages/ProfileRoles.vue:12
 msgid "You cannot change the roles in read-only mode."
@@ -9144,8 +9523,12 @@ msgid "You cannot enroll in an unpublished program."
 msgstr "Nem iratkozhatsz be nem közzétett programba."
 
 #: lms/lms/doctype/lms_enrollment/lms_enrollment.py:47
-msgid "You cannot enroll in this course as self-learning is disabled. Please contact the Administrator."
-msgstr "Nem iratkozhatsz be erre a kurzusra, mert az önálló tanulás le van tiltva. Vedd fel a kapcsolatot a rendszergazdával."
+msgid ""
+"You cannot enroll in this course as self-learning is disabled. Please "
+"contact the Administrator."
+msgstr ""
+"Nem iratkozhatsz be erre a kurzusra, mert az önálló tanulás le van tiltva. "
+"Vedd fel a kapcsolatot a rendszergazdával."
 
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.py:127
 msgid "You cannot schedule evaluations after {0}."
@@ -9236,12 +9619,17 @@ msgid "You do not have permission to modify this role."
 msgstr "Nincs jogosultságod a szerepkör módosításához."
 
 #: lms/lms/doctype/lms_batch_enrollment/lms_batch_enrollment.py:119
-msgid "You do not have permission to send confirmation emails for this enrollment."
-msgstr "Nincs jogosultságod visszaigazoló e-mailek küldéséhez ehhez a beiratkozáshoz."
+msgid ""
+"You do not have permission to send confirmation emails for this enrollment."
+msgstr ""
+"Nincs jogosultságod visszaigazoló e-mailek küldéséhez ehhez a "
+"beiratkozáshoz."
 
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.py:196
-msgid "You do not have permission to set up calendar events for this evaluation."
-msgstr "Nincs jogosultságod naptáresemények beállításához ehhez az értékeléshez."
+msgid ""
+"You do not have permission to set up calendar events for this evaluation."
+msgstr ""
+"Nincs jogosultságod naptáresemények beállításához ehhez az értékeléshez."
 
 #: lms/lms/api.py:1758 lms/lms/api.py:1762
 msgid "You do not have permission to update meta tags."
@@ -9261,16 +9649,23 @@ msgid "You got {0}% correct answers with a score of {1} out of {2}"
 msgstr "A válaszaid {0}%-a helyes, {1} pontot értél el a(z) {2}-ből"
 
 #: lms/templates/emails/live_class_reminder.html:6
-msgid "You have a live class scheduled tomorrow. Please be prepared and be on time for the session."
-msgstr "Holnapra élő foglalkozás van beütemezve. Készülj fel, és érkezz pontosan a foglalkozásra."
+msgid ""
+"You have a live class scheduled tomorrow. Please be prepared and be on time "
+"for the session."
+msgstr ""
+"Holnapra élő foglalkozás van beütemezve. Készülj fel, és érkezz pontosan a "
+"foglalkozásra."
 
 #: lms/job/doctype/lms_job_application/lms_job_application.py:26
 msgid "You have already applied for this job."
 msgstr "Erre az állásra már jelentkeztél."
 
 #: frontend/src/components/Quiz.vue:119
-msgid "You have already exceeded the maximum number of attempts allowed for this quiz."
-msgstr "Már túllépted az ehhez a kvízhez engedélyezett maximális próbálkozásszámot."
+msgid ""
+"You have already exceeded the maximum number of attempts allowed for this "
+"quiz."
+msgstr ""
+"Már túllépted az ehhez a kvízhez engedélyezett maximális próbálkozásszámot."
 
 #: lms/lms/api.py:211
 msgid "You have already purchased the certificate for this course."
@@ -9294,7 +9689,8 @@ msgstr "Beiratkoztattunk erre a kurzusra"
 
 #: lms/lms/doctype/lms_quiz_submission/lms_quiz_submission.py:30
 msgid "You have exceeded the maximum number of attempts ({0}) for this quiz"
-msgstr "Túllépted az ehhez a kvízhez engedélyezett maximális próbálkozásszámot ({0})"
+msgstr ""
+"Túllépted az ehhez a kvízhez engedélyezett maximális próbálkozásszámot ({0})"
 
 #: lms/lms/doctype/lms_quiz_submission/lms_quiz_submission.py:56
 msgid "You have got a score of {0} for the quiz {1}"
@@ -9309,8 +9705,12 @@ msgid "You have not received any certificates yet."
 msgstr "Még nem kaptál tanúsítványt."
 
 #: lms/lms/widgets/NoPreviewModal.html:12
-msgid "You have opted to be notified for this course. You will receive an email when the course becomes available."
-msgstr "Kérted, hogy értesítsünk erről a kurzusról. E-mailt kapsz, amint a kurzus elérhetővé válik."
+msgid ""
+"You have opted to be notified for this course. You will receive an email "
+"when the course becomes available."
+msgstr ""
+"Kérted, hogy értesítsünk erről a kurzusról. E-mailt kapsz, amint a kurzus "
+"elérhetővé válik."
 
 #: frontend/src/pages/Home/Home.vue:126 frontend/src/pages/Home/Home.vue:149
 msgid "You have {0} upcoming {1} and {2} {3} scheduled."
@@ -9326,7 +9726,9 @@ msgstr "{0} {1} van beütemezve."
 
 #: lms/lms/doctype/lms_batch_enrollment/lms_batch_enrollment.py:31
 msgid "You must be a Moderator or Batch Evaluator to enroll users in a batch."
-msgstr "Felhasználók évfolyamra iratkoztatásához moderátornak vagy évfolyam-mentornak kell lenned."
+msgstr ""
+"Felhasználók évfolyamra iratkoztatásához moderátornak vagy évfolyam-"
+"mentornak kell lenned."
 
 #: lms/lms/doctype/lms_badge_assignment/lms_badge_assignment.py:23
 msgid "You must be an Admin to assign badges to users."
@@ -9355,23 +9757,32 @@ msgstr "A videó folytatásához teljesítened kell a kvízt"
 #: frontend/src/components/Quiz.vue:51
 #, python-format
 msgid "You will have to get {0}% correct answers in order to pass the quiz."
-msgstr "A kvíz sikeres teljesítéséhez a válaszaid {0}%-ának helyesnek kell lennie."
+msgstr ""
+"A kvíz sikeres teljesítéséhez a válaszaid {0}%-ának helyesnek kell lennie."
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:132
 msgid "You're all caught up! Check back later for updates."
 msgstr "Mindennel naprakész vagy! Nézz vissza később a frissítésekért."
 
 #: lms/templates/emails/batch_start_reminder_recorded.html:6
-msgid "You're enrolled and all set! The course content is ready, so you can start learning right away and go at your own pace."
-msgstr "Beiratkoztál, és minden készen áll! A kurzus tartalma elérhető, így azonnal elkezdhetsz tanulni a saját tempódban."
+msgid ""
+"You're enrolled and all set! The course content is ready, so you can start "
+"learning right away and go at your own pace."
+msgstr ""
+"Beiratkoztál, és minden készen áll! A kurzus tartalma elérhető, így azonnal "
+"elkezdhetsz tanulni a saját tempódban."
 
 #: lms/lms/doctype/lms_batch/lms_batch.py:475
 msgid "You're enrolled in {0} – start whenever you're ready"
 msgstr "Beiratkoztál ide: {0} – kezdj hozzá, amikor készen állsz"
 
 #: lms/templates/emails/mentor_request_creation_email.html:4
-msgid "You've applied to become a mentor for this course. Your request is currently under review."
-msgstr "Jelentkeztél, hogy a kurzus mentora legyél. A kérelmed jelenleg elbírálás alatt áll."
+msgid ""
+"You've applied to become a mentor for this course. Your request is currently"
+" under review."
+msgstr ""
+"Jelentkeztél, hogy a kurzus mentora legyél. A kérelmed jelenleg elbírálás "
+"alatt áll."
 
 #: frontend/src/components/Assignment.vue:64
 msgid "You've successfully submitted the assignment."
@@ -9389,8 +9800,12 @@ msgid "YouTube Video will appear at the top of the lesson."
 msgstr "A YouTube-videó a lecke tetején jelenik meg."
 
 #: frontend/src/components/Controls/VideoPreviewField.vue:104
-msgid "YouTube link added — students see it embedded on the course page. Clear the field to upload a file instead."
-msgstr "YouTube-hivatkozás hozzáadva – a résztvevők beágyazva látják a kurzus oldalán. Ürítsd a mezőt, ha helyette fájlt szeretnél feltölteni."
+msgid ""
+"YouTube link added — students see it embedded on the course page. Clear the "
+"field to upload a file instead."
+msgstr ""
+"YouTube-hivatkozás hozzáadva – a résztvevők beágyazva látják a kurzus "
+"oldalán. Ürítsd a mezőt, ha helyette fájlt szeretnél feltölteni."
 
 #: lms/www/new-sign-up.html:56
 msgid "Your Account has been successfully created!"
@@ -9423,12 +9838,18 @@ msgid "Your enrollment in {{ batch_name }} is confirmed"
 msgstr "A(z) {{ batch_name }} évfolyamra való beiratkozásod megerősítve"
 
 #: lms/templates/emails/certificate_request_notification.html:3
-msgid "Your evaluation for the course {0} has been scheduled on {1} at {2} ({3} time)."
-msgstr "A(z) {0} kurzushoz tartozó értékelésed beütemezve ekkor: {1}, {2}-kor ({3} idő szerint)."
+msgid ""
+"Your evaluation for the course {0} has been scheduled on {1} at {2} ({3} "
+"time)."
+msgstr ""
+"A(z) {0} kurzushoz tartozó értékelésed beütemezve ekkor: {1}, {2}-kor ({3} "
+"idő szerint)."
 
 #: lms/lms/notification/certificate_request_reminder/certificate_request_reminder.html:3
-msgid "Your evaluation for the course {0} has been scheduled on {1} at {2} {3}."
-msgstr "A(z) {0} kurzushoz tartozó értékelésed beütemezve ekkor: {1}, {2} {3}-kor."
+msgid ""
+"Your evaluation for the course {0} has been scheduled on {1} at {2} {3}."
+msgstr ""
+"A(z) {0} kurzushoz tartozó értékelésed beütemezve ekkor: {1}, {2} {3}-kor."
 
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.py:142
 msgid "Your evaluation slot has been booked"
@@ -9439,22 +9860,33 @@ msgid "Your evaluator is {0}"
 msgstr "A mentorod: {0}"
 
 #: frontend/src/pages/Home/Streak.vue:49
-msgid "Your learning streak counts the number of days in a row you’ve kept up your learning, whether it’s a lesson, quiz, or assignment. Don’t worry, weekends don’t break your streak."
-msgstr "A tanulási sorozatod azt számolja, hány egymást követő napon át folytattad a tanulást, legyen az lecke, kvíz vagy beadandó. Ne aggódj, a hétvégék nem szakítják meg a sorozatodat."
+msgid ""
+"Your learning streak counts the number of days in a row you’ve kept up your "
+"learning, whether it’s a lesson, quiz, or assignment. Don’t worry, weekends "
+"don’t break your streak."
+msgstr ""
+"A tanulási sorozatod azt számolja, hány egymást követő napon át folytattad a"
+" tanulást, legyen az lecke, kvíz vagy beadandó. Ne aggódj, a hétvégék nem "
+"szakítják meg a sorozatodat."
 
 #: lms/templates/emails/mentor_request_status_update_email.html:4
 msgid "Your request to join us as a mentor for the course"
 msgstr "A kérelmed, hogy a kurzus mentoraként csatlakozz hozzánk"
 
 #: frontend/src/components/Quiz.vue:360
-msgid "Your submission has been successfully saved. The instructor will review and grade it shortly, and you'll be notified of your final result."
-msgstr "A beadásodat sikeresen mentettük. Az oktató hamarosan elbírálja és értékeli, a végeredményedről pedig értesítünk."
+msgid ""
+"Your submission has been successfully saved. The instructor will review and "
+"grade it shortly, and you'll be notified of your final result."
+msgstr ""
+"A beadásodat sikeresen mentettük. Az oktató hamarosan elbírálja és értékeli,"
+" a végeredményedről pedig értesítünk."
 
 #: frontend/src/pages/Lesson.vue:9 frontend/src/pages/Lesson.vue:128
 msgid "Zen Mode"
 msgstr "Zen mód"
 
-#. Option for the 'Conferencing Provider' (Select) field in DocType 'LMS Batch'
+#. Option for the 'Conferencing Provider' (Select) field in DocType 'LMS
+#. Batch'
 #. Option for the 'Conferencing Provider' (Select) field in DocType 'LMS Live
 #. Class'
 #: frontend/src/pages/Batches/BatchForm.vue:594
@@ -9686,7 +10118,7 @@ msgstr "értékelés"
 
 #: frontend/src/components/Settings/Categories.vue:9
 msgid "saving..."
-msgstr "a..."
+msgstr "Mentés…"
 
 #: frontend/src/pages/Courses/CourseOverview.vue:202
 msgid "section"
@@ -9873,3 +10305,333 @@ msgstr "{} sikeres"
 msgid "{} Published"
 msgstr "{} Közzétett"
 
+msgid "Batch Confirmation Email Template"
+msgstr "Évfolyam-visszaigazoló e-mail sablon"
+
+msgid "Certification Email Template"
+msgstr "Tanúsítványértesítő e-mail sablon"
+
+msgid "Livecode URL"
+msgstr "Livecode URL"
+
+msgid "Lesson dwell time (seconds)"
+msgstr "Leckén töltött idő (másodperc)"
+
+msgid "Enforce video completion"
+msgstr "Videó teljesítésének megkövetelése"
+
+msgid "Enforce assignment completion"
+msgstr "Beadandó teljesítésének megkövetelése"
+
+msgid "Enforce quiz completion"
+msgstr "Kvíz teljesítésének megkövetelése"
+
+msgid "Badges"
+msgstr "Kitűzők"
+
+msgid "Categories"
+msgstr "Kategóriák"
+
+msgid "Accounts"
+msgstr "Fiókok"
+
+msgid "Templates"
+msgstr "Sablonok"
+
+msgid "User Management"
+msgstr "Felhasználókezelés"
+
+msgid "Show USD equivalent amount"
+msgstr "USD-ben számított összeg megjelenítése"
+
+msgid "Apply rounding on equivalent"
+msgstr "Kerekítés alkalmazása az átszámított összegre"
+
+msgid "Send payment reminders for batch"
+msgstr "Fizetési emlékeztetők küldése évfolyamhoz"
+
+msgid "Send payment reminders for course"
+msgstr "Fizetési emlékeztetők küldése kurzushoz"
+
+msgid "Gateways"
+msgstr "Átjárók"
+
+msgid "Transactions"
+msgstr "Tranzakciók"
+
+msgid "Coupons"
+msgstr "Kuponok"
+
+msgid "Customize"
+msgstr "Testreszabás"
+
+msgid "Branding"
+msgstr "Arculat"
+
+msgid "Signup"
+msgstr "Regisztráció"
+
+msgid "Disable signup"
+msgstr "Regisztráció letiltása"
+
+msgid "Signup Consent HTML"
+msgstr "Regisztrációs hozzájárulás HTML"
+
+msgid "Default social-share image used when pages lack their own meta image."
+msgstr ""
+"Alapértelmezett közösségimegosztás-kép, amelyet a saját meta képpel nem "
+"rendelkező oldalak használnak."
+
+msgid "Seconds a learner must stay on a lesson before it auto-marks complete."
+msgstr ""
+"Hány másodpercig kell a résztvevőnek a leckén maradnia, mielőtt az "
+"automatikusan teljesítettként jelölődik."
+
+msgid "Comma separated keywords for search engines to find your website."
+msgstr ""
+"Vesszővel elválasztott kulcsszavak, hogy a keresőmotorok megtalálják a "
+"webhelyedet."
+
+msgid "Email template sent to students when they earn a certification."
+msgstr "A résztvevőknek küldött e-mail sablon, amikor tanúsítványt szereznek."
+
+msgid "Customize the brand name and logo to make the application your own"
+msgstr ""
+"Szabd testre a márkanevet és a logót, hogy sajátoddá tedd az alkalmazást"
+
+msgid ""
+"When enabled, lessons with an assignment cannot be marked complete until the"
+" assignment is submitted."
+msgstr ""
+"Ha engedélyezed, a beadandót tartalmazó leckék csak a beadandó beadása után "
+"jelölhetők teljesítettként."
+
+msgid "Show the Batches link in the sidebar."
+msgstr "Az Évfolyamok hivatkozás megjelenítése az oldalsávban."
+
+msgid "Manage all your payment related settings and defaults"
+msgstr "Kezeld az összes fizetéssel kapcsolatos beállítást és alapértéket"
+
+msgid "Choose the items you want to show in the sidebar"
+msgstr "Válaszd ki, mely elemeket szeretnéd megjeleníteni az oldalsávban"
+
+msgid "If enabled, it applies rounding on the USD equivalent amount."
+msgstr "Ha engedélyezed, kerekítést alkalmaz az USD-ben számított összegre."
+
+msgid "Manage email accounts for incoming and outgoing mail"
+msgstr "Kezeld a bejövő és kimenő levelek e-mail-fiókjait"
+
+msgid "Default currency used for course and batch pricing."
+msgstr "A kurzusok és évfolyamok árazásához használt alapértelmezett pénznem."
+
+msgid "https://docs.frappe.io/learning/falcon-self-hosting-guide"
+msgstr "https://docs.frappe.io/learning/falcon-self-hosting-guide"
+
+msgid ""
+"If enabled, it sends google calendar invite to the student for evaluations."
+msgstr ""
+"Ha engedélyezed, Google Naptár-meghívót küld a résztvevőnek az "
+"értékelésekhez."
+
+msgid ""
+"If enabled, it sends payment reminders to students who left the payment "
+"incomplete for a course."
+msgstr ""
+"Ha engedélyezed, fizetési emlékeztetőt küld azoknak a résztvevőknek, akik "
+"nem fejezték be a fizetést egy kurzushoz."
+
+msgid "Show the Notifications link in the sidebar."
+msgstr "Az Értesítések hivatkozás megjelenítése az oldalsávban."
+
+msgid ""
+"If enabled, users can access the course and batch lists without logging in."
+msgstr ""
+"Ha engedélyezed, a felhasználók bejelentkezés nélkül is elérhetik a kurzus- "
+"és évfolyamlistákat."
+
+msgid ""
+"If checked, users will not be able to install the application as a "
+"Progressive Web App."
+msgstr ""
+"Ha bejelölöd, a felhasználók nem tudják telepíteni az alkalmazást "
+"Progressive Web App-ként."
+
+msgid "Show the Statistics link in the sidebar."
+msgstr "A Statisztikák hivatkozás megjelenítése az oldalsávban."
+
+msgid "Manage the settings related to user signup and registration"
+msgstr "Kezeld a felhasználói regisztrációval kapcsolatos beállításokat"
+
+msgid "Users can reach out to this URL for support or inquiries."
+msgstr ""
+"A felhasználók ezen a URL-en kereshetnek fel támogatásért vagy kérdésekkel."
+
+msgid ""
+"Allows users to pick a profile cover image from Unsplash. "
+"https://unsplash.com/documentation#getting-started."
+msgstr ""
+"Lehetővé teszi, hogy a felhasználók borítóképet válasszanak az Unsplashről. "
+"https://unsplash.com/documentation#getting-started."
+
+msgid ""
+"Control how lessons are marked complete: dwell time and enforcement toggles "
+"for video, quiz, and assignment."
+msgstr ""
+"Szabályozd, hogyan jelölődnek teljesítettként a leckék: leckén töltött idő "
+"és megkövetelési kapcsolók videóhoz, kvízhez és beadandóhoz."
+
+msgid ""
+"If enabled, it shows the USD equivalent amount for all transactions based on"
+" the current exchange rate."
+msgstr ""
+"Ha engedélyezed, minden tranzakciónál megjeleníti az USD-ben számított "
+"összeget az aktuális árfolyam alapján."
+
+msgid "If enabled, GST will be applied to the price for students from India."
+msgstr ""
+"Ha engedélyezed, a GST (indiai áfa) rákerül az árra az indiai résztvevők "
+"esetében."
+
+msgid ""
+"When enabled, lessons with a quiz cannot be marked complete until the quiz "
+"is submitted."
+msgstr ""
+"Ha engedélyezed, a kvízt tartalmazó leckék csak a kvíz beadása után "
+"jelölhetők teljesítettként."
+
+msgid "Show the Certifications link in the sidebar."
+msgstr "A Tanúsítványok hivatkozás megjelenítése az oldalsávban."
+
+msgid "Email template sent to students upon batch enrollment confirmation."
+msgstr ""
+"A résztvevőknek küldött e-mail sablon az évfolyamra való beiratkozás "
+"visszaigazolásakor."
+
+msgid "Show the Jobs link in the sidebar."
+msgstr "Az Állások hivatkozás megjelenítése az oldalsávban."
+
+msgid "Manage Google Meet accounts to conduct live classes from batches"
+msgstr ""
+"Kezeld a Google Meet-fiókokat az évfolyamok élő foglalkozásainak "
+"megtartásához"
+
+msgid "Show the Courses link in the sidebar."
+msgstr "A Kurzusok hivatkozás megjelenítése az oldalsávban."
+
+msgid "Show the Programming Exercises link in the sidebar."
+msgstr "A Programozási feladatok hivatkozás megjelenítése az oldalsávban."
+
+msgid "View all your payment transactions"
+msgstr "Tekintsd meg az összes fizetési tranzakciódat"
+
+msgid ""
+"If enabled, it sends payment reminders to students who left the payment "
+"incomplete for a batch."
+msgstr ""
+"Ha engedélyezed, fizetési emlékeztetőt küld azoknak a résztvevőknek, akik "
+"nem fejezték be a fizetést egy évfolyamhoz."
+
+msgid "If enabled, users will no able to move forward in a video"
+msgstr "Ha engedélyezed, a felhasználók nem tudnak előre tekerni a videóban"
+
+msgid "Double click to edit the category"
+msgstr "Kattints duplán a kategória szerkesztéséhez"
+
+msgid "Enable this option to identify the user category during signup."
+msgstr ""
+"Kapcsold be ezt a lehetőséget a felhasználói kategória azonosításához a "
+"regisztráció során."
+
+msgid ""
+"Custom HTML shown on the signup page, e.g. for consent notices or terms of "
+"service."
+msgstr ""
+"A regisztrációs oldalon megjelenő egyéni HTML, pl. hozzájárulási "
+"nyilatkozatokhoz vagy felhasználási feltételekhez."
+
+msgid ""
+"Manage users by adding or inviting them, and assign roles to control their "
+"access and permissions"
+msgstr ""
+"Kezeld a felhasználókat hozzáadással vagy meghívással, és rendelj hozzájuk "
+"szerepköröket a hozzáférésük és jogosultságaik szabályozásához"
+
+msgid ""
+"When enabled, lessons that contain a video can only be marked complete by "
+"playing the video to the end. If the video fails to load, the dwell timer is"
+" used as a fallback."
+msgstr ""
+"Ha engedélyezed, a videót tartalmazó leckék csak a videó végignézésével "
+"jelölhetők teljesítettként. Ha a videó nem tölt be, tartalékként a leckén "
+"töltött idő számítója lép életbe."
+
+msgid "Add and manage all your payment gateways"
+msgstr "Add hozzá és kezeld az összes fizetési átjáródat"
+
+msgid "New users will have to be manually registered by Admins."
+msgstr ""
+"Az új felhasználókat az adminisztrátoroknak kézzel kell regisztrálniuk."
+
+msgid ""
+"If enabled, users can post job openings on the job board. Else only admins "
+"can post jobs."
+msgstr ""
+"Ha engedélyezed, a felhasználók álláshirdetéseket tehetnek közzé az "
+"állásfalon. Egyébként csak az adminisztrátorok tehetnek közzé állásokat."
+
+msgid "Notify members when a new batch is published."
+msgstr "Értesítsd a résztvevőket, amikor új évfolyam jelenik meg."
+
+msgid "Users can reach out to this email for support or inquiries."
+msgstr ""
+"A felhasználók ezen az e-mail-címen kereshetnek fel támogatásért vagy "
+"kérdésekkel."
+
+msgid "Configure system-wide defaults, notifications, and contact information"
+msgstr ""
+"Állítsd be a rendszerszintű alapértékeket, értesítéseket és kapcsolati "
+"adatokat"
+
+msgid "Notify members when a new course is published."
+msgstr "Értesítsd a résztvevőket, amikor új kurzus jelenik meg."
+
+msgid "Manage the email templates for your learning system"
+msgstr "Kezeld a tanulási rendszered e-mail sablonjait"
+
+msgid "Payment gateway used to process course and batch purchases."
+msgstr ""
+"A kurzus- és évfolyamvásárlások feldolgozásához használt fizetési átjáró."
+
+msgid ""
+"Manage the SEO settings to improve your website ranking on search engines"
+msgstr ""
+"Kezeld a SEO-beállításokat a webhelyed keresőmotoros helyezésének "
+"javításához"
+
+msgid "Manage discount coupons for courses and batches"
+msgstr "Kezeld a kurzusok és évfolyamok kedvezménykuponjait"
+
+msgid "Manage zoom accounts to conduct live classes from batches"
+msgstr ""
+"Kezeld a Zoom-fiókokat az évfolyamok élő foglalkozásainak megtartásához"
+
+msgid ""
+"Create badges and assign them to students to acknowledge their achievements"
+msgstr ""
+"Hozz létre kitűzőket, és rendeld őket a résztvevőkhöz az eredményeik "
+"elismeréséhez"
+
+msgid "Unread"
+msgstr "Olvasatlan"
+
+msgid "Read"
+msgstr "Olvasott"
+
+msgid "Toggle Theme"
+msgstr "Téma váltása"
+
+msgid "Log out"
+msgstr "Kijelentkezés"
+
+msgid "Clear Demo Data"
+msgstr "Demóadatok törlése"
