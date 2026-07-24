@@ -10147,15 +10147,15 @@ msgstr "a title értéknek karakterláncnak kell lennie"
 
 #: frontend/src/components/CommandPalette/CommandPalette.vue:59
 msgid "to close"
-msgstr "bezárni"
+msgstr "bezárás"
 
 #: frontend/src/components/CommandPalette/CommandPalette.vue:45
 msgid "to navigate"
-msgstr "navigálni"
+msgstr "navigálás"
 
 #: frontend/src/components/CommandPalette/CommandPalette.vue:53
 msgid "to select"
-msgstr "kiválasztani"
+msgstr "kiválasztás"
 
 #: frontend/src/pages/Batches/components/BatchFeedback.vue:33
 msgid "to view your feedback."
