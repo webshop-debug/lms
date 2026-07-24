@@ -10,7 +10,7 @@
 				class="text-p-base-semibold text-ink-gray-8 mb-1"
 				:class="{ 'mt-6': index > 0 }"
 			>
-				{{ section.label }}
+				{{ __(section.label) }}
 			</div>
 			<template
 				v-for="(column, columnIndex) in section.columns"

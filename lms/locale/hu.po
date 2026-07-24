@@ -3958,7 +3958,7 @@ msgstr "Zöld"
 
 #: lms/templates/signup-form.html:56
 msgid "Have an account? Login"
-msgstr "Rendelkezik fiókkal? Bejelentkezés"
+msgstr "Van már fiókod? Bejelentkezés"
 
 #. Label of the headline (Data) field in DocType 'User'
 #: frontend/src/components/Modals/EditProfile.vue:42
@@ -10635,3 +10635,52 @@ msgstr "Kijelentkezés"
 
 msgid "Clear Demo Data"
 msgstr "Demóadatok törlése"
+
+#: frontend/src/pages/JobApplications.vue
+msgid "Job Applications"
+msgstr "Jelentkezések"
+
+#: frontend/src/components/Settings/PaymentGateways.vue
+msgid "Payment Gateways"
+msgstr "Fizetési átjárók"
+
+#: frontend/src/components/Settings/GoogleMeetSettings.vue
+msgid "Google Meet Settings"
+msgstr "Google Meet-beállítások"
+
+#: frontend/src/components/Sidebar/UserDropdown.vue
+msgid "Login to Frappe Cloud"
+msgstr "Bejelentkezés a Frappe Cloudba"
+
+#: frontend/src/components/Sidebar/UserDropdown.vue
+#: frontend/src/components/Layouts/MobileLayout.vue
+msgid "Log in"
+msgstr "Bejelentkezés"
+
+#: frontend/src/components/Layouts/MobileLayout.vue
+msgid "Profile"
+msgstr "Profil"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "System Configurations"
+msgstr "Rendszerbeállítások"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Contact Information"
+msgstr "Kapcsolattartási adatok"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Integrations"
+msgstr "Integrációk"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Dwell Time"
+msgstr "Leckén töltött idő"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Enforcement"
+msgstr "Megkövetelés"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Payment Reminders"
+msgstr "Fizetési emlékeztetők"

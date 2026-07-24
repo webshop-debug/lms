@@ -59,7 +59,7 @@
 								class="flex items-center gap-x-1 rounded-md bg-surface-gray-2 px-2 py-1 text-ink-gray-8"
 							>
 								<span class="lucide-shield size-3.5" />
-								<span class="text-sm leading-5">{{ getRole(role) }}</span>
+								<span class="text-sm leading-5">{{ __(getRole(role)) }}</span>
 							</span>
 							<Dropdown
 								:options="getMemberMenuOptions(member)"

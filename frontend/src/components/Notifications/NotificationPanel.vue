@@ -108,7 +108,10 @@ const { isMobile } = useScreenSize()
 
 const panelRef = ref(null)
 const activeTab = ref('Unread')
-const tabs = [{ label: 'Unread' }, { label: 'Read' }]
+const tabs = [
+	{ label: __('Unread'), value: 'Unread' },
+	{ label: __('Read'), value: 'Read' },
+]
 
 onClickOutside(panelRef, () => closeNotifications(), {
 	ignore: ['[data-notifications-trigger]'],
