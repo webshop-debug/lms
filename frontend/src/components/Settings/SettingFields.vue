@@ -20,7 +20,6 @@
 					v-for="(field, fieldIndex) in column.fields"
 					:key="`${columnIndex}-${fieldIndex}`"
 				>
-					<!-- Upload: full-width block (label/description sit above) -->
 					<div v-if="field.type == 'Upload'" class="py-3">
 						<div class="space-y-1 mb-2">
 							<div class="text-p-base-medium text-ink-gray-7">
@@ -33,16 +32,23 @@
 						<FileUploader
 							v-if="!data[field.name]"
 							:fileTypes="['image/*']"
+							:uploadArgs="{ private: !field.public }"
 							:validateFile="validateFile"
 							@success="(file) => (data[field.name] = file.file_url)"
 						>
 							<template
 								v-slot="{ file, progress, uploading, openFileSelector }"
 							>
-								<div class="">
-									<Button @click="openFileSelector" :loading="uploading">
+								<div>
+									<Button
+										class="text-p-base-medium"
+										:loading="uploading"
+										@click="openFileSelector"
+									>
 										{{
-											uploading ? `Uploading ${progress}%` : 'Upload an image'
+											uploading
+												? __('Uploading {0}%').format(progress)
+												: __('Upload an image')
 										}}
 									</Button>
 								</div>
@@ -55,7 +61,8 @@
 									:class="field.size == 'lg' ? 'px-5 py-5' : 'px-20 py-8'"
 								>
 									<img
-										:src="fileUrl(data[field.name])"
+										:src="safeUrl(fileUrl(data[field.name]))"
+										alt=""
 										class="rounded"
 										:class="field.size == 'lg' ? 'w-36' : 'size-6'"
 									/>
@@ -65,7 +72,9 @@
 										{{ fileName(data[field.name]) }}
 									</span>
 								</div>
-								<span
+								<button
+									type="button"
+									:aria-label="__('Remove image')"
 									@click="data[field.name] = null"
 									class="lucide-x border text-ink-gray-7 border-outline-elevation-2 rounded-md cursor-pointer w-5 h-5 p-1 ms-4"
 								/>
@@ -73,7 +82,6 @@
 						</div>
 					</div>
 
-					<!-- Code/HTML: full-width block -->
 					<div v-else-if="field.type == 'Code'" class="py-3">
 						<CodeEditor
 							:label="__(field.label)"
@@ -87,23 +95,24 @@
 						</CodeEditor>
 					</div>
 
-					<!-- Textarea: full-width block (label/description above, like CRM) -->
 					<div v-else-if="field.type == 'textarea'" class="py-3">
-						<div class="space-y-1 mb-2">
-							<div class="text-p-base-medium text-ink-gray-7">
-								{{ __(field.label) }}
-							</div>
-							<div v-if="field.description" class="text-p-sm text-ink-gray-5">
-								{{ __(field.description) }}
-							</div>
+						<div class="text-p-base-medium text-ink-gray-7 mb-2">
+							{{ __(field.label) }}
 						</div>
 						<FormControl
 							type="textarea"
 							:rows="field.rows || 3"
 							v-model="data[field.name]"
 							:required="field.reqd"
+							:aria-label="__(field.label)"
 							:placeholder="field.placeholder || __(field.label)"
 						/>
+						<div
+							v-if="field.description"
+							class="text-p-sm text-ink-gray-5 mt-2"
+						>
+							{{ __(field.description) }}
+						</div>
 					</div>
 
 					<div v-else class="flex items-center justify-between gap-4 py-3">
@@ -119,13 +128,14 @@
 							<BooleanSwitch
 								v-if="field.type == 'checkbox'"
 								size="sm"
-								v-model="field.value"
+								v-model="data[field.name]"
 							/>
 							<Link
 								v-else-if="field.type == 'Link'"
 								v-model="data[field.name]"
 								:doctype="field.doctype"
 								:required="field.reqd"
+								:aria-label="__(field.label)"
 								class="w-48"
 							/>
 							<Select
@@ -133,6 +143,7 @@
 								v-model="data[field.name]"
 								:options="field.options"
 								:placeholder="__('Select option')"
+								:aria-label="__(field.label)"
 								class="w-48"
 							/>
 							<FormControl
@@ -145,6 +156,7 @@
 								:required="field.reqd"
 								:min="field.min"
 								class="w-48"
+								:aria-label="__(field.label)"
 								:placeholder="field.placeholder || __(field.label)"
 							/>
 						</div>
@@ -161,6 +173,18 @@ import { watch } from 'vue'
 import { validateFile } from '@/utils'
 import Link from '@/components/Controls/Link.vue'
 import CodeEditor from '@/components/Controls/CodeEditor.vue'
+import { seedCheckboxDefaults } from '@/components/Settings/mobileSettings'
+import { safeUrl } from '@/utils/safeUrl'
+
+// The FileUploader above binds :uploadArgs="{ private: !field.public }", and it
+// is written inline deliberately. Privacy is the FIELD's decision, never this
+// component's: the backend maps every Attach / Attach Image field of a
+// third-party <Gateway> Settings doctype to type 'Upload' (api.py
+// get_transformed_fields), and those reach here via PaymentGatewayDetails —
+// merchant QR codes and KYC documents among them. Only a field that opts in with
+// `public: true` may be world-readable; everything else keeps frappe's private
+// default. Behind a helper the privacy ratchet in publicImageUploads.test.ts can
+// only see "computed" and would stop catching a flip to public.
 
 const props = defineProps({
 	sections: {
@@ -185,49 +209,11 @@ const fileName = (value) => {
 		: (url || '').split('/').pop()
 }
 
-const resolveInitialValue = (field, dataValue) => {
-	if (dataValue !== null && dataValue !== undefined && dataValue !== '') {
-		return field.type === 'checkbox' ? !!dataValue : dataValue
-	}
-	if (field.default !== undefined) {
-		return field.type === 'checkbox' ? !!field.default : field.default
-	}
-	return field.type === 'checkbox' ? false : ''
-}
-
-// Seed from the doc reactively, not just onMounted: the panel can mount before
-// the settings doc has loaded, in which case every checkbox would read false —
-// and the sync watcher below would then write that false straight back into the
-// doc, silently turning settings off.
 watch(
 	() => props.data,
 	(data) => {
-		if (!data) return
-		props.sections.forEach((section) => {
-			section.columns.forEach((column) => {
-				column.fields.forEach((field) => {
-					field.value = resolveInitialValue(field, data[field.name])
-				})
-			})
-		})
+		if (data) seedCheckboxDefaults(props.sections, data)
 	},
 	{ immediate: true }
-)
-
-watch(
-	() => props.sections,
-	(newSections) => {
-		newSections.forEach((section) => {
-			section.columns.forEach((column) => {
-				column.fields.forEach((field) => {
-					if (field.type !== 'checkbox') return
-					if (props.data[field.name] != field.value) {
-						props.data[field.name] = field.value
-					}
-				})
-			})
-		})
-	},
-	{ deep: true }
 )
 </script>

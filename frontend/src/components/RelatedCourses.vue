@@ -12,8 +12,7 @@
 				v-for="course in relatedCourses.data"
 				:key="course.name"
 				:to="{ name: 'CourseDetail', params: { courseName: course.name } }"
-				target="_blank"
-				rel="noopener"
+				v-external
 				class="cursor-pointer"
 			>
 				<CourseCard :course="course" />
@@ -27,7 +26,7 @@ import { createResource } from 'frappe-ui'
 import { watch } from 'vue'
 import CourseCard from '@/components/CourseCard.vue'
 import type { LMSCourse } from '@/types/lms/LMSCourse'
-import type { Resource } from '@/types/api'
+import type { Resource } from '@/types'
 
 const props = defineProps<{
 	courseName: string

@@ -2,6 +2,7 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import path from 'path'
 import { VitePWA } from 'vite-plugin-pwa'
+import { viteStaticCopy } from 'vite-plugin-static-copy'
 
 export default defineConfig(async ({ mode }) => {
 	const isDev = mode === 'development'
@@ -44,6 +45,22 @@ export default defineConfig(async ({ mode }) => {
 				},
 				manifest: false,
 			}),
+			// pdf.js needs cMaps (JPEG2000/JBIG2 + CJK) and standard_fonts (non-embedded
+			// fonts) as sibling assets, or those PDFs render blank and look like a pdf.js
+			// bug. Copy them under pdfjs/; PdfBlock.vue points cMapUrl/standardFontDataUrl
+			// at `${BASE_URL}pdfjs/...`. Served in dev too (static-copy dev middleware).
+			viteStaticCopy({
+				targets: [
+					{
+						src: 'node_modules/pdfjs-dist/cmaps/*',
+						dest: 'pdfjs/cmaps',
+					},
+					{
+						src: 'node_modules/pdfjs-dist/standard_fonts/*',
+						dest: 'pdfjs/standard_fonts',
+					},
+				],
+			}),
 		],
 		server: {
 			host: '0.0.0.0', // Accept connections from any network interface
@@ -52,7 +69,7 @@ export default defineConfig(async ({ mode }) => {
 			// frappeProxy only forwards ^/(desk|app|login|api|assets|files|private),
 			// so without this the iframe's /scorm URL hits the SPA fallback and renders
 			// blank. The `router` mirrors frappeProxy: Frappe resolves the site from the
-			// Host header, so we must forward to http://<site>:8000 — a bare 127.0.0.1
+			// Host header, so we must forward to http://<site>:8000; a bare 127.0.0.1
 			// target makes Frappe 404 with "127.0.0.1 does not exist". (Backend :8000.)
 			proxy: {
 				'/scorm': {
@@ -73,6 +90,8 @@ export default defineConfig(async ({ mode }) => {
 				'prosemirror-state',
 				'prosemirror-view',
 				'prosemirror-transform',
+				'vue',
+				'frappe-ui',
 			],
 		},
 		optimizeDeps: {

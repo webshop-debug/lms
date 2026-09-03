@@ -20,7 +20,7 @@
 				{{ __('Assignment') }}: {{ assignment.data.title }}
 			</div>
 			<div
-				v-html="sanitizeRichHTML(assignment.data.question)"
+				v-safe-html:rich="assignment.data.question"
 				class="ProseMirror prose prose-table:table-fixed prose-td:p-2 prose-th:p-2 prose-td:border prose-th:border prose-td:border-outline-gray-2 prose-th:border-outline-gray-2 prose-td:relative prose-th:relative prose-th:bg-surface-gray-2 prose-sm max-w-none !whitespace-normal"
 			></div>
 		</div>
@@ -107,8 +107,8 @@
 					<div v-else>
 						<div class="flex items-center text-ink-gray-7">
 							<a
-								:href="attachment"
-								target="_blank"
+								:href="safeUrl(attachment)"
+								v-external
 								class="cursor-pointer !no-underline text-sm leading-5"
 							>
 								<div class="flex items-center">
@@ -120,8 +120,10 @@
 									</span>
 								</div>
 							</a>
-							<span
+							<button
 								v-if="canModifyAssignment"
+								type="button"
+								:aria-label="__('Remove submission')"
 								@click="removeSubmission()"
 								class="lucide-x bg-surface-gray-3 rounded-md cursor-pointer w-5 h-5 p-1 ms-4"
 							/>
@@ -132,7 +134,11 @@
 					<div class="text-p-sm-medium text-ink-gray-7 mb-1.5">
 						{{ __('Enter a URL') }}
 					</div>
-					<FormControl v-model="answer" type="text" />
+					<FormControl
+						v-model="answer"
+						type="text"
+						:aria-label="__('Enter a URL')"
+					/>
 				</div>
 				<div v-else>
 					<div class="text-sm mb-2 text-ink-gray-7">
@@ -162,7 +168,7 @@
 					</div>
 					<div
 						class="leading-6 text-ink-gray-9"
-						v-html="sanitizeRichHTML(submissionResource.doc.comments)"
+						v-safe-html:rich="submissionResource.doc.comments"
 					></div>
 				</div>
 
@@ -204,7 +210,6 @@
 	</div>
 </template>
 <script setup>
-import { sanitizeRichHTML } from '@/utils/sanitizeRichHTML'
 import {
 	Badge,
 	Button,
@@ -224,6 +229,7 @@ import {
 import { useRouter } from 'vue-router'
 import { validateFile } from '@/utils'
 import RichTextEditor from '@/components/RichTextEditor.vue'
+import { safeUrl } from '@/utils/safeUrl'
 
 const answer = ref(null)
 const attachment = ref(null)

@@ -1,6 +1,15 @@
 import { CodeXml } from 'lucide-vue-next'
+import { registerDirectives } from '@/directives'
 import { createApp, h } from 'vue'
 import { escapeHTML } from '@/utils/format'
+import { sanitizeAt } from '@/directives/safeHtmlLevels'
+
+// Language-class hints on pasted code (hljs/Prism/SyntaxHighlighter). Anchored to
+// a class-token boundary so 'language-' matches only as its own class.
+const CODE_LANGUAGE_PATTERNS = [
+	/(?:^|\s)(?:language|lang)-([\w+#-]+)/i,
+	/(?:^|\s)brush:\s*([\w+#-]+)/i,
+]
 
 // Inline tags we keep when pasting rich HTML, normalized to the same tags the
 // editor's own inline tools emit. Everything else (span/font/div wrappers,
@@ -61,6 +70,7 @@ export class Markdown {
 			render: () =>
 				h(CodeXml, { size: 18, strokeWidth: 1.5, color: 'black' }),
 		})
+		registerDirectives(app)
 
 		const div = document.createElement('div')
 		app.mount(div)
@@ -78,7 +88,11 @@ export class Markdown {
 		this.wrapper.classList.add('cdx-block', 'ce-paragraph')
 		this.wrapper.contentEditable = !this.readOnly
 		this.wrapper.dataset.placeholder = this.placeholder
-		this.wrapper.innerHTML = this.text
+		// Lesson bodies are EditorJS JSON, and frappe's sanitize_html returns JSON
+		// untouched (is_json early return), so nothing upstream cleans this text.
+		// v-safe-html cannot reach it either — the block builds its own DOM — so it
+		// calls the same sanitizer directly, at the level lesson content renders at.
+		this.wrapper.innerHTML = sanitizeAt('rich', this.text)
 
 		if (!this.readOnly) {
 			this.wrapper.addEventListener('focus', () =>
@@ -102,7 +116,7 @@ export class Markdown {
 		const clipboardData = event.clipboardData || window.clipboardData
 		if (!clipboardData) return
 
-		// Internal EditorJS block copy/paste carries its own payload — let
+		// Internal EditorJS block copy/paste carries its own payload, so let
 		// EditorJS handle it so cross-block moves keep working.
 		if (clipboardData.getData('application/x-editor-js')) return
 
@@ -507,7 +521,7 @@ export class Markdown {
 					type: 'codeBox',
 					data: {
 						code: escapeHTML(node.textContent),
-						language: 'Auto-detect',
+						language: this._codeLanguageFrom(node),
 					},
 				})
 			} else if (/^H[1-6]$/.test(tag)) {
@@ -562,6 +576,19 @@ export class Markdown {
 
 		for (const child of doc.body.childNodes) handle(child)
 		return blocks
+	}
+
+	// Inner <code> carries the most specific hint, so check it before the <pre>.
+	_codeLanguageFrom(pre) {
+		for (const el of [pre.querySelector('code'), pre]) {
+			const className =
+				typeof el?.className === 'string' ? el.className : ''
+			for (const pattern of CODE_LANGUAGE_PATTERNS) {
+				const match = className.match(pattern)
+				if (match) return match[1]
+			}
+		}
+		return 'plaintext'
 	}
 
 	// True when a node carries visible text (nbsp-aware).

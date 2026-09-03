@@ -50,7 +50,12 @@
 			>
 				<span class="lucide-globe h-4 w-4 me-2 text-ink-gray-5" />
 				<span>
-					{{ batch.timezone }}
+					{{
+						formatTimezone(
+							batch.timezone,
+							nextOccurrence(batch.start_date, batch.end_date)
+						)
+					}}
 				</span>
 			</div>
 		</div>
@@ -64,6 +69,7 @@
 			>
 				<UserAvatar
 					v-for="instructor in batch.instructors"
+					:key="instructor.name"
 					:user="instructor"
 				/>
 			</div>
@@ -74,6 +80,7 @@
 <script setup>
 import { Badge } from 'frappe-ui'
 import { formatTime } from '@/utils'
+import { formatTimezone, nextOccurrence } from '@/utils/timezone'
 import DateRange from '@/components/Common/DateRange.vue'
 import CourseInstructors from '@/components/CourseInstructors.vue'
 import UserAvatar from '@/components/UserAvatar.vue'

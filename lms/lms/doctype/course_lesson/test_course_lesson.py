@@ -3,6 +3,16 @@
 
 import json
 import unittest
+from unittest.mock import patch
+
+import frappe
+from frappe.utils import add_to_date, now_datetime
+
+from lms.lms.doctype.course_lesson.course_lesson import (
+	UNTITLED_LESSON_TITLE,
+	rename_settled_untitled_lessons,
+)
+from lms.lms.test_helpers import BaseTestUtils
 
 # One sample URL per embed service registered in the LMS EditorJS editor.
 # Source of truth: frontend/src/utils/index.js → getEditorTools() → embed.config.services.
@@ -141,7 +151,7 @@ class TestApplyEnforcementFlagsEdgeCases(unittest.TestCase):
 	def test_string_zero_is_truthy_treated_as_enforced(self):
 		"""Frappe may return '0' as a string from raw queries. `not '0'` is False, so it's still enforced.
 
-		Codifies current behavior — callers that hit this should pass int(value) explicitly.
+		Codifies current behavior. Callers that hit this should pass int(value) explicitly.
 		"""
 		settings = {"enforce_quiz_completion": "0", "enforce_assignment_completion": "0"}
 		# Both still treated as enforced because non-empty strings are truthy.
@@ -234,7 +244,7 @@ class TestServePrivateFileVersionSafe(unittest.TestCase):
 class TestGetEditorjsBlocks(unittest.TestCase):
 	"""get_editorjs_blocks underpins save_lesson_details_in_quiz, get_quiz_progress and
 	get_assignment_progress. Before it existed those did a bare json.loads(content) which
-	500'd when `content` wasn't EditorJS JSON — e.g. a raw video URL pasted into the Desk
+	500'd when `content` wasn't EditorJS JSON, e.g. a raw video URL pasted into the Desk
 	Course Lesson form (the original bug: JSONDecodeError in on_update).
 	"""
 
@@ -302,7 +312,7 @@ class TestGetEditorjsBlocks(unittest.TestCase):
 class TestLessonBlockExtraction(unittest.TestCase):
 	"""The block-type filtering that save_lesson_details_in_quiz / get_quiz_progress /
 	get_assignment_progress run on top of get_editorjs_blocks. Pure (no DB): asserts which
-	blocks surface a quiz/assignment id and, crucially, that embeds surface neither — so a
+	blocks surface a quiz/assignment id and, crucially, that embeds surface neither, so a
 	lesson made entirely of video embeds never reaches the DB-lookup branches.
 	"""
 
@@ -348,3 +358,84 @@ class TestLessonBlockExtraction(unittest.TestCase):
 		# The reported crash case: extraction yields nothing instead of raising.
 		self.assertEqual(self._quiz_ids("https://www.youtube.com/watch?v=htpg8CuD1Ec"), [])
 		self.assertEqual(self._assignment_ids("https://www.youtube.com/watch?v=htpg8CuD1Ec"), [])
+
+
+class TestRenameSettledUntitledLessons(BaseTestUtils):
+	def setUp(self):
+		super().setUp()
+		# _create_course() defaults instructor="frappe@example.com"; create it so the
+		# course's instructor Link resolves on a fresh DB (mirrors TestLMSCourse.setUp).
+		self.instructor = self._create_user(
+			"frappe@example.com", "Frappe", "Admin", ["Moderator", "Course Creator"]
+		)
+		self.course = self._create_course(title="Rename Untitled Course")
+		self.chapter = self._create_chapter("Rename Chapter", self.course.name)
+
+	def tearDown(self):
+		frappe.set_user("Administrator")
+		super().tearDown()
+
+	def _make_untitled_lesson(self):
+		lesson = self._create_lesson(UNTITLED_LESSON_TITLE, self.chapter.name, self.course.name)
+		self.assertTrue(lesson.name.endswith(f" {UNTITLED_LESSON_TITLE}"))
+		return lesson
+
+	def _retitle(self, lesson, title):
+		frappe.db.set_value("Course Lesson", lesson.name, "title", title, update_modified=False)
+
+	def _age_modified(self, name, days):
+		frappe.db.set_value(
+			"Course Lesson", name, "modified", add_to_date(now_datetime(), days=days), update_modified=False
+		)
+
+	def test_settled_lesson_is_renamed(self):
+		lesson = self._make_untitled_lesson()
+		prefix = lesson.name.split(" ", 1)[0]
+		self._retitle(lesson, "Real Title")
+		self._age_modified(lesson.name, days=-2)
+
+		rename_settled_untitled_lessons()
+
+		expected = f"{prefix} Real Title"
+		self.assertFalse(frappe.db.exists("Course Lesson", lesson.name))
+		self.assertTrue(frappe.db.exists("Course Lesson", expected))
+		self.cleanup_items.append(("Course Lesson", expected))
+
+	def test_recently_modified_lesson_is_not_renamed(self):
+		lesson = self._make_untitled_lesson()
+		self._retitle(lesson, "Fresh Edit")
+
+		rename_settled_untitled_lessons()
+
+		self.assertTrue(frappe.db.exists("Course Lesson", lesson.name))
+
+	def test_still_untitled_lesson_is_not_renamed(self):
+		lesson = self._make_untitled_lesson()
+		self._age_modified(lesson.name, days=-2)
+
+		rename_settled_untitled_lessons()
+
+		self.assertTrue(frappe.db.exists("Course Lesson", lesson.name))
+
+	def test_translated_placeholder_lesson_is_renamed(self):
+		translated = "Titre provisoire"
+		lang = "fr"
+		user = self._create_user("french-author@example.com", "French", "Author", ["LMS Student"])
+		frappe.db.set_value("User", user.name, "language", lang)
+
+		lesson = self._create_lesson(translated, self.chapter.name, self.course.name)
+		self.assertTrue(lesson.name.endswith(f" {translated}"))
+		prefix = lesson.name.split(" ", 1)[0]
+		self._retitle(lesson, "Titre Réel")
+		self._age_modified(lesson.name, days=-2)
+
+		def fake_translations(target_lang):
+			return {UNTITLED_LESSON_TITLE: translated} if target_lang == lang else {}
+
+		with patch("frappe.translate.get_all_translations", side_effect=fake_translations):
+			rename_settled_untitled_lessons()
+
+		expected = f"{prefix} Titre Réel"
+		self.assertFalse(frappe.db.exists("Course Lesson", lesson.name))
+		self.assertTrue(frappe.db.exists("Course Lesson", expected))
+		self.cleanup_items.append(("Course Lesson", expected))

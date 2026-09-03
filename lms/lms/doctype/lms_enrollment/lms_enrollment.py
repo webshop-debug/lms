@@ -15,6 +15,21 @@ class LMSEnrollment(Document):
 		self.validate_course_enrollment_eligibility()
 		self.validate_owner()
 
+	def validate(self):
+		self.enforce_server_managed_fields()
+
+	def enforce_server_managed_fields(self):
+		"""Revert progress / purchased_certificate to their server-set values for non-staff."""
+		from lms.lms.utils import PRIVILEGED_ROLES
+
+		if PRIVILEGED_ROLES & set(frappe.get_roles()):
+			return
+
+		previous = None if self.is_new() else self.get_doc_before_save()
+		defaults = {"progress": 0, "purchased_certificate": 0}
+		for field, default in defaults.items():
+			setattr(self, field, previous.get(field) if previous else default)
+
 	def validate_owner(self):
 		"""Makes the member as the owner of the document so that users can update their progress"""
 		if self.owner != self.member:
@@ -24,6 +39,11 @@ class LMSEnrollment(Document):
 		update_program_progress(self.member)
 
 	def validate_duplicate_enrollment(self):
+		# Lock the course row first: see the note in
+		# lms_batch_enrollment.validate_duplicate_members. Two concurrent
+		# enrolments in the same course both read "absent" without it.
+		frappe.db.get_value("LMS Course", self.course, "name", for_update=True)
+
 		existing_enrollment = frappe.db.exists(
 			"LMS Enrollment",
 			{
@@ -112,7 +132,7 @@ def batched_enrollment_updates():
 	"""Coalesce every enrollment write in this block into one write and one dispatch."""
 	# A lesson completion writes the enrollment twice: LMS Course Progress.on_update
 	# recalculates progress, then save_progress advances current_lesson. Dispatched
-	# separately that is two on_updates — two webhook deliveries per completion, where
+	# separately that is two on_updates: two webhook deliveries per completion, where
 	# the pre-regression .save() delivered one. Batching restores the single event.
 	if getattr(frappe.local, "lms_enrollment_batch", None) is not None:
 		yield
