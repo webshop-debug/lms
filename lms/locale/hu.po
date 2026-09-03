@@ -12234,3 +12234,39 @@ msgstr "{0} – {1}, {2}"
 #: frontend/src/components/LockedLessonNotice.vue:28
 msgid "{0}s"
 msgstr "{0} s"
+
+#. Dinamikusan forditott kulcs (valtozon keresztul kerul a __()-be), ezert a
+#. main.pot nem tartalmazza.
+#: frontend/src/components/Settings/settingsStructure.js
+msgid ""
+"Automatically sync Raven workspace and channel membership from your students"
+" and staff"
+msgstr ""
+"A Raven-munkaterületek és -csatornák tagságának automatikus szinkronizálása "
+"a résztvevőid és a munkatársaid alapján"
+
+#. Dinamikusan forditott kulcs (valtozon keresztul kerul a __()-be), ezert a
+#. main.pot nem tartalmazza.
+#: frontend/src/components/Settings/settingsStructure.js
+msgid "Group courses under a category"
+msgstr "Kurzusok kategóriákba rendezése"
+
+#. Dinamikusan forditott kulcs (valtozon keresztul kerul a __()-be), ezert a
+#. main.pot nem tartalmazza.
+#: frontend/src/utils/mobileNav.ts
+msgid "Exercises"
+msgstr "Gyakorlatok"
+
+#. Dinamikusan forditott kulcs (valtozon keresztul kerul a __()-be), ezert a
+#. main.pot nem tartalmazza.
+#: frontend/src/components/Settings/Raven/MappingListTable.vue
+#: frontend/src/components/Settings/Raven/RulesPanel.vue
+msgid "All (AND)"
+msgstr "Mind (ÉS)"
+
+#. Dinamikusan forditott kulcs (valtozon keresztul kerul a __()-be), ezert a
+#. main.pot nem tartalmazza.
+#: frontend/src/components/Settings/Raven/MappingListTable.vue
+#: frontend/src/components/Settings/Raven/MappingRules.vue
+msgid "Any (OR)"
+msgstr "Bármelyik (VAGY)"
