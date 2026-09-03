@@ -11069,3 +11069,369 @@ msgstr ""
 #: frontend/src/components/Settings/ZoomSettings.vue:104
 msgid "Enable {0}"
 msgstr "{0} engedélyezése"
+
+#. Label of the enforce_lesson_completion (Check) field in DocType 'LMS
+#. Course'
+#: frontend/src/pages/Courses/CoursePublishSettings.vue:28
+#: lms/lms/doctype/lms_course/lms_course.json
+msgid "Enforce Lesson Completion"
+msgstr "Lecke teljesítésének megkövetelése"
+
+#: frontend/src/pages/Batches/components/AdminBatchDashboard.vue:35
+#: frontend/src/pages/Batches/components/AdminBatchDashboard.vue:99
+#: frontend/src/pages/Courses/CourseDashboard.vue:34
+msgid "Enroll students to track their progress here"
+msgstr "Iratkoztass be résztvevőket, hogy itt követhesd a haladásukat"
+
+#: frontend/src/components/Settings/Transactions/AddressModal.vue:150
+msgid "Error creating Address"
+msgstr "Hiba a cím létrehozásakor"
+
+#: frontend/src/pages/Quizzes.vue:294
+msgid "Error deleting quiz: {0}"
+msgstr "Hiba a kvíz törlésekor: {0}"
+
+#: frontend/src/pages/Quizzes.vue:295
+msgid "Error deleting quizzes: {0}"
+msgstr "Hiba a kvízek törlésekor: {0}"
+
+#: frontend/src/components/Settings/Raven/MappingRules.vue:103
+msgid "Error saving rules"
+msgstr "Hiba a szabályok mentésekor"
+
+#: frontend/src/components/Settings/Raven/MappingRules.vue:115
+msgid "Error updating rule status"
+msgstr "Hiba a szabály állapotának frissítésekor"
+
+#: lms/lms/api.py:580
+msgid "Evaluator is required."
+msgstr "A mentor megadása kötelező."
+
+#: lms/lms/api.py:623
+msgid "Evaluator {0} not found"
+msgstr "A(z) {0} mentor nem található"
+
+#: frontend/src/components/Settings/Badges/Badges.vue:132
+msgid "Every time"
+msgstr "Minden alkalommal"
+
+#: frontend/src/components/Settings/Transactions/TransactionList.vue:21
+msgid "Filter by payment type"
+msgstr "Szűrés fizetéstípus szerint"
+
+#: frontend/src/components/Settings/Members.vue:22
+msgid "Filter by role"
+msgstr "Szűrés szerepkör szerint"
+
+#: frontend/src/components/Layouts/PageBody.vue:24
+#: frontend/src/components/Layouts/PageBody.vue:48
+msgid "Filters"
+msgstr "Szűrők"
+
+#: frontend/src/components/LockedLessonNotice.vue:19
+msgid "Finish the lessons before it to unlock this one."
+msgstr "Teljesítsd az előtte lévő leckéket, hogy ez elérhetővé váljon."
+
+#: frontend/src/components/Settings/Raven/RulesPanel.vue:157
+msgid "Finish the rule above first"
+msgstr "Először fejezd be a fenti szabályt"
+
+#: frontend/src/components/Settings/Raven/RulesPanel.vue:283
+msgid "Finish this rule. Pick what it should match to save it."
+msgstr "Fejezd be ezt a szabályt. A mentéshez válaszd ki, mire illeszkedjen."
+
+#: frontend/src/components/Settings/Transactions/TransactionList.vue:41
+msgid "For Certificate"
+msgstr "Tanúsítványért"
+
+#: frontend/src/components/Settings/Transactions/TransactionList.vue:42
+msgid "For Course"
+msgstr "Kurzusért"
+
+#: frontend/src/pages/Forms/PersonaForm.vue:65
+msgid "Frappe Cloud Marketplace"
+msgstr "Frappe Cloud Marketplace"
+
+#: frontend/src/pages/Forms/PersonaForm.vue:69
+msgid "Friend or colleague"
+msgstr "Ismerős vagy munkatárs"
+
+#: lms/templates/signup-form.html:171
+msgid "Full name is required."
+msgstr "A teljes név megadása kötelező."
+
+#: frontend/src/components/Settings/Raven/RavenNotInstalledBanner.vue:16
+msgid "Get Raven"
+msgstr "Raven beszerzése"
+
+#: frontend/src/pages/Forms/PersonaForm.vue:59
+#: frontend/src/pages/Profile.vue:115
+msgid "GitHub"
+msgstr "GitHub"
+
+#: frontend/src/components/LockedLessonNotice.vue:34
+msgid "Go now"
+msgstr "Ugrás most"
+
+#: frontend/src/components/Settings/GoogleMeetSettings.vue:76
+msgid "Google Meet account deleted successfully"
+msgstr "A Google Meet-fiók sikeresen törölve"
+
+#: frontend/src/components/Settings/Badges/Badges.vue:129
+msgid "Grant"
+msgstr "Odaítélés"
+
+#: frontend/src/pages/Forms/PersonaForm.vue:52
+msgid "How did you hear about Frappe Learning?"
+msgstr "Honnan hallottál a Frappe Learningről?"
+
+#: frontend/src/components/Modals/EditCoverImage.vue:72
+msgid ""
+"Image search is unavailable. Add an Unsplash access key in Settings, or "
+"upload your own image."
+msgstr ""
+"A képkeresés nem elérhető. Adj meg egy Unsplash-hozzáférési kulcsot a "
+"Beállításokban, vagy töltsd fel a saját képedet."
+
+#: frontend/src/pages/Forms/CourseImportForm.vue:2
+msgid "Import Course from ZIP"
+msgstr "Kurzus importálása ZIP-fájlból"
+
+#: frontend/src/components/Settings/Raven/RavenNotInstalledBanner.vue:41
+msgid "Install the Raven app to sync workspace and channel membership."
+msgstr ""
+"Telepítsd a Raven alkalmazást a munkaterület- és csatornatagság "
+"szinkronizálásához."
+
+#: frontend/src/components/Settings/Raven/RavenNotInstalledBanner.vue:42
+msgid ""
+"Install the raven_integration app to manage Raven membership from Learning."
+msgstr ""
+"Telepítsd a raven_integration alkalmazást, hogy a Raven-tagságot a "
+"Learningből kezelhesd."
+
+#: lms/lms/doctype/lms_quiz/lms_quiz.py:372
+msgid "Invalid answers submitted."
+msgstr "Érvénytelen válaszok lettek beadva."
+
+#: lms/lms/api.py:1075 lms/lms/api.py:1079
+msgid "Invalid member."
+msgstr "Érvénytelen tag."
+
+#: lms/lms/doctype/lms_quiz/lms_quiz.py:132
+#: lms/lms/doctype/lms_quiz/lms_quiz.py:135
+#: lms/lms/doctype/lms_quiz/lms_quiz.py:145
+#: lms/lms/doctype/lms_quiz/lms_quiz.py:205
+msgid "Invalid quiz results submitted."
+msgstr "Érvénytelen kvízeredmények lettek beadva."
+
+#: lms/lms/doctype/lms_quiz/lms_quiz.py:141
+#: lms/lms/doctype/lms_quiz/lms_quiz.py:163
+msgid "Invalid quiz."
+msgstr "Érvénytelen kvíz."
+
+#: lms/lms/doctype/lms_quiz/lms_quiz.py:121
+msgid "Invalid {0} submitted."
+msgstr "Érvénytelen {0} lettek beadva."
+
+#: lms/lms/api.py:294
+msgid "Job must be a string."
+msgstr "Az állásnak szövegnek kell lennie."
+
+#: lms/lms/api.py:477
+msgid "Keyword must be a string."
+msgstr "A kulcsszónak szövegnek kell lennie."
+
+#: frontend/src/components/Settings/Raven/RulesPanel.vue:109
+msgid "Label, e.g. Cohort cap"
+msgstr "Címke, pl. Kohorszkorlát"
+
+#: frontend/src/pages/Forms/PersonaForm.vue:118
+msgid "LearnDash"
+msgstr "LearnDash"
+
+#: frontend/src/pages/SCORMChapter.vue:20
+msgid "Lesson content"
+msgstr "Lecke tartalma"
+
+#: frontend/src/pages/LessonForm.vue:11 frontend/src/pages/LessonForm.vue:36
+msgid "Lesson details"
+msgstr "Lecke adatai"
+
+#: lms/lms/api.py:2245
+msgid "Lesson must be a string."
+msgstr "A leckének szövegnek kell lennie."
+
+#: frontend/src/components/LockedLessonNotice.vue:13 lms/lms/utils.py:1454
+msgid "Lesson not found"
+msgstr "A lecke nem található"
+
+#: frontend/src/components/LockedLessonNotice.vue:97
+msgid "Lesson not found. Taking you to your current lesson in {0} seconds."
+msgstr ""
+"A lecke nem található. {0} másodperc múlva a jelenlegi leckédre navigálunk."
+
+#: frontend/src/components/Settings/Raven/MappingListTable.vue:138
+#: frontend/src/components/Settings/Raven/MappingListTable.vue:144
+msgid "Link"
+msgstr "Összekapcsolás"
+
+#: frontend/src/pages/Forms/AnnouncementForm.vue:5
+#: frontend/src/pages/Forms/BulkCertificatesForm.vue:5
+#: frontend/src/pages/Forms/CourseEnrollmentForm.vue:5
+#: frontend/src/pages/Forms/LiveClassForm.vue:5
+#: frontend/src/pages/Forms/ProfileEditForm.vue:13
+#: frontend/src/pages/Programs/ProgramEnrollment.vue:8
+msgid "Loading..."
+msgstr "Betöltés..."
+
+#: frontend/src/components/Layouts/ListPage.vue:193
+msgid "Loading…"
+msgstr "Betöltés…"
+
+#: frontend/src/components/ChapterRow.vue:72
+#: frontend/src/components/ChapterRow.vue:152
+#: frontend/src/components/StudentLessonSidebar.vue:100
+msgid "Locked"
+msgstr "Zárolt"
+
+#: frontend/src/pages/MobileYou.vue:233
+msgid "Log in to see your account."
+msgstr "Jelentkezz be a fiókod megtekintéséhez."
+
+#: frontend/src/pages/Forms/AnnouncementForm.vue:2
+msgid "Make an Announcement"
+msgstr "Közlemény közzététele"
+
+#: frontend/src/components/Settings/Raven/RulesPanel.vue:429
+msgid "Managed by"
+msgstr "Kezeli:"
+
+#: frontend/src/components/Settings/Raven/RulesPanel.vue:284
+msgid ""
+"Matches another rule above and is not saved. Change the type or criteria to "
+"keep it."
+msgstr ""
+"Megegyezik egy fenti szabállyal, ezért nincs mentve. A megtartásához "
+"módosítsd a típusát vagy a feltételeit."
+
+#: lms/lms/api.py:1083
+msgid "Member {0} does not exist."
+msgstr "A(z) {0} tag nem létezik."
+
+#: frontend/src/pages/JobApplications.vue:43
+msgid "More actions"
+msgstr "További műveletek"
+
+#: frontend/src/components/Layouts/SettingsList.vue:131
+msgid "More options"
+msgstr "További lehetőségek"
+
+#: frontend/src/components/AudioBlock.vue:35
+#: frontend/src/components/VideoBlock.vue:107
+msgid "Mute"
+msgstr "Némítás"
+
+#: frontend/src/components/Settings/Raven/RulesPanel.vue:281
+msgid "Name this rule. It is not saved until it has one."
+msgstr "Adj nevet ennek a szabálynak. Név nélkül nem menthető."
+
+#: frontend/src/components/Settings/Transactions/AddressModal.vue:4
+msgid "New Address"
+msgstr "Új cím"
+
+#: frontend/src/components/Settings/Badges/BadgeForm.vue:115
+msgid "New Badge"
+msgstr "Új kitűző"
+
+#: frontend/src/pages/Courses/CourseDetail.vue:159
+#: frontend/src/pages/Lesson.vue:44
+msgid "Next lesson"
+msgstr "Következő lecke"
+
+#: frontend/src/components/Settings/Raven/MappingRules.vue:317
+msgid ""
+"No active rules. Membership is not being synced, so this workspace stays as "
+"it is."
+msgstr ""
+"Nincs aktív szabály. A tagság nem szinkronizálódik, ezért ez a munkaterület "
+"változatlan marad."
+
+#: frontend/src/components/Settings/Raven/MappingRules.vue:320
+msgid ""
+"No active rules. This channel is not being synced. Add a rule to scope its "
+"membership."
+msgstr ""
+"Nincs aktív szabály. Ez a csatorna nem szinkronizálódik. Adj hozzá egy "
+"szabályt a tagság meghatározásához."
+
+#: frontend/src/components/Modals/EditCoverImage.vue:68
+msgid "No images found for \"{0}\"."
+msgstr "Nincs kép a következőre: „{0}”."
+
+#: lms/lms/payments.py:35
+msgid "No payment gateway is configured. Please contact the administrator."
+msgstr "Nincs beállítva fizetési átjáró. Fordulj a rendszergazdához."
+
+#: frontend/src/components/Layouts/SettingsList.vue:156
+msgid "No {0} match {1}"
+msgstr "Egyetlen {0} sem illeszkedik a következőre: {1}"
+
+#: frontend/src/components/Layouts/SettingsLayout.vue:40
+msgid "Not saved"
+msgstr "Nincs mentve"
+
+#: frontend/src/components/Settings/Badges/Badges.vue:132
+msgid "Once"
+msgstr "Egyszer"
+
+#: lms/plugins.py:203
+msgid "Open PDF in a new tab"
+msgstr "PDF megnyitása új lapon"
+
+#: frontend/src/pages/Forms/PersonaForm.vue:115
+msgid "Open edX"
+msgstr "Open edX"
+
+#: frontend/src/components/LessonContent.vue:44
+msgid "PDF document"
+msgstr "PDF-dokumentum"
+
+#: frontend/src/pages/NotFound.vue:4
+msgid "Page not found"
+msgstr "A lap nem található"
+
+#: frontend/src/components/Settings/Transactions/TransactionList.vue:39
+#: frontend/src/components/Settings/Transactions/TransactionList.vue:103
+msgid "Paid"
+msgstr "Fizetve"
+
+#: frontend/src/components/AudioBlock.vue:12
+#: frontend/src/components/VideoBlock.vue:66
+msgid "Pause"
+msgstr "Szünet"
+
+#: frontend/src/components/Settings/PaymentGateways.vue:52
+msgid "Payment gateway deleted successfully"
+msgstr "A fizetési átjáró sikeresen törölve"
+
+#: frontend/src/pages/Batches/components/BatchStudentProgress.vue:157
+msgid "Percentage/Status"
+msgstr "Százalék/állapot"
+
+#: frontend/src/components/AudioBlock.vue:12
+#: frontend/src/components/VideoBlock.vue:66
+msgid "Play"
+msgstr "Lejátszás"
+
+#: frontend/src/components/VideoBlock.vue:40
+msgid "Play video"
+msgstr "Videó lejátszása"
+
+#: lms/templates/signup-form.html:186
+msgid "Please accept the terms to continue."
+msgstr "A folytatáshoz fogadd el a feltételeket."
+
+#: lms/templates/signup-form.html:176
+msgid "Please enter a valid email."
+msgstr "Adj meg egy érvényes e-mail-címet."
