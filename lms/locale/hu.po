@@ -11435,3 +11435,359 @@ msgstr "A folytatáshoz fogadd el a feltételeket."
 #: lms/templates/signup-form.html:176
 msgid "Please enter a valid email."
 msgstr "Adj meg egy érvényes e-mail-címet."
+
+#: frontend/src/pages/Programs/ProgramEnrollment.vue:155
+msgid "Please log in to enroll in this program."
+msgstr "A programba való beiratkozáshoz jelentkezz be."
+
+#: lms/templates/signup-form.html:181
+msgid "Please select a category."
+msgstr "Válassz egy kategóriát."
+
+#: frontend/src/pages/Billing.vue:441
+msgid "Please select your state from the list."
+msgstr "Válaszd ki az államot a listából."
+
+#: frontend/src/pages/Billing.vue:436
+msgid "Please select your state."
+msgstr "Válaszd ki az államot."
+
+#: frontend/src/components/Controls/VideoPreviewField.vue:183
+msgid ""
+"Please upload an MP4, WebM, or OGG video. Formats like .MOV can't be played "
+"in the browser."
+msgstr ""
+"Tölts fel MP4-, WebM- vagy OGG-videót. A böngésző nem tudja lejátszani az "
+"olyan formátumokat, mint a .MOV."
+
+#: frontend/src/components/Modals/JobApplicationModal.vue:118
+msgid "Please upload your resume"
+msgstr "Töltsd fel az önéletrajzodat"
+
+#: frontend/src/pages/Forms/PersonaForm.vue:175
+msgid "Poke around a sample course."
+msgstr "Nézz körül egy példakurzusban."
+
+#: frontend/src/pages/Courses/CourseDetail.vue:140
+#: frontend/src/pages/Lesson.vue:27
+msgid "Previous lesson"
+msgstr "Előző lecke"
+
+#: frontend/src/components/Quiz.vue:266
+msgid "Previous question"
+msgstr "Előző kérdés"
+
+#: frontend/src/components/Layouts/MobileLayout.vue:21
+msgid "Primary"
+msgstr "Elsődleges"
+
+#: frontend/src/pages/Forms/ProfileEditForm.vue:194
+msgid "Profile updated successfully"
+msgstr "A profil sikeresen frissítve"
+
+#: frontend/src/pages/Batches/BatchDetail.vue:287
+msgid "Publish batch"
+msgstr "Évfolyam közzététele"
+
+#: frontend/src/pages/Courses/CourseDetail.vue:333
+msgid "Publish course"
+msgstr "Kurzus közzététele"
+
+#: lms/lms/utils.py:1761
+msgid "Quiz must be a string."
+msgstr "A kvíznek szövegnek kell lennie."
+
+#: frontend/src/components/Settings/Raven/RavenNotInstalledBanner.vue:36
+msgid "Raven Integration is not installed"
+msgstr "A Raven Integration nincs telepítve"
+
+#: frontend/src/components/Settings/Raven/RavenNotInstalledBanner.vue:35
+msgid "Raven is not installed"
+msgstr "A Raven nincs telepítve"
+
+#: frontend/src/components/Settings/Coupons/CouponList.vue:97
+msgid "Redeemed"
+msgstr "Felhasználva"
+
+#: frontend/src/pages/Profile.vue:9
+msgid "Refresh session"
+msgstr "Munkamenet frissítése"
+
+#: frontend/src/pages/Billing.vue:76
+msgid "Remove coupon"
+msgstr "Kupon eltávolítása"
+
+#: frontend/src/pages/Forms/ChapterForm.vue:65
+#: frontend/src/pages/Forms/CourseImportForm.vue:74
+msgid "Remove file"
+msgstr "Fájl eltávolítása"
+
+#: frontend/src/components/Settings/SettingFields.vue:77
+msgid "Remove image"
+msgstr "Kép eltávolítása"
+
+#: frontend/src/components/Settings/Raven/MassRemovalConfirmDialog.vue:69
+msgid "Remove members?"
+msgstr "Eltávolítod a tagokat?"
+
+#: frontend/src/pages/Forms/QuizQuestionForm.vue:72
+msgid "Remove option"
+msgstr "Válaszlehetőség eltávolítása"
+
+#: frontend/src/pages/Forms/QuizQuestionForm.vue:123
+msgid "Remove possibility"
+msgstr "Lehetőség eltávolítása"
+
+#: frontend/src/components/Modals/QuizInVideo.vue:51
+msgid "Remove quiz"
+msgstr "Kvíz eltávolítása"
+
+#: frontend/src/components/Assignment.vue:126
+msgid "Remove submission"
+msgstr "Beadás eltávolítása"
+
+#: frontend/src/components/Tags.vue:16
+msgid "Remove tag"
+msgstr "Címke eltávolítása"
+
+#: frontend/src/components/Controls/VideoPreviewField.vue:43
+msgid "Remove video"
+msgstr "Videó eltávolítása"
+
+#: frontend/src/components/Settings/Raven/MassRemovalConfirmDialog.vue:93
+msgid "Remove {0} members"
+msgstr "{0} tag eltávolítása"
+
+#: frontend/src/components/Settings/Raven/MappingListTable.vue:79
+msgid "Rename"
+msgstr "Átnevezés"
+
+#: frontend/src/components/DiscussionReplies.vue:63
+msgid "Reply actions"
+msgstr "Válasz műveletei"
+
+#: frontend/src/components/Controls/ChildTable.vue:42
+msgid "Row actions"
+msgstr "Sor műveletei"
+
+#: frontend/src/components/Settings/Raven/RulesPanel.vue:122
+msgid "Rule actions"
+msgstr "Szabály műveletei"
+
+#: frontend/src/components/Settings/Raven/RuleEditor.vue:6
+#: frontend/src/components/Settings/Raven/RuleEditor.vue:14
+#: frontend/src/components/Settings/Raven/RuleEditor.vue:15
+msgid "Rule type"
+msgstr "Szabály típusa"
+
+#: frontend/src/components/Settings/Raven/RulesPanel.vue:57
+msgid ""
+"Rule types could not be loaded, so rule changes are not being saved. Reload "
+"the page to try again."
+msgstr ""
+"A szabálytípusokat nem sikerült betölteni, ezért a szabálymódosítások nem "
+"mentődnek. Az újrapróbálkozáshoz töltsd újra a lapot."
+
+#: frontend/src/components/Settings/Raven/MappingListTable.vue:49
+msgid "Save label"
+msgstr "Címke mentése"
+
+#: frontend/src/components/Controls/VideoPreviewField.vue:36
+msgid "Saved. This format can't be previewed here."
+msgstr "Mentve. Ez a formátum itt nem tekinthető meg előnézetben."
+
+#: frontend/src/components/Settings/EmailTemplate/EmailTemplateList.vue:13
+msgid "Search Template"
+msgstr "Sablon keresése"
+
+#: frontend/src/components/Settings/EmailAccount/EmailAccountList.vue:15
+#: frontend/src/components/Settings/GoogleMeetSettings.vue:12
+#: frontend/src/components/Settings/ZoomSettings.vue:12
+msgid "Search accounts"
+msgstr "Fiókok keresése"
+
+#: frontend/src/pages/JobApplications.vue:22
+msgid "Search applications"
+msgstr "Jelentkezések keresése"
+
+#: frontend/src/components/Settings/Badges/Badges.vue:12
+msgid "Search badges"
+msgstr "Kitűzők keresése"
+
+#: frontend/src/components/UnsplashImageBrowser.vue:18
+msgid "Search by keyword"
+msgstr "Keresés kulcsszó szerint"
+
+#: frontend/src/components/Settings/Categories.vue:11
+msgid "Search categories"
+msgstr "Kategóriák keresése"
+
+#: lms/command_palette.py:59
+msgid "Search category must be text."
+msgstr "A keresési kategóriának szövegnek kell lennie."
+
+#: frontend/src/components/Settings/Coupons/CouponList.vue:11
+msgid "Search coupons"
+msgstr "Kuponok keresése"
+
+#: frontend/src/pages/Forms/PersonaForm.vue:56
+msgid "Search engine (Google, etc.)"
+msgstr "Keresőmotor (Google stb.)"
+
+#: frontend/src/components/Settings/PaymentGateways.vue:12
+msgid "Search gateways"
+msgstr "Átjárók keresése"
+
+#: frontend/src/components/Modals/EditCoverImage.vue:17
+msgid "Search images by keyword"
+msgstr "Képek keresése kulcsszó szerint"
+
+#: frontend/src/pages/Jobs.vue:46
+msgid "Search jobs"
+msgstr "Állások keresése"
+
+#: frontend/src/components/Settings/Badges/BadgeAssignments.vue:10
+#: frontend/src/components/Settings/Members.vue:11
+msgid "Search members"
+msgstr "Tagok keresése"
+
+#: lms/command_palette.py:54
+msgid "Search query must be text."
+msgstr "A keresési kifejezésnek szövegnek kell lennie."
+
+#: frontend/src/pages/Courses/CourseDashboard.vue:51
+msgid "Search students"
+msgstr "Résztvevők keresése"
+
+#: frontend/src/components/AudioBlock.vue:27
+#: frontend/src/components/VideoBlock.vue:83
+msgid "Seek"
+msgstr "Tekerés"
+
+#: frontend/src/components/Settings/Raven/ChannelsView.vue:58
+msgid "Select a channel to view its rules."
+msgstr "Válassz egy csatornát a szabályai megtekintéséhez."
+
+#: frontend/src/pages/Billing.vue:131
+msgid "Select a state"
+msgstr "Válassz államot"
+
+#: frontend/src/components/Settings/Raven/WorkspaceList.vue:42
+msgid "Select a workspace to view its rules."
+msgstr "Válassz egy munkaterületet a szabályai megtekintéséhez."
+
+#: frontend/src/components/Modals/VideoStatistics.vue:10
+msgid "Select video"
+msgstr "Videó kiválasztása"
+
+#: frontend/src/components/ResponsiveListView.vue:419
+msgid "Select {0}"
+msgstr "{0} kijelölése"
+
+#: frontend/src/components/ResponsiveListView.vue:143
+msgid "Selected rows"
+msgstr "Kijelölt sorok"
+
+#: frontend/src/pages/Forms/PersonaForm.vue:147
+msgid "Set up your first course and lessons."
+msgstr "Állítsd össze az első kurzusodat és leckéidet."
+
+#: frontend/src/utils/index.js:862
+msgid "Settings is only available on a larger screen."
+msgstr "A beállítások csak nagyobb képernyőn érhetők el."
+
+#: frontend/src/components/CourseCreatorCard.vue:66
+msgid "Show more instructors"
+msgstr "További oktatók megjelenítése"
+
+#: lms/lms/user.py:90
+msgid ""
+"Signup successful. Please ask your administrator to verify your sign-up."
+msgstr ""
+"A regisztráció sikeres. Kérd meg a rendszergazdát, hogy hagyja jóvá a "
+"regisztrációdat."
+
+#: lms/lms/user.py:88
+msgid "Signup successful. Please check your email for verification."
+msgstr "A regisztráció sikeres. Az ellenőrzéshez nézd meg az e-mailjeidet."
+
+#: frontend/src/components/Layouts/DesktopLayout.vue:8
+#: frontend/src/components/Layouts/MobileLayout.vue:8
+#: frontend/src/components/Layouts/NoSidebarLayout.vue:8
+msgid "Skip to main content"
+msgstr "Ugrás a fő tartalomra"
+
+#: lms/lms/api.py:679
+msgid "Slot is required."
+msgstr "Az idősáv megadása kötelező."
+
+#: frontend/src/pages/Forms/PersonaForm.vue:68
+msgid "Social media"
+msgstr "Közösségi média"
+
+#: frontend/src/components/Settings/Raven/MappingListTable.vue:72
+msgid "Stale"
+msgstr "Elavult"
+
+#. Description of the 'Enforce Lesson Completion' (Check) field in DocType
+#. 'LMS
+#. Course'
+#: lms/lms/doctype/lms_course/lms_course.json
+msgid ""
+"Students must complete each lesson before the next one becomes available. A "
+"lesson a student cannot complete (quiz attempts exhausted, or a SCORM "
+"package that never reports completion) will block every lesson after it."
+msgstr ""
+"A résztvevőknek minden leckét teljesíteniük kell, mielőtt a következő "
+"elérhetővé válik. Az a lecke, amelyet a résztvevő nem tud teljesíteni "
+"(elfogytak a kvízpróbálkozások, vagy egy SCORM-csomag soha nem jelez "
+"teljesítést), az utána következő összes leckét blokkolja."
+
+#: frontend/src/pages/Courses/CoursePublishSettings.vue:30
+msgid "Students must complete each lesson before the next one opens."
+msgstr ""
+"A résztvevőknek minden leckét teljesíteniük kell, mielőtt a következő "
+"megnyílik."
+
+#: lms/templates/signup-form.html:214
+msgid "Success"
+msgstr "Sikeres"
+
+#: frontend/src/pages/Forms/PersonaForm.vue:117
+msgid "Teachmint"
+msgstr "Teachmint"
+
+#: frontend/src/components/Settings/EmailTemplate/EmailTemplateList.vue:90
+msgid "Template Name"
+msgstr "Sablon neve"
+
+#: lms/lms/api.py:685
+msgid "That slot does not belong to this evaluator."
+msgstr "Ez az idősáv nem ehhez a mentorhoz tartozik."
+
+#: lms/lms/payments.py:29
+msgid "The Payments app is not installed. Please contact the administrator."
+msgstr "A Payments alkalmazás nincs telepítve. Fordulj a rendszergazdához."
+
+#: lms/lms/payments.py:41
+msgid ""
+"The configured payment gateway {0} does not exist. Please contact the "
+"administrator."
+msgstr ""
+"A beállított {0} fizetési átjáró nem létezik. Fordulj a rendszergazdához."
+
+#: frontend/src/components/Settings/Raven/MappingListTable.vue:295
+msgid ""
+"The linked Raven record no longer exists, so this mapping has stopped "
+"syncing members."
+msgstr ""
+"A hozzárendelt Raven-rekord már nem létezik, ezért ez az összerendelés nem "
+"szinkronizálja tovább a tagokat."
+
+#: frontend/src/pages/NotFound.vue:6
+msgid "The page you are looking for does not exist or has moved"
+msgstr "A keresett lap nem létezik, vagy áthelyezték"
+
+#: frontend/src/components/LockedLessonNotice.vue:18
+msgid "There is no lesson at this address in this course."
+msgstr "Ebben a kurzusban nincs lecke ezen a címen."
