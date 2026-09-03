@@ -10714,3 +10714,358 @@ msgstr "Tanúsítások naponta"
 #: frontend/src/pages/Statistics.vue:131
 msgid "Course Completion"
 msgstr "Kurzusteljesítés"
+
+#: frontend/src/components/Settings/Mobile/SettingsRow.vue:95
+msgid "(opens in a new tab)"
+msgstr "(új lapon nyílik meg)"
+
+#: frontend/src/components/Layouts/ListPage.vue:186
+msgid "1 result loaded"
+msgstr "1 találat betöltve"
+
+#: frontend/src/components/ResponsiveListView.vue:324
+msgid "1 row selected"
+msgstr "1 sor kijelölve"
+
+#: lms/lms/api.py:660
+msgid "A date is required."
+msgstr "A dátum megadása kötelező."
+
+#: lms/lms/doctype/lms_assignment_submission/lms_assignment_submission.py:61
+msgid "A submission for {0} by {1} already exists."
+msgstr "{1} már készített beadást a következőhöz: {0}."
+
+#: lms/lms/api.py:643
+msgid "A time is required."
+msgstr "Az időpont megadása kötelező."
+
+#: frontend/src/pages/Forms/PersonaForm.vue:71
+msgid "AI assistant (ChatGPT, etc.)"
+msgstr "AI-asszisztens (ChatGPT stb.)"
+
+#: frontend/src/components/Settings/Badges/BadgeAssignments.vue:88
+#: frontend/src/components/Settings/Badges/Badges.vue:148
+#: frontend/src/components/Settings/Categories.vue:138
+#: frontend/src/components/Settings/Coupons/CouponList.vue:116
+#: frontend/src/components/Settings/EmailAccount/EmailAccountList.vue:113
+#: frontend/src/components/Settings/EmailTemplate/EmailTemplateList.vue:98
+#: frontend/src/components/Settings/GoogleMeetSettings.vue:104
+#: frontend/src/components/Settings/Members.vue:215
+#: frontend/src/components/Settings/PaymentGateways.vue:68
+#: frontend/src/components/Settings/ZoomSettings.vue:111
+msgid "Actions for {0}"
+msgstr "{0} műveletei"
+
+#: frontend/src/pages/Forms/QuizForm.vue:101
+msgid "Add a question to get started"
+msgstr "A kezdéshez adj hozzá egy kérdést"
+
+#: frontend/src/pages/Courses/CourseEditor.vue:55
+msgid "Add chapter"
+msgstr "Fejezet hozzáadása"
+
+#: frontend/src/components/Settings/Raven/MassRemovalConfirmDialog.vue:68
+msgid "Add members?"
+msgstr "Hozzáadod a tagokat?"
+
+#: frontend/src/components/Layouts/SettingsList.vue:163
+#: frontend/src/components/Settings/Raven/ChannelsView.vue:28
+#: frontend/src/components/Settings/Raven/WorkspaceList.vue:13
+msgid "Add one to get started"
+msgstr "Adj hozzá egyet a kezdéshez"
+
+#: frontend/src/pages/Forms/PersonaForm.vue:168
+msgid "Add pricing and go live."
+msgstr "Állítsd be az árazást, és indulj el."
+
+#: frontend/src/components/Settings/Raven/RulesPanel.vue:87
+#: frontend/src/components/Settings/Raven/RulesPanel.vue:161
+msgid "Add rule"
+msgstr "Szabály hozzáadása"
+
+#: frontend/src/components/Settings/Raven/MassRemovalConfirmDialog.vue:92
+msgid "Add {0} members"
+msgstr "{0} tag hozzáadása"
+
+#: frontend/src/components/Settings/Raven/MassRemovalConfirmDialog.vue:88
+msgid "Add {0}, remove {1}"
+msgstr "{0} hozzáadása, {1} eltávolítása"
+
+#: frontend/src/components/Settings/Transactions/AddressModal.vue:18
+msgid "Address Title"
+msgstr "Cím megnevezése"
+
+#: frontend/src/components/Settings/Transactions/AddressModal.vue:134
+msgid "Address Title, Address Line 1, City and Country are required."
+msgstr ""
+"A cím megnevezése, az 1. címsor, a város és az ország megadása kötelező."
+
+#: frontend/src/components/Settings/Transactions/AddressModal.vue:24
+msgid "Address Type"
+msgstr "Cím típusa"
+
+#: frontend/src/components/Settings/Transactions/AddressModal.vue:147
+msgid "Address created successfully"
+msgstr "A cím sikeresen létrehozva"
+
+#: frontend/src/components/Settings/Transactions/TransactionList.vue:38
+msgid "All Payments"
+msgstr "Minden fizetés"
+
+#: frontend/src/components/Modals/EvaluationModal.vue:28
+msgid "All times in {0}"
+msgstr "Minden időpont {0} szerint"
+
+#: frontend/src/pages/Forms/PersonaForm.vue:61
+msgid "Already using Frappe / ERPNext"
+msgstr "Már használom a Frappe-ot / ERPNextet"
+
+#: frontend/src/pages/MobileYou.vue:210
+msgid "Applies to this device only."
+msgstr "Csak erre az eszközre érvényes."
+
+#: lms/lms/api.py:335
+msgid "Assignment must be a string."
+msgstr "A beadandónak szövegnek kell lennie."
+
+#: lms/lms/api.py:119
+msgid "At most {0} documents per request"
+msgstr "Kérésenként legfeljebb {0} dokumentum"
+
+#: frontend/src/components/Settings/Badges/Badges.vue:120
+msgid "Awarded For"
+msgstr "Odaítélés alapja"
+
+#: frontend/src/pages/NotFound.vue:13
+msgid "Back to Home"
+msgstr "Vissza a kezdőlapra"
+
+#: frontend/src/components/DiscussionReplies.vue:7
+msgid "Back to topics"
+msgstr "Vissza a témákhoz"
+
+#: frontend/src/components/Settings/Badges/BadgeAssignments.vue:62
+msgid "Badge assignment deleted successfully"
+msgstr "A kitűző-hozzárendelés sikeresen törölve"
+
+#: frontend/src/pages/Batches/BatchDetail.vue:32
+msgid "Batch options"
+msgstr "Évfolyam műveletei"
+
+#: frontend/src/pages/Forms/PersonaForm.vue:154
+msgid "Bring your learners into a batch."
+msgstr "Sorold be a résztvevőidet egy évfolyamba."
+
+#: lms/lms/api.py:3062
+msgid "Category is required."
+msgstr "A kategória megadása kötelező."
+
+#: lms/lms/api.py:3065
+msgid "Category {0} does not exist."
+msgstr "A(z) {0} kategória nem létezik."
+
+#: frontend/src/pages/Forms/BulkCertificatesForm.vue:123
+msgid "Certificates are not enabled for this batch."
+msgstr "Ehhez az évfolyamhoz nincsenek engedélyezve a tanúsítványok."
+
+#: frontend/src/pages/Batches/Batches.vue:84
+#: frontend/src/pages/Courses/Courses.vue:67
+msgid "Certification available"
+msgstr "Tanúsítvány elérhető"
+
+#: frontend/src/components/Settings/Raven/MassRemovalConfirmDialog.vue:67
+msgid "Change who is a member?"
+msgstr "Módosítod, hogy kik a tagok?"
+
+#: frontend/src/components/Settings/Raven/RulesPanel.vue:73
+msgid ""
+"Changes are not being saved while a saved rule needs fixing. Resolve the "
+"rule below to resume saving."
+msgstr ""
+"A mentés fel van függesztve, amíg egy mentett szabály javításra vár. A "
+"mentés folytatásához javítsd az alábbi szabályt."
+
+#: frontend/src/components/Settings/Raven/ChannelsView.vue:50
+#: frontend/src/components/Settings/Raven/MappingRules.vue:307
+msgid "Channel members are the workspace members who also match these rules."
+msgstr ""
+"A csatorna tagjai azok a munkaterület-tagok, akik ezekre a szabályokra is "
+"illeszkednek."
+
+#: frontend/src/components/Settings/Raven/ChannelsView.vue:46
+msgid "Channel rules"
+msgstr "Csatornaszabályok"
+
+#: frontend/src/components/Settings/Raven/MappingRules.vue:293
+msgid "Channel rules · #{0}"
+msgstr "Csatornaszabályok · #{0}"
+
+#: frontend/src/components/Settings/Raven/ChannelsView.vue:26
+#: frontend/src/components/Settings/Raven/WorkspaceList.vue:93
+msgid "Channels"
+msgstr "Csatornák"
+
+#: frontend/src/pages/Batches/BatchDetail.vue:208
+msgid "Classes"
+msgstr "Foglalkozások"
+
+#: frontend/src/pages/Forms/PersonaForm.vue:116
+msgid "Classplus"
+msgstr "Classplus"
+
+#: frontend/src/components/Controls/ColorSwatches.vue:43
+msgid "Clear color"
+msgstr "Szín törlése"
+
+#: frontend/src/pages/MobileYou.vue:209
+msgid "Colour mode"
+msgstr "Színmód"
+
+#: frontend/src/components/CommandPalette/CommandPalette.vue:5
+msgid "Command palette"
+msgstr "Parancspaletta"
+
+#: lms/lms/doctype/course_lesson/course_lesson.py:334
+msgid "Complete the previous lesson before marking this one as done."
+msgstr "Teljesítsd az előző leckét, mielőtt ezt késznek jelölöd."
+
+#: frontend/src/components/ChapterRow.vue:148
+msgid "Complete the previous lesson to unlock this one"
+msgstr "Teljesítsd az előző leckét, hogy ez elérhetővé váljon"
+
+#: frontend/src/components/ChapterRow.vue:69
+msgid "Complete the previous lessons to unlock this one"
+msgstr "Teljesítsd az előző leckéket, hogy ez elérhetővé váljon"
+
+#: frontend/src/pages/Forms/PersonaForm.vue:161
+msgid "Configure certification for a course."
+msgstr "Állítsd be egy kurzus tanúsítványát."
+
+#: frontend/src/components/Settings/Raven/RavenSettings.vue:56
+msgid "Connect Raven to Frappe Learning"
+msgstr "A Raven összekapcsolása a Frappe Learninggel"
+
+#: frontend/src/components/Settings/Raven/MappingRules.vue:202
+msgid "Could not check who this change affects"
+msgstr "Nem sikerült ellenőrizni, kiket érint ez a változás"
+
+#: frontend/src/components/Settings/Raven/RavenSettings.vue:127
+msgid "Could not enable the integration"
+msgstr "Nem sikerült engedélyezni az integrációt"
+
+#: frontend/src/components/CommandPalette/CommandPalette.vue:37
+msgid "Could not search just now. Try again."
+msgstr "A keresés most nem sikerült. Próbáld újra."
+
+#: frontend/src/pages/Billing.vue:379
+msgid "Could not start the payment. Please contact the administrator."
+msgstr "A fizetést nem sikerült elindítani. Fordulj a rendszergazdához."
+
+#: lms/lms/doctype/lms_enrollment/lms_enrollment.py:158
+msgid "Could not update enrollments: {0}"
+msgstr "A beiratkozások frissítése nem sikerült: {0}"
+
+#: frontend/src/pages/Courses/CourseDetail.vue:21
+msgid "Course options"
+msgstr "Kurzus műveletei"
+
+#: frontend/src/components/Modals/EditCoverImage.vue:56
+msgid "Cover image option"
+msgstr "Borítókép-lehetőség"
+
+#: frontend/src/components/Settings/Raven/ChannelsView.vue:14
+msgid "Create channel"
+msgstr "Csatorna létrehozása"
+
+#: frontend/src/components/Settings/Raven/RavenSettings.vue:23
+msgid "Create workspace"
+msgstr "Munkaterület létrehozása"
+
+#: frontend/src/pages/Batches/BatchDetail.vue:293
+msgid "Delete batch"
+msgstr "Évfolyam törlése"
+
+#: frontend/src/pages/Forms/ProgrammingExerciseForm.vue:67
+msgid "Delete exercise"
+msgstr "Gyakorlat törlése"
+
+#: frontend/src/pages/Forms/ProgramForm.vue:214
+msgid "Delete program"
+msgstr "Program törlése"
+
+#: frontend/src/pages/Batches/components/BatchCourses.vue:25
+msgid "Delete selected courses"
+msgstr "Kijelölt kurzusok törlése"
+
+#: frontend/src/pages/ProfileEvaluator.vue:84
+msgid "Delete slot"
+msgstr "Idősáv törlése"
+
+#: frontend/src/components/Settings/Categories.vue:104
+msgid "Delete this category?"
+msgstr "Törlöd ezt a kategóriát?"
+
+#: frontend/src/pages/Quizzes.vue:216
+msgid "Deleting quizzes…"
+msgstr "Kvízek törlése…"
+
+#: frontend/src/pages/Quizzes.vue:55
+msgid "Deleting…"
+msgstr "Törlés…"
+
+#: frontend/src/components/Settings/Raven/RulesPanel.vue:498
+msgid "Disable"
+msgstr "Letiltás"
+
+#: frontend/src/components/Settings/Raven/RulesPanel.vue:41
+msgid ""
+"Disabled rules are left out of All (AND), so this matches more people than "
+"the rules below suggest. Enable or remove them to narrow it."
+msgstr ""
+"A letiltott szabályok kimaradnak a Mind (ÉS) feltételből, ezért ez több "
+"emberre illeszkedik, mint amit az alábbi szabályok sugallnak. A szűkítéshez "
+"engedélyezd vagy távolítsd el őket."
+
+#: frontend/src/components/Settings/Categories.vue:47
+msgid "Edit category"
+msgstr "Kategória szerkesztése"
+
+#: frontend/src/pages/Courses/CourseDetail.vue:394
+msgid "Editor"
+msgstr "Szerkesztő"
+
+#: frontend/src/pages/Lesson.vue:15
+msgid "Editor View"
+msgstr "Szerkesztői nézet"
+
+#: frontend/src/components/Settings/EmailAccount/EmailEdit.vue:3
+msgid "Email Account"
+msgstr "E-mail-fiók"
+
+#: frontend/src/components/Settings/Transactions/AddressModal.vue:69
+msgid "Email Address"
+msgstr "E-mail-cím"
+
+#: frontend/src/components/Settings/EmailAccount/EmailProviderIcon.vue:9
+msgid "Email provider"
+msgstr "E-mail-szolgáltató"
+
+#: frontend/src/components/LessonContent.vue:61
+msgid "Embedded content"
+msgstr "Beágyazott tartalom"
+
+#: frontend/src/components/Settings/Raven/RulesPanel.vue:139
+msgid "Enable it to edit"
+msgstr "A szerkesztéshez engedélyezd"
+
+#: frontend/src/components/Settings/Raven/RavenSettings.vue:60
+msgid ""
+"Enable the integration to sync workspace and channel membership from your "
+"students and staff."
+msgstr ""
+"Engedélyezd az integrációt, hogy a munkaterületek és a csatornák tagsága a "
+"résztvevőid és a munkatársaid alapján szinkronizálódjon."
+
+#: frontend/src/components/Settings/ZoomSettings.vue:104
+msgid "Enable {0}"
+msgstr "{0} engedélyezése"
