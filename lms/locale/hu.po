@@ -11791,3 +11791,265 @@ msgstr "A keresett lap nem létezik, vagy áthelyezték"
 #: frontend/src/components/LockedLessonNotice.vue:18
 msgid "There is no lesson at this address in this course."
 msgstr "Ebben a kurzusban nincs lecke ezen a címen."
+
+#: frontend/src/pages/Forms/BulkCertificatesForm.vue:125
+msgid "This batch has no students to certify."
+msgstr "Ebben az évfolyamban nincs tanúsítható résztvevő."
+
+#: frontend/src/components/Settings/Raven/ChannelsView.vue:80
+msgid ""
+"This deletes the channel mapping and its membership rules, and stops syncing"
+" members. This action cannot be undone."
+msgstr ""
+"Ez törli a csatorna-összerendelést és a tagsági szabályait, és leállítja a "
+"tagok szinkronizálását. A művelet nem vonható vissza."
+
+#: frontend/src/components/Settings/Raven/WorkspaceList.vue:64
+msgid ""
+"This deletes the workspace mapping and its membership rules, and stops "
+"syncing members. This action cannot be undone."
+msgstr ""
+"Ez törli a munkaterület-összerendelést és a tagsági szabályait, és leállítja"
+" a tagok szinkronizálását. A művelet nem vonható vissza."
+
+#: frontend/src/components/Settings/Raven/DeleteConfirmDialog.vue:7
+msgid ""
+"This deletes the {0} mapping and its membership rules, and stops syncing "
+"members. This cannot be undone."
+msgstr ""
+"Ez törli a(z) {0} összerendelést és a tagsági szabályait, és leállítja a "
+"tagok szinkronizálását. Ez nem vonható vissza."
+
+#: frontend/src/pages/Forms/PersonaForm.vue:42
+msgid "This helps us personalise your learning experience."
+msgstr "Ez segít személyre szabni a tanulási élményedet."
+
+#: frontend/src/components/LockedLessonNotice.vue:100
+msgid ""
+"This lesson is locked. Taking you to your current lesson in {0} seconds."
+msgstr ""
+"Ez a lecke zárolt. {0} másodperc múlva a jelenlegi leckédre navigálunk."
+
+#: frontend/src/components/Settings/Raven/RulesPanel.vue:277
+msgid ""
+"This rule type is no longer offered. Pick another one to resume saving."
+msgstr ""
+"Ez a szabálytípus már nem választható. A mentés folytatásához válassz "
+"másikat."
+
+#: frontend/src/pages/Forms/AnnouncementForm.vue:114
+#: frontend/src/pages/Forms/AssessmentForm.vue:79
+#: frontend/src/pages/Forms/BatchCourseForm.vue:76
+#: frontend/src/pages/Forms/BatchStudentForm.vue:86
+#: frontend/src/pages/Forms/BulkCertificatesForm.vue:119
+#: frontend/src/pages/Forms/CourseEnrollmentForm.vue:128
+#: frontend/src/pages/Forms/EmailTemplateForm.vue:113
+#: frontend/src/pages/Forms/LiveClassForm.vue:161
+#: frontend/src/pages/Forms/MemberForm.vue:124
+#: frontend/src/pages/Forms/ProfileEditForm.vue:122
+#: frontend/src/pages/Programs/ProgramEnrollment.vue:154
+msgid "This site is in read-only mode."
+msgstr "Ez az oldal csak olvasható módban van."
+
+#: frontend/src/components/Settings/Raven/MassRemovalConfirmDialog.vue:74
+msgid ""
+"This will add {0} members to {1} and remove {2}. The removals cannot be "
+"undone. Cancel to keep the current membership."
+msgstr ""
+"Ezzel {0} tag kerül a(z) {1} tagjai közé, és {2} tag kikerül onnan. Az "
+"eltávolítások nem vonhatók vissza. A jelenlegi tagság megtartásához kattints"
+" a Mégsem gombra."
+
+#: frontend/src/components/Settings/Raven/MassRemovalConfirmDialog.vue:78
+msgid ""
+"This will add {0} members to {1}. Cancel to keep the current membership."
+msgstr ""
+"Ezzel {0} tag kerül a(z) {1} tagjai közé. A jelenlegi tagság megtartásához "
+"kattints a Mégsem gombra."
+
+#: frontend/src/components/Settings/Raven/MassRemovalConfirmDialog.vue:81
+msgid "This will remove {0} members from {1}. This cannot be undone."
+msgstr "Ezzel {0} tag kerül ki a(z) {1} tagjai közül. Ez nem vonható vissza."
+
+#: frontend/src/components/Settings/Categories.vue:105
+msgid ""
+"This will unlink this category from all courses and batches using it, and "
+"then delete it. This cannot be undone."
+msgstr ""
+"Ezzel a kategória leválik minden kurzusról és évfolyamról, amely használja, "
+"majd törlődik. Ez nem vonható vissza."
+
+#: frontend/src/pages/ProfileEvaluator.vue:8
+msgid "Times are in {0}"
+msgstr "Az időpontok {0} szerint"
+
+#: frontend/src/pages/Lesson.vue:185
+msgid "Toggle discussions"
+msgstr "Fórum megjelenítése/elrejtése"
+
+#: frontend/src/components/VideoBlock.vue:118
+msgid "Toggle fullscreen"
+msgstr "Teljes képernyő be/ki"
+
+#: frontend/src/pages/Batches/components/AdminBatchDashboard.vue:98
+#: frontend/src/pages/Courses/CourseDashboard.vue:103
+msgid "Try a different name"
+msgstr "Próbálj meg egy másik nevet"
+
+#: frontend/src/pages/Forms/BulkCertificatesForm.vue:190
+msgid "Unable to generate certificate"
+msgstr "Nem sikerült létrehozni a tanúsítványt"
+
+#: lms/lms/api.py:122
+msgid "Unknown doctype"
+msgstr "Ismeretlen doctype"
+
+#: lms/command_palette.py:61
+msgid "Unknown search category: {0}"
+msgstr "Ismeretlen keresési kategória: {0}"
+
+#: frontend/src/components/AudioBlock.vue:35
+#: frontend/src/components/VideoBlock.vue:107
+msgid "Unmute"
+msgstr "Némítás feloldása"
+
+#: frontend/src/components/Settings/Transactions/TransactionList.vue:40
+msgid "Unpaid"
+msgstr "Fizetetlen"
+
+#: frontend/src/pages/Batches/BatchDetail.vue:286
+msgid "Unpublish batch"
+msgstr "Évfolyam közzétételének visszavonása"
+
+#: frontend/src/pages/Courses/CourseDetail.vue:332
+msgid "Unpublish course"
+msgstr "Kurzus közzétételének visszavonása"
+
+#: frontend/src/components/UnsplashImageBrowser.vue:54
+msgid "Unsplash photo"
+msgstr "Unsplash-fotó"
+
+#: frontend/src/components/Settings/Raven/RuleEditor.vue:124
+msgid "Unsupported field type"
+msgstr "Nem támogatott mezőtípus"
+
+#: frontend/src/pages/Forms/NewCourseForm.vue:214
+msgid ""
+"Upload a 750×422 image (.jpg, .jpeg, .gif, or .png). Shown on the catalog "
+"card and lesson hero."
+msgstr ""
+"Tölts fel egy 750×422-es képet (.jpg, .jpeg, .gif vagy .png). Ez jelenik meg"
+" a katalóguskártyán és a lecke fejlécében."
+
+#: frontend/src/pages/Forms/ChapterForm.vue:112
+msgid "Upload a ZIP file"
+msgstr "Tölts fel egy ZIP-fájlt"
+
+#: frontend/src/components/Courses/CourseThumbnailField.vue:28
+msgid "Upload a course thumbnail image"
+msgstr "Kurzus bélyegképének feltöltése"
+
+#: frontend/src/components/Settings/SettingFields.vue:51
+msgid "Upload an image"
+msgstr "Kép feltöltése"
+
+#: frontend/src/components/Modals/JobApplicationModal.vue:48
+msgid "Upload your resume"
+msgstr "Töltsd fel az önéletrajzodat"
+
+#: frontend/src/components/Controls/Uploader.vue:29
+msgid "Uploaded image preview"
+msgstr "A feltöltött kép előnézete"
+
+#: frontend/src/components/Controls/VideoPreviewField.vue:85
+msgid ""
+"Uploaded video. Students see it on the course page. Remove it to use a "
+"YouTube link instead."
+msgstr ""
+"Feltöltött videó. A résztvevők a kurzus oldalán látják. Távolítsd el, ha "
+"helyette YouTube-hivatkozást szeretnél használni."
+
+#: lms/lms/api.py:2436
+msgid "User {0} not found"
+msgstr "A(z) {0} felhasználó nem található"
+
+#: lms/lms/api.py:2399
+msgid "Username is required."
+msgstr "A felhasználónév megadása kötelező."
+
+#: frontend/src/components/Settings/Raven/MappingRules.vue:304
+#: frontend/src/components/Settings/Raven/WorkspaceList.vue:34
+msgid ""
+"Users who match these rules are kept in sync as members of this Raven "
+"workspace."
+msgstr ""
+"Az ezekre a szabályokra illeszkedő felhasználók folyamatosan szinkronban "
+"maradnak ennek a Raven-munkaterületnek a tagjaiként."
+
+#: frontend/src/pages/Lesson.vue:1039
+msgid ""
+"Video failed to load. This lesson will still be marked complete after you "
+"spend some time on it."
+msgstr ""
+"A videó betöltése sikertelen. Ez a lecke akkor is teljesítettként lesz "
+"megjelölve, ha egy kis időt eltöltesz vele."
+
+#: frontend/src/components/Controls/VideoPreviewField.vue:17
+#: frontend/src/components/VideoPreview.vue:9
+#: frontend/src/components/VideoPreview.vue:23
+msgid "Video preview"
+msgstr "Videó előnézete"
+
+#: frontend/src/components/Modals/VideoStatistics.vue:244
+msgid "Video {0}"
+msgstr "{0}. videó"
+
+#: frontend/src/components/CommandPalette/CommandPalette.vue:487
+msgid "View all {0}"
+msgstr "Az összes {0} megtekintése"
+
+#: frontend/src/pages/Home/Home.vue:14
+msgid "View learning streak: {0} days"
+msgstr "Tanulási sorozat megtekintése: {0} nap"
+
+#: frontend/src/pages/MobileYou.vue:224
+msgid "View profile"
+msgstr "Profil megtekintése"
+
+#: lms/lms/utils.py:2533
+msgid ""
+"We could not find your payment record. Please contact the administrator."
+msgstr "Nem találjuk a fizetési rekordodat. Fordulj a rendszergazdához."
+
+#: frontend/src/pages/Forms/PersonaForm.vue:142
+msgid "Where do you want to start?"
+msgstr "Hol szeretnél kezdeni?"
+
+#: frontend/src/components/Settings/Raven/WorkspaceList.vue:30
+msgid "Workspace rules"
+msgstr "Munkaterület-szabályok"
+
+#: frontend/src/components/Settings/Raven/MappingRules.vue:292
+msgid "Workspace rules · {0}"
+msgstr "Munkaterület-szabályok · {0}"
+
+#: frontend/src/components/Settings/Raven/WorkspaceList.vue:11
+msgid "Workspaces"
+msgstr "Munkaterületek"
+
+#: frontend/src/components/Layouts/MobileLayout.vue:37
+#: frontend/src/pages/MobileYou.vue:2 frontend/src/pages/MobileYou.vue:250
+msgid "You"
+msgstr "Fiókom"
+
+#: lms/templates/signup-form.html:5
+msgid "You are already registered. {0} instead."
+msgstr "Már regisztráltál – ehelyett {0}."
+
+#: frontend/src/pages/Programs/ProgramEnrollment.vue:159
+msgid "You are not authorized to enroll in this program."
+msgstr "Nincs jogosultságod beiratkozni erre a programra."
+
+#: lms/lms/doctype/lms_quiz/lms_quiz.py:168
+msgid "You are not authorized to submit this quiz."
+msgstr "Nincs jogosultságod beadni ezt a kvízt."
