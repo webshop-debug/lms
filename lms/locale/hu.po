@@ -12053,3 +12053,184 @@ msgstr "Nincs jogosultságod beiratkozni erre a programra."
 #: lms/lms/doctype/lms_quiz/lms_quiz.py:168
 msgid "You are not authorized to submit this quiz."
 msgstr "Nincs jogosultságod beadni ezt a kvízt."
+
+#: frontend/src/pages/Forms/NewBatchForm.vue:5
+msgid "You are not permitted to create a batch."
+msgstr "Nincs jogosultságod évfolyamot létrehozni."
+
+#: frontend/src/pages/Forms/CourseImportForm.vue:5
+#: frontend/src/pages/Forms/NewCourseForm.vue:5
+msgid "You are not permitted to create a course."
+msgstr "Nincs jogosultságod kurzust létrehozni."
+
+#: frontend/src/pages/Forms/LiveClassForm.vue:163
+msgid "You are not permitted to create a live class for this batch."
+msgstr "Nincs jogosultságod élő foglalkozást létrehozni ehhez az évfolyamhoz."
+
+#: frontend/src/pages/Forms/QuizQuestionForm.vue:5
+msgid "You are not permitted to edit this quiz."
+msgstr "Nincs jogosultságod szerkeszteni ezt a kvízt."
+
+#: frontend/src/pages/Forms/BulkCertificatesForm.vue:121
+msgid "You are not permitted to generate certificates for this batch."
+msgstr "Nincs jogosultságod tanúsítványokat létrehozni ehhez az évfolyamhoz."
+
+#: frontend/src/pages/Forms/AnnouncementForm.vue:116
+msgid "You are not permitted to make an announcement for this batch."
+msgstr "Nincs jogosultságod közleményt közzétenni ehhez az évfolyamhoz."
+
+#: frontend/src/pages/Forms/AssignmentForm.vue:5
+msgid "You are not permitted to manage assignments."
+msgstr "Nincs jogosultságod a beadandók kezeléséhez."
+
+#: frontend/src/pages/Forms/ChapterForm.vue:170
+msgid "You are not permitted to manage chapters."
+msgstr "Nincs jogosultságod a fejezetek kezeléséhez."
+
+#: frontend/src/pages/Forms/MemberForm.vue:126
+msgid "You are not permitted to manage members."
+msgstr "Nincs jogosultságod a résztvevők kezeléséhez."
+
+#: frontend/src/pages/Forms/ProgrammingExerciseForm.vue:10
+msgid "You are not permitted to manage programming exercises."
+msgstr "Nincs jogosultságod a programozási gyakorlatok kezeléséhez."
+
+#: frontend/src/pages/Forms/ProgramForm.vue:14
+msgid "You are not permitted to manage programs."
+msgstr "Nincs jogosultságod a programok kezeléséhez."
+
+#: frontend/src/pages/Forms/ProfileEditForm.vue:124
+msgid "You can only edit your own profile."
+msgstr "Csak a saját profilodat szerkesztheted."
+
+#: lms/lms/doctype/lms_course_progress/lms_course_progress.py:41
+msgid "You can only record progress for your own account."
+msgstr "Csak a saját fiókodhoz rögzíthetsz haladást."
+
+#: lms/lms/api.py:601
+msgid "You can only see or change your own availability."
+msgstr "Csak a saját elérhetőségedet láthatod és módosíthatod."
+
+#: lms/lms/api.py:2248
+msgid "You do not have access to this lesson."
+msgstr "Nincs hozzáférésed ehhez a leckéhez."
+
+#: frontend/src/pages/Forms/AssessmentForm.vue:81
+msgid "You do not have permission to add assessments to this batch."
+msgstr "Nincs jogosultságod számonkéréseket hozzáadni ehhez az évfolyamhoz."
+
+#: frontend/src/pages/Forms/BatchCourseForm.vue:78
+msgid "You do not have permission to add courses to this batch."
+msgstr "Nincs jogosultságod kurzusokat hozzáadni ehhez az évfolyamhoz."
+
+#: frontend/src/pages/Forms/EmailTemplateForm.vue:115
+msgid "You do not have permission to create email templates."
+msgstr "Nincs jogosultságod e-mail-sablonokat létrehozni."
+
+#: frontend/src/pages/Forms/BatchStudentForm.vue:88
+msgid "You do not have permission to enroll students in this batch."
+msgstr "Nincs jogosultságod résztvevőket beiratkoztatni erre az évfolyamra."
+
+#: frontend/src/pages/Forms/CourseEnrollmentForm.vue:130
+msgid "You do not have permission to enroll students in this course."
+msgstr "Nincs jogosultságod résztvevőket beiratkoztatni erre a kurzusra."
+
+#: frontend/src/components/Settings/Raven/RavenSettings.vue:38
+msgid "You need the System Manager role to manage the Raven integration."
+msgstr "A Raven-integráció kezeléséhez System Manager szerepkör szükséges."
+
+#: frontend/src/components/Controls/VideoPreviewField.vue:97
+msgid "YouTube link"
+msgstr "YouTube-hivatkozás"
+
+#: frontend/src/components/Controls/VideoPreviewField.vue:118
+msgid ""
+"YouTube link added. Students see it embedded on the course page. Clear the "
+"field to upload a file instead."
+msgstr ""
+"YouTube-hivatkozás hozzáadva. A résztvevők beágyazva látják a kurzus "
+"oldalán. Ürítsd a mezőt, ha helyette fájlt szeretnél feltölteni."
+
+#: frontend/src/components/Modals/JobApplicationModal.vue:122
+msgid "Your application has been submitted successfully"
+msgstr "A jelentkezésed sikeresen beérkezett"
+
+#: frontend/src/pages/Forms/PersonaForm.vue:141
+msgid "Your workspace is ready"
+msgstr "A munkaterületed készen áll"
+
+#: lms/lms/doctype/lms_quiz/lms_quiz.py:370
+msgid "answers"
+msgstr "válaszok"
+
+#: frontend/src/components/CommandPalette/CommandPalette.vue:72
+msgid "esc"
+msgstr "esc"
+
+#: lms/lms/api.py:116
+msgid "names must be a list"
+msgstr "a names paraméternek listának kell lennie"
+
+#: lms/lms/doctype/lms_quiz/lms_quiz.py:143
+msgid "quiz results"
+msgstr "kvízeredmények"
+
+#: lms/lms/api.py:1490
+msgid "scorm_package name must be a string"
+msgstr "a scorm_package nevének szövegnek kell lennie"
+
+#: lms/lms/api.py:711 lms/lms/api.py:737
+msgid "{0} cannot be changed."
+msgstr "A(z) {0} nem módosítható."
+
+#: lms/lms/api.py:620
+msgid "{0} has no availability set up yet."
+msgstr "{0} még nem állított be elérhetőséget."
+
+#: frontend/src/components/Settings/EmailAccount/EmailProviderIcon.vue:9
+msgid "{0} icon"
+msgstr "{0} ikon"
+
+#: lms/lms/doctype/lms_enrollment/lms_enrollment.py:182
+msgid "{0} is not a field on LMS Enrollment"
+msgstr "A(z) {0} nem mezője az LMS Enrollment doctype-nak"
+
+#: lms/lms/api.py:665
+msgid "{0} is not a valid date."
+msgstr "A(z) {0} nem érvényes dátum."
+
+#: lms/lms/api.py:691 lms/lms/api.py:715
+msgid "{0} is not a valid day."
+msgstr "A(z) {0} nem érvényes nap."
+
+#: lms/lms/api.py:648
+msgid "{0} is not a valid time."
+msgstr "A(z) {0} nem érvényes időpont."
+
+#: frontend/src/components/Settings/Raven/MappingRules.vue:299
+msgid "{0} members"
+msgstr "{0} tag"
+
+#: frontend/src/pages/Quizzes.vue:303
+msgid "{0} of {1} quizzes deleted; the rest remain selected: {2}"
+msgstr "{1} kvíz közül {0} törölve; a többi kijelölve marad: {2}"
+
+#: frontend/src/pages/Quizzes.vue:283
+msgid "{0} quizzes deleted successfully"
+msgstr "{0} kvíz sikeresen törölve"
+
+#: frontend/src/components/Layouts/ListPage.vue:187
+msgid "{0} results loaded"
+msgstr "{0} találat betöltve"
+
+#: frontend/src/components/ResponsiveListView.vue:325
+msgid "{0} rows selected"
+msgstr "{0} sor kijelölve"
+
+#: frontend/src/components/Modals/EvaluationModal.vue:205
+msgid "{0} until {1} on {2}"
+msgstr "{0} – {1}, {2}"
+
+#: frontend/src/components/LockedLessonNotice.vue:28
+msgid "{0}s"
+msgstr "{0} s"
